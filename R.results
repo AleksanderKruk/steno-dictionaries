@@ -1,0 +1,4429 @@
+std::chrono::abs -> S-FD/KRO/TPHO/ABS
+std::chrono::ambiguous_local_time -> S-FD/KRO/TPHO/TKPWOUS/HRO/KAL/TAOEUPL
+std::chrono::April -> S-FD/KRO/TPHO/PREUL
+std::chrono::August -> S-FD/KRO/TPHO/A*U/TKPW*US
+std::chrono::ceil -> X
+	 missing:ceil
+std::chrono::ceil -> X
+	 missing:ceil
+std::chrono::choose -> S-FD/KRO/TPHO/KHAOUS
+std::chrono::clock_cast -> S-FD/KRO/TPHO/KHROBG/KA*S
+std::chrono::clock_time_conversion -> S-FD/KRO/TPHO/KHROBG/TAOEUPL/KWEFRGS
+std::chrono::current_zone -> S-FD/KRO/TPHO/KRURPBT/STKPWOEPB
+std::chrono::day -> S-FD/KRO/TPHO/TKAEU
+std::chrono::December -> S-FD/KRO/TPHO/TKAO*ES
+std::chrono::duration -> S-FD/KRO/TPHO/TKWRAEUGS
+std::chrono::duration_cast -> S-FD/KRO/TPHO/TKWRAEUGS/KA*S
+std::chrono::duration_values -> S-FD/KRO/TPHO/TKWRAEUGS/SRAOUPLS
+std::chrono::February -> S-FD/KRO/TPHO/TP*EB
+std::chrono::file_clock -> S-FD/KRO/TPHO/TPAOEUL/KHROBG
+std::chrono::file_seconds -> S-FD/KRO/TPHO/TPAOEUL/SEBG/OPBDZ
+std::chrono::file_time -> S-FD/KRO/TPHO/TPAOEUL/TAOEUPL
+std::chrono::floor -> S-FD/KRO/TPHO/TPHRAOR
+std::chrono::floor -> S-FD/KRO/TPHO/TPHRAOR
+std::chrono::Friday -> S-FD/KRO/TPHO/TPRAOEU/TKAEU
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::from_stream -> S-FD/KRO/TPHO/TPWHR/STRAOEPL
+std::chrono::get_leap_second_info -> S-FD/KRO/TPHO/TKPWHET/HRAOEP/SAEBGD/EUPB/TPO
+std::chrono::get_tzdb -> X
+	 missing:tzdb
+std::chrono::get_tzdb_list -> X
+	 missing:tzdb
+std::chrono::gps_clock -> X
+	 missing:gps
+std::chrono::gps_seconds -> X
+	 missing:gps
+std::chrono::gps_time -> X
+	 missing:gps
+std::chrono::hh_mm_ss -> X
+	 missing:hh,mm,ss
+std::chrono::high_resolution_clock -> S-FD/KRO/TPHO/HAOEU/RES/HRAOUGS/KHROBG
+std::chrono::hours -> S-FD/KRO/TPHO/HAURS
+std::chrono::is_am -> S-FD/KRO/TPHO/S/APL
+std::chrono::is_clock -> S-FD/KRO/TPHO/S/KHROBG
+std::chrono::is_clock_v -> S-FD/KRO/TPHO/S/KHROBG/SR*/SP-S
+std::chrono::is_pm -> X
+	 missing:pm
+std::chrono::January -> S-FD/KRO/TPHO/SKWRAPB
+std::chrono::July -> S-FD/KRO/TPHO/SKWRAOU/HREU
+std::chrono::June -> S-FD/KRO/TPHO/SKWRAOUPB
+std::chrono::last -> S-FD/KRO/TPHO/HRAFT
+std::chrono::last_spec -> S-FD/KRO/TPHO/HRAFT/SP*EBG
+std::chrono::leap_second -> S-FD/KRO/TPHO/HRAOEP/SAEBGD
+std::chrono::leap_second_info -> S-FD/KRO/TPHO/HRAOEP/SAEBGD/EUPB/TPO
+std::chrono::local_info -> S-FD/KRO/TPHO/HRO/KAL/EUPB/TPO
+std::chrono::local_seconds -> S-FD/KRO/TPHO/HRO/KAL/SEBG/OPBDZ
+std::chrono::local_t -> S-FD/KRO/TPHO/HRO/KAL/T*/SP-S
+std::chrono::local_time -> S-FD/KRO/TPHO/HRO/KAL/TAOEUPL
+std::chrono::local_time_format -> S-FD/KRO/TPHO/HRO/KAL/TAOEUPL/TPHORPLT
+std::chrono::locate_zone -> S-FD/KRO/TPHO/HRO/KAEUT/STKPWOEPB
+std::chrono::make12 -> X
+	 missing:make12
+std::chrono::make24 -> X
+	 missing:make24
+std::chrono::March -> S-FD/KRO/TPHO/PHA*FRP
+std::chrono::May -> S-FD/KRO/TPHO/PHA*EU
+std::chrono::microseconds -> X
+	 missing:microseconds
+std::chrono::milliseconds -> S-FD/KRO/TPHO/PH*EUL/SEBGD/-S
+std::chrono::minutes -> S-FD/KRO/TPHO/PHEU/TPHUTS
+std::chrono::Monday -> S-FD/KRO/TPHO/TPHOPBD
+std::chrono::month -> S-FD/KRO/TPHO/PHO*PBT
+std::chrono::month_day -> S-FD/KRO/TPHO/PHO*PBT/TKAEU
+std::chrono::month_day_last -> S-FD/KRO/TPHO/PHO*PBT/TKAEU/HRAFT
+std::chrono::month_weekday -> S-FD/KRO/TPHO/PHO*PBT/WAOEBG/TKA*E
+std::chrono::month_weekday_last -> S-FD/KRO/TPHO/PHO*PBT/WAOEBG/TKA*E/HRAFT
+std::chrono::nanoseconds -> S-FD/KRO/TPHO/TPHA/TPHO/SEBG/OPBDZ
+std::chrono::nonexistent_local_time -> S-FD/KRO/TPHO/TPHAUPB/KPEUFT/EPBT/HRO/KAL/TAOEUPL
+std::chrono::November -> S-FD/KRO/TPHO/TPHO/SREPL/PWER
+std::chrono::October -> S-FD/KRO/TPHO/OBG/TOE/PWER
+std::chrono::parse -> S-FD/KRO/TPHO/PA*RS
+std::chrono::reload_tzdb -> X
+	 missing:reload,tzdb
+std::chrono::remote_version -> S-FD/KRO/TPHO/RAOE/PHOET/SRERGS
+std::chrono::round -> S-FD/KRO/TPHO/PROUPBD
+std::chrono::round -> S-FD/KRO/TPHO/PROUPBD
+std::chrono::Saturday -> S-FD/KRO/TPHO/SARD
+std::chrono::seconds -> S-FD/KRO/TPHO/SEBG/OPBDZ
+std::chrono::September -> S-FD/KRO/TPHO/SEP/TEPL/PWER
+std::chrono::steady_clock -> S-FD/KRO/TPHO/STAED/KHROBG
+std::chrono::Sunday -> S-FD/KRO/TPHO/SUPB/TKAEU
+std::chrono::sys_info -> X
+	 missing:sys
+std::chrono::sys_days -> X
+	 missing:sys
+std::chrono::sys_seconds -> X
+	 missing:sys
+std::chrono::sys_time -> X
+	 missing:sys
+std::chrono::system_clock -> S-FD/KRO/TPHO/ST-FPL/KHROBG
+std::chrono::tai_clock -> S-FD/KRO/TPHO/TA*E/KHROBG
+std::chrono::tai_seconds -> S-FD/KRO/TPHO/TA*E/SEBG/OPBDZ
+std::chrono::tai_time -> S-FD/KRO/TPHO/TA*E/TAOEUPL
+std::chrono::Thursday -> S-FD/KRO/TPHO/THURTS
+std::chrono::time_point -> S-FD/KRO/TPHO/TAOEUPL/TPOEUPBLT
+std::chrono::time_point_cast -> S-FD/KRO/TPHO/TAOEUPL/TPOEUPBLT/KA*S
+std::chrono::time_zone -> S-FD/KRO/TPHO/TAOEUPL/STKPWOEPB
+std::chrono::time_zone_link -> S-FD/KRO/TPHO/TAOEUPL/STKPWOEPB/HR*EUFPBG
+std::chrono::treat_as_floating_point -> S-FD/KRO/TPHO/TRAOET/A/AZ/TPHROEGT/TPOEUPBLT
+std::chrono::treat_as_floating_point_v -> S-FD/KRO/TPHO/TRAOET/A/AZ/TPHROEGT/TPOEUPBLT/SR*/SP-S
+std::chrono::Tuesday -> S-FD/KRO/TPHO/TAO*UTS
+std::chrono::tzdb -> X
+	 missing:tzdb
+std::chrono::tzdb_list -> X
+	 missing:tzdb
+std::chrono::utc_clock -> X
+	 missing:utc
+std::chrono::utc_seconds -> X
+	 missing:utc
+std::chrono::utc_time -> X
+	 missing:utc
+std::chrono::Wednesday -> S-FD/KRO/TPHO/WEPBS/TKAEU
+std::chrono::weekday -> S-FD/KRO/TPHO/WAOEBG/TKA*E
+std::chrono::weekday_indexed -> S-FD/KRO/TPHO/WAOEBG/TKA*E/EUPB/TKEBGS/-D
+std::chrono::weekday_last -> S-FD/KRO/TPHO/WAOEBG/TKA*E/HRAFT
+std::chrono::year -> S-FD/KRO/TPHO/TKWRAOER
+std::chrono::year_month -> S-FD/KRO/TPHO/TKWRAOER/PHO*PBT
+std::chrono::year_month_day -> S-FD/KRO/TPHO/TKWRAOER/PHO*PBT/TKAEU
+std::chrono::year_month_day_last -> S-FD/KRO/TPHO/TKWRAOER/PHO*PBT/TKAEU/HRAFT
+std::chrono::year_month_weekday -> S-FD/KRO/TPHO/TKWRAOER/PHO*PBT/WAOEBG/TKA*E
+std::chrono::year_month_weekday_last -> S-FD/KRO/TPHO/TKWRAOER/PHO*PBT/WAOEBG/TKA*E/HRAFT
+std::chrono::zoned_seconds -> S-FD/KRO/TPHO/SO*EPB/-D/SEBG/OPBDZ
+std::chrono::zoned_time -> S-FD/KRO/TPHO/SO*EPB/-D/TAOEUPL
+std::chrono::zoned_traits -> S-FD/KRO/TPHO/SO*EPB/-D/TRAEUT/-S
+std::execution::par -> S-FD/SKAOUGS/PAR
+std::execution::par_unseq -> X
+	 missing:unseq
+std::execution::parallel_policy -> S-FD/SKAOUGS/PHREL/POEULS
+std::execution::parallel_unsequenced_policy -> X
+	 missing:unsequenced
+std::execution::seq -> X
+	 missing:seq
+std::execution::sequenced_policy -> X
+	 missing:sequenced
+std::execution::unseq -> X
+	 missing:unseq
+std::execution::unsequenced_policy -> X
+	 missing:unsequenced
+std::filesystem::absolute -> S-FD/TPAOEUL/S-PL/SHRAOUT
+std::filesystem::begin -> S-FD/TPAOEUL/S-PL/STKPW*EUPB
+std::filesystem::begin -> S-FD/TPAOEUL/S-PL/STKPW*EUPB
+std::filesystem::canonical -> S-FD/TPAOEUL/S-PL/KA/TPHOPB/K-L
+std::filesystem::copy -> S-FD/TPAOEUL/S-PL/KO*EP
+std::filesystem::copy_file -> S-FD/TPAOEUL/S-PL/KO*EP/TPAOEUL
+std::filesystem::copy_options -> S-FD/TPAOEUL/S-PL/KO*EP/OPGS/-S
+std::filesystem::copy_symlink -> S-FD/TPAOEUL/S-PL/KO*EP/SEUPL/HR*EUPBG
+std::filesystem::create_directory -> S-FD/TPAOEUL/S-PL/KRAOE/KWRAEUT/TKROEURBGT
+std::filesystem::create_directory_symlink -> S-FD/TPAOEUL/S-PL/KRAOE/KWRAEUT/TKROEURBGT/SEUPL/HR*EUPBG
+std::filesystem::create_directories -> S-FD/TPAOEUL/S-PL/KRAOE/KWRAEUT/TKREBGT/REUS
+std::filesystem::create_hard_link -> S-FD/TPAOEUL/S-PL/KRAOE/KWRAEUT/HARD/HR*EUFPBG
+std::filesystem::create_symlink -> S-FD/TPAOEUL/S-PL/KRAOE/KWRAEUT/SEUPL/HR*EUPBG
+std::filesystem::current_path -> S-FD/TPAOEUL/S-PL/KRURPBT/PA*T
+std::filesystem::directory_entry -> S-FD/TPAOEUL/S-PL/TKROEURBGT/SPWREU
+std::filesystem::directory_iterator -> S-FD/TPAOEUL/S-PL/TKROEURBGT/EUT/RAEURT
+std::filesystem::directory_options -> S-FD/TPAOEUL/S-PL/TKROEURBGT/OPGS/-S
+std::filesystem::end -> S-FD/TPAOEUL/S-PL/EPBTD
+std::filesystem::end -> S-FD/TPAOEUL/S-PL/EPBTD
+std::filesystem::equivalent -> S-FD/TPAOEUL/S-PL/SKWEUFLT
+std::filesystem::exists -> S-FD/TPAOEUL/S-PL/KPEUFTS
+std::filesystem::file_size -> S-FD/TPAOEUL/S-PL/TPAOEUL/SAOEUZ
+std::filesystem::file_status -> S-FD/TPAOEUL/S-PL/TPAOEUL/STA/TUS
+std::filesystem::filesystem_error -> S-FD/TPAOEUL/S-PL/TPAOEUL/S-PL/RO*ER
+std::filesystem::file_time_type -> S-FD/TPAOEUL/S-PL/TPAOEUL/TAOEUPL/TAOEUP
+std::filesystem::file_type -> S-FD/TPAOEUL/S-PL/TPAOEUL/TAOEUP
+std::filesystem::hard_link_count -> S-FD/TPAOEUL/S-PL/HARD/HR*EUFPBG/KAOUPBT
+std::filesystem::hash_value -> S-FD/TPAOEUL/S-PL/HARB/SRAO*UL
+std::filesystem::is_block_file -> S-FD/TPAOEUL/S-PL/S/PWHROBG/TPAOEUL
+std::filesystem::is_character_file -> S-FD/TPAOEUL/S-PL/S/KHARBGT/TPAOEUL
+std::filesystem::is_directory -> S-FD/TPAOEUL/S-PL/S/TKROEURBGT
+std::filesystem::is_empty -> S-FD/TPAOEUL/S-PL/S/AO*EPLT
+std::filesystem::is_fifo -> X
+	 missing:fifo
+std::filesystem::is_other -> S-FD/TPAOEUL/S-PL/S/O/THER
+std::filesystem::is_regular_file -> S-FD/TPAOEUL/S-PL/S/REG/TPAOEUL
+std::filesystem::is_socket -> S-FD/TPAOEUL/S-PL/S/SOBG/ET
+std::filesystem::is_symlink -> S-FD/TPAOEUL/S-PL/S/SEUPL/HR*EUPBG
+std::filesystem::last_write_time -> S-FD/TPAOEUL/S-PL/HRAFT/WRAOEUT/TAOEUPL
+std::filesystem::path -> S-FD/TPAOEUL/S-PL/PA*T
+std::filesystem::permissions -> X
+	 missing:permissions
+std::filesystem::perms -> X
+	 missing:perms
+std::filesystem::perm_options -> S-FD/TPAOEUL/S-PL/P*ERPL/OPGS/-S
+std::filesystem::proximate -> S-FD/TPAOEUL/S-PL/PRO*BGS/PHAT
+std::filesystem::read_symlink -> S-FD/TPAOEUL/S-PL/RAED/SEUPL/HR*EUPBG
+std::filesystem::recursive_directory_iterator -> S-FD/TPAOEUL/S-PL/RURS/*EUF/TKROEURBGT/EUT/RAEURT
+std::filesystem::relative -> S-FD/TPAOEUL/S-PL/REL/TPEUF
+std::filesystem::remove -> S-FD/TPAOEUL/S-PL/RAOE/PHOF
+std::filesystem::remove_all -> S-FD/TPAOEUL/S-PL/RAOE/PHOF/HRAUL
+std::filesystem::rename -> S-FD/TPAOEUL/S-PL/RAOE/TPHAEUPL
+std::filesystem::resize_file -> X
+	 missing:resize
+std::filesystem::space -> S-FD/TPAOEUL/S-PL/STPAEUS
+std::filesystem::space_info -> S-FD/TPAOEUL/S-PL/STPAEUS/EUPB/TPO
+std::filesystem::status -> S-FD/TPAOEUL/S-PL/STA/TUS
+std::filesystem::status_known -> S-FD/TPAOEUL/S-PL/STA/TUS/TPHOEFPB
+std::filesystem::swap -> S-FD/TPAOEUL/S-PL/SWAUP
+std::filesystem::symlink_status -> S-FD/TPAOEUL/S-PL/SEUPL/HR*EUPBG/STA/TUS
+std::filesystem::temp_directory_path -> S-FD/TPAOEUL/S-PL/T*EPL/TKROEURBGT/PA*T
+std::filesystem::u8path -> X
+	 missing:u8path
+std::filesystem::weakly_canonical -> X
+	 missing:weakly
+std::linalg::add -> S-FD/HREUPBLGS/AD
+std::linalg::apply_givens_rotation -> X
+	 missing:givens
+std::linalg::column_major -> S-FD/HREUPBLGS/TKHRUPL/PHAEU/SKWROR
+std::linalg::column_major_t -> S-FD/HREUPBLGS/TKHRUPL/PHAEU/SKWROR/T*/SP-S
+std::linalg::conjugate_transposed -> X
+	 missing:transposed
+std::linalg::conjugated -> S-FD/HREUPBLGS/KAEUGTD
+std::linalg::conjugated_accessor -> X
+	 missing:accessor
+std::linalg::copy -> S-FD/HREUPBLGS/KO*EP
+std::linalg::dot -> S-FD/HREUPBLGS/TKOT
+std::linalg::dotc -> X
+	 missing:dotc
+std::linalg::explicit_diagonal -> S-FD/HREUPBLGS/EBGS/PHREU/SEUT/TKAOEU/AG/TPHAL
+std::linalg::explicit_diagonal_t -> S-FD/HREUPBLGS/EBGS/PHREU/SEUT/TKAOEU/AG/TPHAL/T*/SP-S
+std::linalg::hermitian_matrix_product -> X
+	 missing:hermitian
+std::linalg::hermitian_matrix_rank_1_update -> X
+	 missing:hermitian
+std::linalg::hermitian_matrix_rank_2_update -> X
+	 missing:hermitian,2
+std::linalg::hermitian_matrix_rank_2k_update -> X
+	 missing:hermitian,2k
+std::linalg::hermitian_matrix_rank_k_update -> X
+	 missing:hermitian,k
+std::linalg::hermitian_matrix_vector_product -> X
+	 missing:hermitian
+std::linalg::implicit_unit_diagonal -> S-FD/HREUPBLGS/*EUPL/PHREUS/EUT/KWRAOU/TPHEUT/TKAOEU/AG/TPHAL
+std::linalg::implicit_unit_diagonal_t -> S-FD/HREUPBLGS/*EUPL/PHREUS/EUT/KWRAOU/TPHEUT/TKAOEU/AG/TPHAL/T*/SP-S
+std::linalg::layout_blas_packed -> X
+	 missing:blas
+std::linalg::layout_transpose -> X
+	 missing:transpose
+std::linalg::lower_triangle -> S-FD/HREUPBLGS/HROE/*ER/TRAO*EUPBLG
+std::linalg::lower_triangle_t -> S-FD/HREUPBLGS/HROE/*ER/TRAO*EUPBLG/T*/SP-S
+std::linalg::matrix_frob_norm -> X
+	 missing:frob
+std::linalg::matrix_inf_norm -> X
+	 missing:inf
+std::linalg::matrix_one_norm -> S-FD/HREUPBLGS/PHAEU/TREUBGS/WUP/TPHORPL
+std::linalg::matrix_product -> S-FD/HREUPBLGS/PHAEU/TREUBGS/PROUBLGT
+std::linalg::matrix_rank_1_update -> S-FD/HREUPBLGS/PHAEU/TREUBGS/RA*PBLG/EP/SPAEUD/KWRAS/TK-RB/AOUP/TKAEUT
+std::linalg::matrix_rank_1_update_c -> S-FD/HREUPBLGS/PHAEU/TREUBGS/RA*PBLG/EP/SPAEUD/KWRAS/TK-RB/AOUP/TKAEUT/KR*/SP-S
+std::linalg::matrix_vector_product -> S-FD/HREUPBLGS/PHAEU/TREUBGS/SROERBGT/PROUBLGT
+std::linalg::row_major -> S-FD/HREUPBLGS/ROE/PHAEU/SKWROR
+std::linalg::row_major_t -> S-FD/HREUPBLGS/ROE/PHAEU/SKWROR/T*/SP-S
+std::linalg::scale -> S-FD/HREUPBLGS/SKAEUL
+std::linalg::scaled -> S-FD/HREUPBLGS/SKAEUL/-D
+std::linalg::scaled_accessor -> X
+	 missing:accessor
+std::linalg::setup_givens_rotation -> X
+	 missing:givens
+std::linalg::setup_givens_rotation_result -> X
+	 missing:givens
+std::linalg::sum_of_squares_result -> S-FD/HREUPBLGS/SUPL/*F/SKWRAEURS/RE/S*ULT
+std::linalg::swap_elements -> S-FD/HREUPBLGS/SWAUP/HREPLTS
+std::linalg::symmetric_matrix_product -> S-FD/HREUPBLGS/SPHERT/REUBG/PHAEU/TREUBGS/PROUBLGT
+std::linalg::symmetric_matrix_rank_1_update -> S-FD/HREUPBLGS/SPHERT/REUBG/PHAEU/TREUBGS/RA*PBLG/EP/SPAEUD/KWRAS/TK-RB/AOUP/TKAEUT
+std::linalg::symmetric_matrix_rank_2_update -> X
+	 missing:2
+std::linalg::symmetric_matrix_rank_2k_update -> X
+	 missing:2k
+std::linalg::symmetric_matrix_rank_k_update -> X
+	 missing:k
+std::linalg::symmetric_matrix_vector_product -> S-FD/HREUPBLGS/SPHERT/REUBG/PHAEU/TREUBGS/SROERBGT/PROUBLGT
+std::linalg::transposed -> X
+	 missing:transposed
+std::linalg::triangular_matrix_left_product -> S-FD/HREUPBLGS/TRAOEU/APBG/HRAR/PHAEU/TREUBGS/HREFT/PROUBLGT
+std::linalg::triangular_matrix_matrix_left_solve -> S-FD/HREUPBLGS/TRAOEU/APBG/HRAR/PHAEU/TREUBGS/PHAEU/TREUBGS/HREFT/SO*F
+std::linalg::triangular_matrix_matrix_right_solve -> S-FD/HREUPBLGS/TRAOEU/APBG/HRAR/PHAEU/TREUBGS/PHAEU/TREUBGS/RAOEURT/SO*F
+std::linalg::triangular_matrix_product -> S-FD/HREUPBLGS/TRAOEU/APBG/HRAR/PHAEU/TREUBGS/PROUBLGT
+std::linalg::triangular_matrix_right_product -> S-FD/HREUPBLGS/TRAOEU/APBG/HRAR/PHAEU/TREUBGS/RAOEURT/PROUBLGT
+std::linalg::triangular_matrix_vector_product -> S-FD/HREUPBLGS/TRAOEU/APBG/HRAR/PHAEU/TREUBGS/SROERBGT/PROUBLGT
+std::linalg::triangular_matrix_vector_solve -> S-FD/HREUPBLGS/TRAOEU/APBG/HRAR/PHAEU/TREUBGS/SROERBGT/SO*F
+std::linalg::upper_triangle -> S-FD/HREUPBLGS/AOURP/TRAO*EUPBLG
+std::linalg::upper_triangle_t -> S-FD/HREUPBLGS/AOURP/TRAO*EUPBLG/T*/SP-S
+std::linalg::vector_abs_sum -> S-FD/HREUPBLGS/SROERBGT/ABS/SUPL
+std::linalg::vector_idx_abs_max -> X
+	 missing:idx
+std::linalg::vector_sum_of_squares -> S-FD/HREUPBLGS/SROERBGT/SUPL/*F/SKWRAEURS
+std::linalg::vector_two_norm -> S-FD/HREUPBLGS/SROERBGT/TPWO/TPHORPL
+std::numbers::e -> S-FD/TPHUPLS/*E/SP-S
+std::numbers::e_v -> S-FD/TPHUPLS/*E/SP-S/SR*/SP-S
+std::numbers::egamma -> X
+	 missing:egamma
+std::numbers::egamma_v -> X
+	 missing:egamma
+std::numbers::inv_pi -> X
+	 missing:inv
+std::numbers::inv_pi_v -> X
+	 missing:inv
+std::numbers::inv_sqrt3 -> X
+	 missing:inv,sqrt3
+std::numbers::inv_sqrt3_v -> X
+	 missing:inv,sqrt3
+std::numbers::inv_sqrtpi -> X
+	 missing:inv,sqrtpi
+std::numbers::inv_sqrtpi_v -> X
+	 missing:inv,sqrtpi
+std::numbers::ln10 -> X
+	 missing:ln10
+std::numbers::ln10_v -> X
+	 missing:ln10
+std::numbers::ln2 -> X
+	 missing:ln2
+std::numbers::ln2_v -> X
+	 missing:ln2
+std::numbers::log10e -> X
+	 missing:log10e
+std::numbers::log10e_v -> X
+	 missing:log10e
+std::numbers::log2e -> X
+	 missing:log2e
+std::numbers::log2e_v -> X
+	 missing:log2e
+std::numbers::phi -> S-FD/TPHUPLS/TPAO*E
+std::numbers::phi_v -> S-FD/TPHUPLS/TPAO*E/SR*/SP-S
+std::numbers::pi -> S-FD/TPHUPLS/PAO*EU
+std::numbers::pi_v -> S-FD/TPHUPLS/PAO*EU/SR*/SP-S
+std::numbers::sqrt2 -> X
+	 missing:sqrt2
+std::numbers::sqrt2_v -> X
+	 missing:sqrt2
+std::numbers::sqrt3 -> X
+	 missing:sqrt3
+std::numbers::sqrt3_v -> X
+	 missing:sqrt3
+std::placeholders::_1 -> X
+	 missing:placeholders,
+std::placeholders::_2 -> X
+	 missing:placeholders,,2
+std::placeholders::_3 -> X
+	 missing:placeholders,,3
+std::placeholders::_4 -> X
+	 missing:placeholders,,4
+std::placeholders::_5 -> X
+	 missing:placeholders,
+std::placeholders::_6 -> X
+	 missing:placeholders,,6
+std::placeholders::_7 -> X
+	 missing:placeholders,,7
+std::placeholders::_8 -> X
+	 missing:placeholders,,8
+std::placeholders::_9 -> X
+	 missing:placeholders,,9
+std::placeholders::_N -> X
+	 missing:placeholders,,N
+std::pmr::basic_string -> S-FD/PH*R/PWAOEUFBG/STREUPBG
+std::pmr::cmatch -> X
+	 missing:cmatch
+std::pmr::deque -> X
+	 missing:deque
+std::pmr::forward_list -> S-FD/PH*R/TPWARD/HR*EUFS
+std::pmr::get_default_resource -> S-FD/PH*R/TKPWHET/TKAOE/TPAULT/SRORS
+std::pmr::list -> S-FD/PH*R/HR*EUFS
+std::pmr::map -> S-FD/PH*R/PHAP
+std::pmr::match_results -> S-FD/PH*R/PHAFP/REULGTS
+std::pmr::memory_resource -> S-FD/PH*R/PHOEURPL/SRORS
+std::pmr::monotonic_buffer_resource -> S-FD/PH*R/PHOPB/TOPB/EUBG/TPWUFR/SRORS
+std::pmr::multimap -> X
+	 missing:multimap
+std::pmr::multiset -> X
+	 missing:multiset
+std::pmr::new_delete_resource -> S-FD/PH*R/TPHU/TKHRAOET/SRORS
+std::pmr::null_memory_resource -> S-FD/PH*R/TPHUL/PHOEURPL/SRORS
+std::pmr::polymorphic_allocator -> X
+	 missing:allocator
+std::pmr::pool_options -> S-FD/PH*R/PAOL/OPGS/-S
+std::pmr::set -> S-FD/PH*R/SET
+std::pmr::set_default_resource -> S-FD/PH*R/SET/TKAOE/TPAULT/SRORS
+std::pmr::smatch -> X
+	 missing:smatch
+std::pmr::stacktrace -> X
+	 missing:stacktrace
+std::pmr::string -> S-FD/PH*R/STREUPBG
+std::pmr::synchronized_pool_resource -> S-FD/PH*R/SEURPBG/TPHAOEUFD/PAOL/SRORS
+std::pmr::u16string -> X
+	 missing:u16string
+std::pmr::u32string -> X
+	 missing:u32string
+std::pmr::u8string -> X
+	 missing:u8string
+std::pmr::unordered_map -> X
+	 missing:unordered
+std::pmr::unordered_multimap -> X
+	 missing:unordered,multimap
+std::pmr::unordered_multiset -> X
+	 missing:unordered,multiset
+std::pmr::unordered_set -> X
+	 missing:unordered
+std::pmr::unsynchronized_pool_resource -> X
+	 missing:unsynchronized
+std::pmr::vector -> S-FD/PH*R/SROERBGT
+std::pmr::wcmatch -> X
+	 missing:wcmatch
+std::pmr::wsmatch -> X
+	 missing:wsmatch
+std::pmr::wstring -> X
+	 missing:wstring
+std::ranges::adjacent_find -> S-FD/RAEUPB/SKWR-S/SKWRAEUFPBT/2350EU7BD
+std::ranges::adjacent_transform_view -> S-FD/RAEUPB/SKWR-S/SKWRAEUFPBT/TRAPBS/TPORPL/SRAOU
+std::ranges::adjacent_view -> S-FD/RAEUPB/SKWR-S/SKWRAEUFPBT/SRAOU
+std::ranges::advance -> S-FD/RAEUPB/SKWR-S/SRAPBS
+std::ranges::all_of -> S-FD/RAEUPB/SKWR-S/HRAUL/*F
+std::ranges::any_of -> S-FD/RAEUPB/SKWR-S/TKPHEU/*F
+std::ranges::as_const_view -> S-FD/RAEUPB/SKWR-S/A/AZ/KOS/SRAOU
+std::ranges::as_rvalue_view -> X
+	 missing:rvalue
+std::ranges::basic_istream_view -> X
+	 missing:istream
+std::ranges::begin -> S-FD/RAEUPB/SKWR-S/STKPW*EUPB
+std::ranges::bidirectional_range -> X
+	 missing:bidirectional
+std::ranges::binary_search -> S-FD/RAEUPB/SKWR-S/PWAOEU/TPHAER/SEFRPB
+std::ranges::binary_transform_result -> S-FD/RAEUPB/SKWR-S/PWAOEU/TPHAER/TRAPBS/TPORPL/RE/S*ULT
+std::ranges::borrowed_iterator_t -> S-FD/RAEUPB/SKWR-S/PWO*ERD/EUT/RAEURT/T*/SP-S
+std::ranges::borrowed_range -> S-FD/RAEUPB/SKWR-S/PWO*ERD/HRAEUPB/-PBLG
+std::ranges::borrowed_subrange_t -> X
+	 missing:subrange
+std::ranges::cartesian_product_view -> X
+	 missing:cartesian
+std::ranges::cbegin -> X
+	 missing:cbegin
+std::ranges::cdata -> X
+	 missing:cdata
+std::ranges::chunk_by_view -> S-FD/RAEUPB/SKWR-S/KH*UFPBG/PWEU/SRAOU
+std::ranges::chunk_view -> S-FD/RAEUPB/SKWR-S/KH*UFPBG/SRAOU
+std::ranges::cend -> X
+	 missing:cend
+std::ranges::clamp -> S-FD/RAEUPB/SKWR-S/KHRA*PL
+std::ranges::common_range -> S-FD/RAEUPB/SKWR-S/KPHOP/HRAEUPB/-PBLG
+std::ranges::common_view -> S-FD/RAEUPB/SKWR-S/KPHOP/SRAOU
+std::ranges::concat_view -> X
+	 missing:concat
+std::ranges::const_iterator_t -> S-FD/RAEUPB/SKWR-S/KOS/EUT/RAEURT/T*/SP-S
+std::ranges::constant_range -> S-FD/RAEUPB/SKWR-S/STAPBT/HRAEUPB/-PBLG
+std::ranges::construct_at -> S-FD/RAEUPB/SKWR-S/KRUBGT/A/AT
+std::ranges::contains -> S-FD/RAEUPB/SKWR-S/KAUPB/TAEUP/-S
+std::ranges::contains_subrange -> X
+	 missing:subrange
+std::ranges::contiguous_range -> S-FD/RAEUPB/SKWR-S/KAUPB/TEUG/KWRUS/HRAEUPB/-PBLG
+std::ranges::copy -> S-FD/RAEUPB/SKWR-S/KO*EP
+std::ranges::copy_backward -> S-FD/RAEUPB/SKWR-S/KO*EP/PWA*RD
+std::ranges::copy_backward_result -> S-FD/RAEUPB/SKWR-S/KO*EP/PWA*RD/RE/S*ULT
+std::ranges::copy_if -> S-FD/RAEUPB/SKWR-S/KO*EP/TP
+std::ranges::copy_if_result -> S-FD/RAEUPB/SKWR-S/KO*EP/TP/RE/S*ULT
+std::ranges::copy_n -> S-FD/RAEUPB/SKWR-S/KO*EP/TPH*/SP-S
+std::ranges::copy_n_result -> S-FD/RAEUPB/SKWR-S/KO*EP/TPH*/SP-S/RE/S*ULT
+std::ranges::copy_result -> S-FD/RAEUPB/SKWR-S/KO*EP/RE/S*ULT
+std::ranges::count -> S-FD/RAEUPB/SKWR-S/KAOUPBT
+std::ranges::count_if -> S-FD/RAEUPB/SKWR-S/KAOUPBT/TP
+std::ranges::crbegin -> X
+	 missing:crbegin
+std::ranges::crend -> X
+	 missing:crend
+std::ranges::dangling -> S-FD/RAEUPB/SKWR-S/TKAPBG/HREUPBG
+std::ranges::data -> S-FD/RAEUPB/SKWR-S/TKA/TA
+std::ranges::destroy -> S-FD/RAEUPB/SKWR-S/STKPROEU
+std::ranges::destroy_at -> S-FD/RAEUPB/SKWR-S/STKPROEU/A/AT
+std::ranges::destroy_n -> S-FD/RAEUPB/SKWR-S/STKPROEU/TPH*/SP-S
+std::ranges::disable_sized_range -> S-FD/RAEUPB/SKWR-S/STKAEUBL/SAOEUFD/HRAEUPB/-PBLG
+std::ranges::distance -> S-FD/RAEUPB/SKWR-S/STKA*PBS
+std::ranges::drop_view -> S-FD/RAEUPB/SKWR-S/TKRO*P/SRAOU
+std::ranges::drop_while_view -> S-FD/RAEUPB/SKWR-S/TKRO*P/WHAOEUL/SRAOU
+std::ranges::elements_of -> S-FD/RAEUPB/SKWR-S/HREPLTS/*F
+std::ranges::elements_view -> S-FD/RAEUPB/SKWR-S/HREPLTS/SRAOU
+std::ranges::enumerate_view -> S-FD/RAEUPB/SKWR-S/AOE/TPHAOUPL/RAEUT/SRAOU
+std::ranges::empty -> S-FD/RAEUPB/SKWR-S/AO*EPLT
+std::ranges::empty_view -> S-FD/RAEUPB/SKWR-S/AO*EPLT/SRAOU
+std::ranges::enable_borrowed_range -> S-FD/RAEUPB/SKWR-S/TPHAEUBL/PWO*ERD/HRAEUPB/-PBLG
+std::ranges::enable_view -> S-FD/RAEUPB/SKWR-S/TPHAEUBL/SRAOU
+std::ranges::end -> S-FD/RAEUPB/SKWR-S/EPBTD
+std::ranges::ends_with -> S-FD/RAEUPB/SKWR-S/EPBDZ/W
+std::ranges::equal -> S-FD/RAEUPB/SKWR-S/SKWAL
+std::ranges::equal_range -> S-FD/RAEUPB/SKWR-S/SKWAL/HRAEUPB/-PBLG
+std::ranges::equal_to -> S-FD/RAEUPB/SKWR-S/SKWAL/TPO
+std::ranges::fill -> S-FD/RAEUPB/SKWR-S/TPEUL
+std::ranges::fill_n -> S-FD/RAEUPB/SKWR-S/TPEUL/TPH*/SP-S
+std::ranges::filter_view -> S-FD/RAEUPB/SKWR-S/TPEURLT/SRAOU
+std::ranges::find -> S-FD/RAEUPB/SKWR-S/2350EU7BD
+std::ranges::find_end -> S-FD/RAEUPB/SKWR-S/2350EU7BD/EPBTD
+std::ranges::find_first_of -> S-FD/RAEUPB/SKWR-S/2350EU7BD/STPEURS/*F
+std::ranges::find_if -> S-FD/RAEUPB/SKWR-S/2350EU7BD/TP
+std::ranges::find_if_not -> S-FD/RAEUPB/SKWR-S/2350EU7BD/TP/23409
+std::ranges::find_last -> S-FD/RAEUPB/SKWR-S/2350EU7BD/HRAFT
+std::ranges::find_last_if -> S-FD/RAEUPB/SKWR-S/2350EU7BD/HRAFT/TP
+std::ranges::find_last_if_not -> S-FD/RAEUPB/SKWR-S/2350EU7BD/HRAFT/TP/23409
+std::ranges::fold_left -> S-FD/RAEUPB/SKWR-S/TPOELD/HREFT
+std::ranges::fold_left_first -> S-FD/RAEUPB/SKWR-S/TPOELD/HREFT/STPEURS
+std::ranges::fold_left_first_with_iter -> X
+	 missing:iter
+std::ranges::fold_left_with_iter -> X
+	 missing:iter
+std::ranges::fold_right -> S-FD/RAEUPB/SKWR-S/TPOELD/RAOEURT
+std::ranges::fold_right_last -> S-FD/RAEUPB/SKWR-S/TPOELD/RAOEURT/HRAFT
+std::ranges::for_each -> S-FD/RAEUPB/SKWR-S/230R/AOEFP
+std::ranges::for_each_n -> S-FD/RAEUPB/SKWR-S/230R/AOEFP/TPH*/SP-S
+std::ranges::for_each_n_result -> S-FD/RAEUPB/SKWR-S/230R/AOEFP/TPH*/SP-S/RE/S*ULT
+std::ranges::for_each_result -> S-FD/RAEUPB/SKWR-S/230R/AOEFP/RE/S*ULT
+std::ranges::forward_range -> S-FD/RAEUPB/SKWR-S/TPWARD/HRAEUPB/-PBLG
+std::ranges::generate -> S-FD/RAEUPB/SKWR-S/SKWRAEUT
+std::ranges::generate_n -> S-FD/RAEUPB/SKWR-S/SKWRAEUT/TPH*/SP-S
+std::ranges::get -> S-FD/RAEUPB/SKWR-S/TKPWHET
+std::ranges::greater -> S-FD/RAEUPB/SKWR-S/TKPWHRAERT
+std::ranges::greater_equal -> S-FD/RAEUPB/SKWR-S/TKPWHRAERT/SKWAL
+std::ranges::in_found_result -> S-FD/RAEUPB/SKWR-S/TPH/230U7BD/RE/S*ULT
+std::ranges::in_fun_result -> S-FD/RAEUPB/SKWR-S/TPH/TPUPB/RE/S*ULT
+std::ranges::in_in_out_result -> S-FD/RAEUPB/SKWR-S/TPH/TPH/OULT/RE/S*ULT
+std::ranges::in_in_result -> S-FD/RAEUPB/SKWR-S/TPH/TPH/RE/S*ULT
+std::ranges::in_out_out_result -> S-FD/RAEUPB/SKWR-S/TPH/OULT/OULT/RE/S*ULT
+std::ranges::in_out_result -> S-FD/RAEUPB/SKWR-S/TPH/OULT/RE/S*ULT
+std::ranges::in_value_result -> S-FD/RAEUPB/SKWR-S/TPH/SRAO*UL/RE/S*ULT
+std::ranges::includes -> S-FD/RAEUPB/SKWR-S/KHRUS
+std::ranges::inplace_merge -> X
+	 missing:inplace
+std::ranges::input_range -> S-FD/RAEUPB/SKWR-S/TPH*PT/HRAEUPB/-PBLG
+std::ranges::iota -> S-FD/RAEUPB/SKWR-S/KWROE/TA
+std::ranges::iota_result -> S-FD/RAEUPB/SKWR-S/KWROE/TA/RE/S*ULT
+std::ranges::iota_view -> S-FD/RAEUPB/SKWR-S/KWROE/TA/SRAOU
+std::ranges::is_heap -> S-FD/RAEUPB/SKWR-S/S/HAOEP
+std::ranges::is_heap_until -> S-FD/RAEUPB/SKWR-S/S/HAOEP/TPH-L
+std::ranges::is_partitioned -> S-FD/RAEUPB/SKWR-S/S/PAR/TEUGS/-D
+std::ranges::is_permutation -> S-FD/RAEUPB/SKWR-S/S/PER/PHAOU/TAEUGS
+std::ranges::is_sorted -> S-FD/RAEUPB/SKWR-S/S/SORT/-D
+std::ranges::is_sorted_until -> S-FD/RAEUPB/SKWR-S/S/SORT/-D/TPH-L
+std::ranges::istream_view -> X
+	 missing:istream
+std::ranges::iter_move -> X
+	 missing:iter
+std::ranges::iter_swap -> X
+	 missing:iter
+std::ranges::iterator_t -> S-FD/RAEUPB/SKWR-S/EUT/RAEURT/T*/SP-S
+std::ranges::join_view -> S-FD/RAEUPB/SKWR-S/SKWROEUPB/SRAOU
+std::ranges::join_with_view -> S-FD/RAEUPB/SKWR-S/SKWROEUPB/W/SRAOU
+std::ranges::keys_view -> S-FD/RAEUPB/SKWR-S/KAOES/SRAOU
+std::ranges::lazy_split_view -> S-FD/RAEUPB/SKWR-S/HRAEU/S*EU/SPHREUT/SRAOU
+std::ranges::less -> S-FD/RAEUPB/SKWR-S/HRES
+std::ranges::less_equal -> S-FD/RAEUPB/SKWR-S/HRES/SKWAL
+std::ranges::lexicographical_compare -> X
+	 missing:lexicographical
+std::ranges::lower_bound -> S-FD/RAEUPB/SKWR-S/HROE/*ER/PWOEUPBD
+std::ranges::make_heap -> S-FD/RAEUPB/SKWR-S/TPHAEUBG/HAOEP
+std::ranges::max -> S-FD/RAEUPB/SKWR-S/PHA*BGS
+std::ranges::max_element -> S-FD/RAEUPB/SKWR-S/PHA*BGS/HREPLT
+std::ranges::merge -> S-FD/RAEUPB/SKWR-S/TPHERPBLG
+std::ranges::merge_result -> S-FD/RAEUPB/SKWR-S/TPHERPBLG/RE/S*ULT
+std::ranges::min -> S-FD/RAEUPB/SKWR-S/PH*EUPB
+std::ranges::min_element -> S-FD/RAEUPB/SKWR-S/PH*EUPB/HREPLT
+std::ranges::min_max_result -> S-FD/RAEUPB/SKWR-S/PH*EUPB/PHA*BGS/RE/S*ULT
+std::ranges::minmax -> X
+	 missing:minmax
+std::ranges::minmax_element -> X
+	 missing:minmax
+std::ranges::minmax_element_result -> X
+	 missing:minmax
+std::ranges::minmax_result -> X
+	 missing:minmax
+std::ranges::mismatch -> S-FD/RAEUPB/SKWR-S/PHEUZ/PHAFP
+std::ranges::mismatch_result -> S-FD/RAEUPB/SKWR-S/PHEUZ/PHAFP/RE/S*ULT
+std::ranges::move -> S-FD/RAEUPB/SKWR-S/PHAO*UF
+std::ranges::move_backward -> S-FD/RAEUPB/SKWR-S/PHAO*UF/PWA*RD
+std::ranges::move_backward_result -> S-FD/RAEUPB/SKWR-S/PHAO*UF/PWA*RD/RE/S*ULT
+std::ranges::move_result -> S-FD/RAEUPB/SKWR-S/PHAO*UF/RE/S*ULT
+std::ranges::next -> S-FD/RAEUPB/SKWR-S/234EG9
+std::ranges::next_permutation -> S-FD/RAEUPB/SKWR-S/234EG9/PER/PHAOU/TAEUGS
+std::ranges::next_permutation_result -> S-FD/RAEUPB/SKWR-S/234EG9/PER/PHAOU/TAEUGS/RE/S*ULT
+std::ranges::none_of -> S-FD/RAEUPB/SKWR-S/TPHOPB/*F
+std::ranges::not_equal_to -> S-FD/RAEUPB/SKWR-S/23409/SKWAL/TPO
+std::ranges::nth_element -> S-FD/RAEUPB/SKWR-S/TPH*/*PBT/HREPLT
+std::ranges::out_value_result -> S-FD/RAEUPB/SKWR-S/OULT/SRAO*UL/RE/S*ULT
+std::ranges::output_range -> S-FD/RAEUPB/SKWR-S/PAOUT/HRAEUPB/-PBLG
+std::ranges::owning_view -> S-FD/RAEUPB/SKWR-S/OEPBG/SRAOU
+std::ranges::partial_sort -> S-FD/RAEUPB/SKWR-S/PAERBL/SO*RT
+std::ranges::partial_sort_copy -> S-FD/RAEUPB/SKWR-S/PAERBL/SO*RT/KO*EP
+std::ranges::partial_sort_copy_result -> S-FD/RAEUPB/SKWR-S/PAERBL/SO*RT/KO*EP/RE/S*ULT
+std::ranges::partition -> S-FD/RAEUPB/SKWR-S/PAR/TEUGS
+std::ranges::partition_copy -> S-FD/RAEUPB/SKWR-S/PAR/TEUGS/KO*EP
+std::ranges::partition_copy_result -> S-FD/RAEUPB/SKWR-S/PAR/TEUGS/KO*EP/RE/S*ULT
+std::ranges::partition_point -> S-FD/RAEUPB/SKWR-S/PAR/TEUGS/TPOEUPBLT
+std::ranges::pop_heap -> S-FD/RAEUPB/SKWR-S/POP/HAOEP
+std::ranges::prev -> S-FD/RAEUPB/SKWR-S/PR*EF
+std::ranges::prev_permutation -> S-FD/RAEUPB/SKWR-S/PR*EF/PER/PHAOU/TAEUGS
+std::ranges::prev_permutation_result -> S-FD/RAEUPB/SKWR-S/PR*EF/PER/PHAOU/TAEUGS/RE/S*ULT
+std::ranges::push_heap -> S-FD/RAEUPB/SKWR-S/PURB/HAOEP
+std::ranges::random_access_range -> S-FD/RAEUPB/SKWR-S/TKPRO*PL/KPES/HRAEUPB/-PBLG
+std::ranges::range -> S-FD/RAEUPB/SKWR-S/HRAEUPB/-PBLG
+std::ranges::range_adaptor_closure -> S-FD/RAEUPB/SKWR-S/HRAEUPB/-PBLG/A/TKAPT/O*R/KHRO*ERS
+std::ranges::range_const_reference_t -> S-FD/RAEUPB/SKWR-S/HRAEUPB/-PBLG/KOS/RAOEFRPBS/T*/SP-S
+std::ranges::range_difference_t -> S-FD/RAEUPB/SKWR-S/HRAEUPB/-PBLG/TKPWEUFRPBS/T*/SP-S
+std::ranges::range_reference_t -> S-FD/RAEUPB/SKWR-S/HRAEUPB/-PBLG/RAOEFRPBS/T*/SP-S
+std::ranges::range_rvalue_reference_t -> X
+	 missing:rvalue
+std::ranges::range_size_t -> S-FD/RAEUPB/SKWR-S/HRAEUPB/-PBLG/SAOEUZ/T*/SP-S
+std::ranges::range_value_t -> S-FD/RAEUPB/SKWR-S/HRAEUPB/-PBLG/SRAO*UL/T*/SP-S
+std::ranges::rbegin -> X
+	 missing:rbegin
+std::ranges::ref_view -> S-FD/RAEUPB/SKWR-S/R*EF/SRAOU
+std::ranges::remove -> S-FD/RAEUPB/SKWR-S/RAOE/PHOF
+std::ranges::remove_copy -> S-FD/RAEUPB/SKWR-S/RAOE/PHOF/KO*EP
+std::ranges::remove_copy_if -> S-FD/RAEUPB/SKWR-S/RAOE/PHOF/KO*EP/TP
+std::ranges::remove_copy_if_result -> S-FD/RAEUPB/SKWR-S/RAOE/PHOF/KO*EP/TP/RE/S*ULT
+std::ranges::remove_copy_result -> S-FD/RAEUPB/SKWR-S/RAOE/PHOF/KO*EP/RE/S*ULT
+std::ranges::remove_if -> S-FD/RAEUPB/SKWR-S/RAOE/PHOF/TP
+std::ranges::rend -> S-FD/RAEUPB/SKWR-S/REPBD
+std::ranges::repeat_view -> S-FD/RAEUPB/SKWR-S/PRAOET/SRAOU
+std::ranges::replace -> S-FD/RAEUPB/SKWR-S/RAOE/PHRAEUS
+std::ranges::replace_copy -> S-FD/RAEUPB/SKWR-S/RAOE/PHRAEUS/KO*EP
+std::ranges::replace_copy_if -> S-FD/RAEUPB/SKWR-S/RAOE/PHRAEUS/KO*EP/TP
+std::ranges::replace_copy_if_result -> S-FD/RAEUPB/SKWR-S/RAOE/PHRAEUS/KO*EP/TP/RE/S*ULT
+std::ranges::replace_copy_result -> S-FD/RAEUPB/SKWR-S/RAOE/PHRAEUS/KO*EP/RE/S*ULT
+std::ranges::replace_if -> S-FD/RAEUPB/SKWR-S/RAOE/PHRAEUS/TP
+std::ranges::reverse -> S-FD/RAEUPB/SKWR-S/RAOE/SRERS
+std::ranges::reverse_copy -> S-FD/RAEUPB/SKWR-S/RAOE/SRERS/KO*EP
+std::ranges::reverse_copy_result -> S-FD/RAEUPB/SKWR-S/RAOE/SRERS/KO*EP/RE/S*ULT
+std::ranges::reverse_view -> S-FD/RAEUPB/SKWR-S/RAOE/SRERS/SRAOU
+std::ranges::rotate -> S-FD/RAEUPB/SKWR-S/ROE/TAEUT
+std::ranges::rotate_copy -> S-FD/RAEUPB/SKWR-S/ROE/TAEUT/KO*EP
+std::ranges::rotate_copy_result -> S-FD/RAEUPB/SKWR-S/ROE/TAEUT/KO*EP/RE/S*ULT
+std::ranges::sample -> S-FD/RAEUPB/SKWR-S/SA*EPL
+std::ranges::search -> S-FD/RAEUPB/SKWR-S/SEFRPB
+std::ranges::search_n -> S-FD/RAEUPB/SKWR-S/SEFRPB/TPH*/SP-S
+std::ranges::sentinel_t -> S-FD/RAEUPB/SKWR-S/SEPBLT/TPHEL/T*/SP-S
+std::ranges::set_difference -> S-FD/RAEUPB/SKWR-S/SET/TKPWEUFRPBS
+std::ranges::set_difference_result -> S-FD/RAEUPB/SKWR-S/SET/TKPWEUFRPBS/RE/S*ULT
+std::ranges::set_intersection -> S-FD/RAEUPB/SKWR-S/SET/SPWR*EBGS
+std::ranges::set_intersection_result -> S-FD/RAEUPB/SKWR-S/SET/SPWR*EBGS/RE/S*ULT
+std::ranges::set_symmetric_difference -> S-FD/RAEUPB/SKWR-S/SET/SPHERT/REUBG/TKPWEUFRPBS
+std::ranges::set_symmetric_difference_result -> S-FD/RAEUPB/SKWR-S/SET/SPHERT/REUBG/TKPWEUFRPBS/RE/S*ULT
+std::ranges::set_union -> S-FD/RAEUPB/SKWR-S/SET/TPHAOUPB
+std::ranges::set_union_result -> S-FD/RAEUPB/SKWR-S/SET/TPHAOUPB/RE/S*ULT
+std::ranges::shift_left -> S-FD/RAEUPB/SKWR-S/STHEUFT/HREFT
+std::ranges::shift_right -> S-FD/RAEUPB/SKWR-S/STHEUFT/RAOEURT
+std::ranges::shuffle -> S-FD/RAEUPB/SKWR-S/SHUFL
+std::ranges::single_view -> S-FD/RAEUPB/SKWR-S/SEUPBLG/SRAOU
+std::ranges::size -> S-FD/RAEUPB/SKWR-S/SAOEUZ
+std::ranges::sized_range -> S-FD/RAEUPB/SKWR-S/SAOEUFD/HRAEUPB/-PBLG
+std::ranges::sort -> S-FD/RAEUPB/SKWR-S/SO*RT
+std::ranges::sort_heap -> S-FD/RAEUPB/SKWR-S/SO*RT/HAOEP
+std::ranges::slide_view -> S-FD/RAEUPB/SKWR-S/SHRAO*EUD/SRAOU
+std::ranges::split_view -> S-FD/RAEUPB/SKWR-S/SPHREUT/SRAOU
+std::ranges::ssize -> X
+	 missing:ssize
+std::ranges::stable_partition -> S-FD/RAEUPB/SKWR-S/STAEUBL/PAR/TEUGS
+std::ranges::stable_sort -> S-FD/RAEUPB/SKWR-S/STAEUBL/SO*RT
+std::ranges::starts_with -> S-FD/RAEUPB/SKWR-S/STARLTS/W
+std::ranges::stride_view -> S-FD/RAEUPB/SKWR-S/STRAOEUD/SRAOU
+std::ranges::subrange -> X
+	 missing:subrange
+std::ranges::subrange_kind -> X
+	 missing:subrange
+std::ranges::swap -> S-FD/RAEUPB/SKWR-S/SWAUP
+std::ranges::swap_ranges -> S-FD/RAEUPB/SKWR-S/SWAUP/RAEUPB/SKWR-S
+std::ranges::swap_ranges_result -> S-FD/RAEUPB/SKWR-S/SWAUP/RAEUPB/SKWR-S/RE/S*ULT
+std::ranges::take_view -> S-FD/RAEUPB/SKWR-S/TKAEUBG/SRAOU
+std::ranges::take_while_view -> S-FD/RAEUPB/SKWR-S/TKAEUBG/WHAOEUL/SRAOU
+std::ranges::transform -> S-FD/RAEUPB/SKWR-S/TRAPBS/TPORPL
+std::ranges::to -> S-FD/RAEUPB/SKWR-S/TPO
+std::ranges::transform_view -> S-FD/RAEUPB/SKWR-S/TRAPBS/TPORPL/SRAOU
+std::ranges::unary_transform_result -> X
+	 missing:unary
+std::ranges::uninitialized_copy -> X
+	 missing:uninitialized
+std::ranges::uninitialized_copy_n -> X
+	 missing:uninitialized
+std::ranges::uninitialized_copy_n_result -> X
+	 missing:uninitialized
+std::ranges::uninitialized_copy_result -> X
+	 missing:uninitialized
+std::ranges::uninitialized_default_construct -> X
+	 missing:uninitialized
+std::ranges::uninitialized_default_construct_n -> X
+	 missing:uninitialized
+std::ranges::uninitialized_fill -> X
+	 missing:uninitialized
+std::ranges::uninitialized_fill_n -> X
+	 missing:uninitialized
+std::ranges::uninitialized_move -> X
+	 missing:uninitialized
+std::ranges::uninitialized_move_n -> X
+	 missing:uninitialized
+std::ranges::uninitialized_move_n_result -> X
+	 missing:uninitialized
+std::ranges::uninitialized_move_result -> X
+	 missing:uninitialized
+std::ranges::uninitialized_value_construct -> X
+	 missing:uninitialized
+std::ranges::uninitialized_value_construct_n -> X
+	 missing:uninitialized
+std::ranges::unique -> S-FD/RAEUPB/SKWR-S/KWRAOU/TPHAOEBG
+std::ranges::unique_copy -> S-FD/RAEUPB/SKWR-S/KWRAOU/TPHAOEBG/KO*EP
+std::ranges::unique_copy_result -> S-FD/RAEUPB/SKWR-S/KWRAOU/TPHAOEBG/KO*EP/RE/S*ULT
+std::ranges::upper_bound -> S-FD/RAEUPB/SKWR-S/AOURP/PWOEUPBD
+std::ranges::values_view -> S-FD/RAEUPB/SKWR-S/SRAOUPLS/SRAOU
+std::ranges::view -> S-FD/RAEUPB/SKWR-S/SRAOU
+std::ranges::view_base -> S-FD/RAEUPB/SKWR-S/SRAOU/PWAEUS
+std::ranges::view_interface -> S-FD/RAEUPB/SKWR-S/SRAOU/SPWR-FS
+std::ranges::viewable_range -> S-FD/RAEUPB/SKWR-S/SRAOU/-BL/HRAEUPB/-PBLG
+std::ranges::wistream_view -> X
+	 missing:wistream
+std::ranges::zip_transform_view -> S-FD/RAEUPB/SKWR-S/STKPW*EUP/TRAPBS/TPORPL/SRAOU
+std::ranges::zip_view -> S-FD/RAEUPB/SKWR-S/STKPW*EUP/SRAOU
+std::regex_constants::awk -> S-FD/REPBLG/EBGS/SKA*PBTSZ/AUBG
+std::regex_constants::basic -> S-FD/REPBLG/EBGS/SKA*PBTSZ/PWAOEUFBG
+std::regex_constants::collate -> S-FD/REPBLG/EBGS/SKA*PBTSZ/KOEL/HRAEUT
+std::regex_constants::ECMAScript -> X
+	 missing:ECMAScript
+std::regex_constants::egrep -> X
+	 missing:egrep
+std::regex_constants::error_backref -> X
+	 missing:backref
+std::regex_constants::error_badbrace -> X
+	 missing:badbrace
+std::regex_constants::error_badrepeat -> X
+	 missing:badrepeat
+std::regex_constants::error_brace -> S-FD/REPBLG/EBGS/SKA*PBTSZ/RO*ER/PWRAEUS
+std::regex_constants::error_brack -> X
+	 missing:brack
+std::regex_constants::error_collate -> S-FD/REPBLG/EBGS/SKA*PBTSZ/RO*ER/KOEL/HRAEUT
+std::regex_constants::error_complexity -> S-FD/REPBLG/EBGS/SKA*PBTSZ/RO*ER/KPHREBGT
+std::regex_constants::error_ctype -> X
+	 missing:ctype
+std::regex_constants::error_escape -> S-FD/REPBLG/EBGS/SKA*PBTSZ/RO*ER/SKA*EUP
+std::regex_constants::error_paren -> S-FD/REPBLG/EBGS/SKA*PBTSZ/RO*ER/PA/REPB
+std::regex_constants::error_range -> S-FD/REPBLG/EBGS/SKA*PBTSZ/RO*ER/HRAEUPB/-PBLG
+std::regex_constants::error_space -> S-FD/REPBLG/EBGS/SKA*PBTSZ/RO*ER/STPAEUS
+std::regex_constants::error_stack -> S-FD/REPBLG/EBGS/SKA*PBTSZ/RO*ER/STABG
+std::regex_constants::error_type -> S-FD/REPBLG/EBGS/SKA*PBTSZ/RO*ER/TAOEUP
+std::regex_constants::extended -> S-FD/REPBLG/EBGS/SKA*PBTSZ/EBG/TEPBD/-D
+std::regex_constants::format_default -> S-FD/REPBLG/EBGS/SKA*PBTSZ/TPHORPLT/TKAOE/TPAULT
+std::regex_constants::format_first_only -> S-FD/REPBLG/EBGS/SKA*PBTSZ/TPHORPLT/STPEURS/HOEPBL
+std::regex_constants::format_no_copy -> S-FD/REPBLG/EBGS/SKA*PBTSZ/TPHORPLT/TPHO/KO*EP
+std::regex_constants::format_sed -> X
+	 missing:sed
+std::regex_constants::grep -> S-FD/REPBLG/EBGS/SKA*PBTSZ/TKPWREP
+std::regex_constants::icase -> X
+	 missing:icase
+std::regex_constants::match_any -> S-FD/REPBLG/EBGS/SKA*PBTSZ/PHAFP/TKPHEU
+std::regex_constants::match_continuous -> S-FD/REPBLG/EBGS/SKA*PBTSZ/PHAFP/T-P/WOUS
+std::regex_constants::match_default -> S-FD/REPBLG/EBGS/SKA*PBTSZ/PHAFP/TKAOE/TPAULT
+std::regex_constants::match_flag_type -> S-FD/REPBLG/EBGS/SKA*PBTSZ/PHAFP/TPHRAG/TAOEUP
+std::regex_constants::match_not_bol -> X
+	 missing:bol
+std::regex_constants::match_not_bow -> S-FD/REPBLG/EBGS/SKA*PBTSZ/PHAFP/23409/PWOE
+std::regex_constants::match_not_eol -> X
+	 missing:eol
+std::regex_constants::match_not_eow -> X
+	 missing:eow
+std::regex_constants::match_not_null -> S-FD/REPBLG/EBGS/SKA*PBTSZ/PHAFP/23409/TPHUL
+std::regex_constants::match_prev_avail -> S-FD/REPBLG/EBGS/SKA*PBTSZ/PHAFP/PR*EF/A/SRAEUL
+std::regex_constants::multiline -> X
+	 missing:multiline
+std::regex_constants::nosubs -> X
+	 missing:nosubs
+std::regex_constants::optimize -> S-FD/REPBLG/EBGS/SKA*PBTSZ/OP/TEU/PHAOEUZ
+std::regex_constants::syntax_option_type -> S-FD/REPBLG/EBGS/SKA*PBTSZ/SEUPB/TA*BGS/OPBGS/TAOEUP
+std::strided_slice -> X
+	 missing:strided
+std::set_symmetric_difference -> S-FD/SET/SPHERT/REUBG/TKPWEUFRPBS
+std::ratio_add -> S-FD/RAOEFPB/AOU/AD
+std::lock_guard -> S-FD/HROBG/TKPWARD
+std::strtok -> X
+	 missing:strtok
+std::identity -> S-FD/KWRAOEUD/TEU
+std::strtol -> X
+	 missing:strtol
+std::wscanf -> X
+	 missing:wscanf
+std::rcu_retire -> X
+	 missing:rcu
+std::int64_t -> X
+	 missing:int64
+std::fill -> S-FD/TPEUL
+std::fgetc -> X
+	 missing:fgetc
+std::accumulate -> S-FD/A/KAOUPL/HRAEULT
+std::malloc -> X
+	 missing:malloc
+std::wctob -> X
+	 missing:wctob
+std::recursive_mutex -> X
+	 missing:mutex
+std::remove_pointer -> S-FD/RAOE/PHOF/POEURPBT
+std::copyable_function -> X
+	 missing:copyable
+std::scoped_lock -> S-FD/SKOEP/-D/HROBG
+std::nullptr_t -> X
+	 missing:nullptr
+std::uint32_t -> X
+	 missing:uint32
+std::u8string_view -> X
+	 missing:u8string
+std::skipws -> X
+	 missing:skipws
+std::input_iterator_tag -> S-FD/TPH*PT/EUT/RAEURT/TAG
+std::atomic_wait_explicit -> S-FD/A/TOPL/EUBG/WAEUT/EBGS/PHREU/SEUT
+std::ratio_not_equal -> S-FD/RAOEFPB/AOU/23409/SKWAL
+std::make_hazard_pointer -> S-FD/TPHAEUBG/HAZ/SA*RD/POEURPBT
+std::int_fast32_t -> X
+	 missing:fast32
+std::unreachable_sentinel -> X
+	 missing:unreachable
+std::count_if -> S-FD/KAOUPBT/TP
+std::div_sat -> S-FD/TK*EUF/SAT
+std::tgamma -> X
+	 missing:tgamma
+std::syncbuf -> X
+	 missing:syncbuf
+std::fwscanf -> X
+	 missing:fwscanf
+std::declval -> X
+	 missing:declval
+std::collate_byname -> X
+	 missing:byname
+std::is_assignable -> S-FD/S/AFPB/-BL
+std::fgets -> X
+	 missing:fgets
+std::fetestexcept -> X
+	 missing:fetestexcept
+std::atomic_ref -> S-FD/A/TOPL/EUBG/R*EF
+std::iter_reference_t -> X
+	 missing:iter
+std::move_if_noexcept -> X
+	 missing:noexcept
+std::fwrite -> X
+	 missing:fwrite
+std::make_unique_for_overwrite -> X
+	 missing:overwrite
+std::input_iterator -> S-FD/TPH*PT/EUT/RAEURT
+std::u32string -> X
+	 missing:u32string
+std::is_destructible_v -> S-FD/S/TKRUBGT/-BL/SR*/SP-S
+std::putc -> X
+	 missing:putc
+std::wmemmove -> X
+	 missing:wmemmove
+std::basic_format_arg -> X
+	 missing:arg
+std::throw_with_nested -> X
+	 missing:nested
+std::reference_wrapper -> S-FD/RAOEFRPBS/WRARP
+std::breakpoint -> X
+	 missing:breakpoint
+std::sort_heap -> S-FD/SO*RT/HAOEP
+std::atomic_fetch_xor_explicit -> X
+	 missing:xor
+std::lconv -> X
+	 missing:lconv
+std::kilo -> S-FD/KAOE/HROE
+std::strcoll -> X
+	 missing:strcoll
+std::piecewise_linear_distribution -> X
+	 missing:piecewise
+std::int_least8_t -> X
+	 missing:least8
+std::disjunction -> S-FD/TKEUS/SKWR*UPBGS
+std::atomic_flag -> S-FD/A/TOPL/EUBG/TPHRAG
+std::real -> S-FD/RAEL
+std::indirect_array -> S-FD/EUPB/TKREBGT/A/RAEU
+std::invocable -> X
+	 missing:invocable
+std::for_each -> S-FD/230R/AOEFP
+std::proj -> X
+	 missing:proj
+std::binomial_distribution -> S-FD/PW*EU/TPHOEPL/KWRAL/STREUB/AOUGS
+std::basic_streambuf -> X
+	 missing:streambuf
+std::lgamma -> X
+	 missing:lgamma
+std::puts -> S-FD/PUT/-S
+std::strtoimax -> X
+	 missing:strtoimax
+std::wctomb -> X
+	 missing:wctomb
+std::wcerr -> X
+	 missing:wcerr
+std::wsmatch -> X
+	 missing:wsmatch
+std::shared_lock -> S-FD/SHAEUR/-D/HROBG
+std::is_fundamental -> S-FD/S/TPHRUL
+std::indirectly_regular_unary_invocable -> X
+	 missing:unary,invocable
+std::truncf -> X
+	 missing:truncf
+std::priority_queue -> S-FD/PRAOEU/KWROR/TEU/KWAO*U
+std::extent -> S-FD/EBGS/STEPBT
+std::asin -> X
+	 missing:asin
+std::time_put -> S-FD/TAOEUPL/PURT
+std::is_heap -> S-FD/S/HAOEP
+std::future_category -> S-FD/TPAOU/TAOUR/TKPWAT/TKPWOER
+std::wcscmp -> X
+	 missing:wcscmp
+std::stacktrace -> X
+	 missing:stacktrace
+std::is_nothrow_copy_constructible_v -> S-FD/S/TPHO/THROU/KO*EP/STREUBL/SR*/SP-S
+std::exception_ptr -> X
+	 missing:ptr
+std::launder -> S-FD/HRAUPB/TKER
+std::iter_swap -> X
+	 missing:iter
+std::is_nothrow_swappable_with_v -> X
+	 missing:swappable
+std::transform_inclusive_scan -> S-FD/TRAPBS/TPORPL/KHRUF/SKAPB
+std::messages -> S-FD/PHEPBLGS
+std::unordered_multimap -> X
+	 missing:unordered,multimap
+std::truncl -> X
+	 missing:truncl
+std::mktime -> X
+	 missing:mktime
+std::fgetwc -> X
+	 missing:fgetwc
+std::cmp_greater_equal -> X
+	 missing:cmp
+std::totally_ordered -> S-FD/THRAOELT/O*R/TKER/-D
+std::showbase -> X
+	 missing:showbase
+std::plus -> S-FD/34RUS
+std::is_base_of_v -> S-FD/S/PWAEUS/*F/SR*/SP-S
+std::wcscat -> X
+	 missing:wcscat
+std::is_pointer -> S-FD/S/POEURPBT
+std::has_virtual_destructor_v -> S-FD/SHAS/SR*EURPBLG/KWRAOUL/TKE/STRUBGT/O*R/SR*/SP-S
+std::bit_cast -> S-FD/PWEUT/KA*S
+std::vfprintf -> X
+	 missing:vfprintf
+std::basic_stringbuf -> X
+	 missing:stringbuf
+std::default_delete -> S-FD/TKAOE/TPAULT/TKHRAOET
+std::ratio_less_equal -> S-FD/RAOEFPB/AOU/HRES/SKWAL
+std::move -> S-FD/PHAO*UF
+std::sample -> S-FD/SA*EPL
+std::addressof -> X
+	 missing:addressof
+std::swap_ranges -> S-FD/SWAUP/RAEUPB/SKWR-S
+std::setprecision -> X
+	 missing:setprecision
+std::float_denorm_style -> X
+	 missing:denorm
+std::fgetws -> X
+	 missing:fgetws
+std::wspanstream -> X
+	 missing:wspanstream
+std::owner_less -> S-FD/OERPB/HRES
+std::nearbyintf -> X
+	 missing:nearbyintf
+std::fflush -> X
+	 missing:fflush
+std::fenv_t -> X
+	 missing:fenv
+std::fmod -> X
+	 missing:fmod
+std::is_copy_assignable_v -> S-FD/S/KO*EP/AFPB/-BL/SR*/SP-S
+std::setlocale -> X
+	 missing:setlocale
+std::insert_iterator -> S-FD/STPHERT/EUT/RAEURT
+std::add_rvalue_reference_t -> X
+	 missing:rvalue
+std::conjunction -> S-FD/KAUPB/SKWRUPBG/SHUPB
+std::nearbyintl -> X
+	 missing:nearbyintl
+std::greater -> S-FD/TKPWHRAERT
+std::kill_dependency -> S-FD/KEUL/TKP*EPBS
+std::getwc -> X
+	 missing:getwc
+std::future_error -> S-FD/TPAOU/TAOUR/RO*ER
+std::wcscoll -> X
+	 missing:wcscoll
+std::upper_bound -> S-FD/AOURP/PWOEUPBD
+std::negation_v -> S-FD/TPHE/TKPWAEUGS/SR*/SP-S
+std::is_trivially_copyable -> X
+	 missing:trivially,copyable
+std::wcsrtombs -> X
+	 missing:wcsrtombs
+std::iter_const_reference_t -> X
+	 missing:iter
+std::u8string -> X
+	 missing:u8string
+std::iswupper -> X
+	 missing:iswupper
+std::weakly_incrementable -> X
+	 missing:weakly,incrementable
+std::negate -> S-FD/TPHAOE/TKPWAEUT
+std::is_floating_point -> S-FD/S/TPHROEGT/TPOEUPBLT
+std::as_bytes -> S-FD/A/AZ/PWAO*EUTS
+std::transform_reduce -> S-FD/TRAPBS/TPORPL/RAOE/TKAOUS
+std::reference_converts_from_temporary -> S-FD/RAOEFRPBS/KWERTS/TPWHR/TPRAER
+std::to_chars_result -> X
+	 missing:chars
+std::expm1 -> X
+	 missing:expm1
+std::wssub_match -> X
+	 missing:wssub
+std::ratio_less -> S-FD/RAOEFPB/AOU/HRES
+std::common_comparison_category -> S-FD/KPHOP/KPRAEUR/SO*PB/TKPWAT/TKPWOER
+std::ref -> S-FD/R*EF
+std::any_cast -> S-FD/TKPHEU/KA*S
+std::integer_sequence -> S-FD/SPWE/SKWRER/SKWEPBS
+std::uninitialized_default_construct_n -> X
+	 missing:uninitialized
+std::noop_coroutine_handle -> X
+	 missing:coroutine
+std::flush -> S-FD/TPHRAOURB
+std::conditional -> S-FD/KOPB/TKEUGS/TPHAL
+std::frexp -> X
+	 missing:frexp
+std::atomic_compare_exchange_strong_explicit -> S-FD/A/TOPL/EUBG/KPAEUR/KPAEUPBG/STROPBG/EBGS/PHREU/SEUT
+std::function -> S-FD/TPUPBGS
+std::log -> S-FD/HROG
+std::floorf -> X
+	 missing:floorf
+std::is_lvalue_reference -> X
+	 missing:lvalue
+std::enable_nonlocking_formatter_optimization -> X
+	 missing:nonlocking,formatter
+std::signal -> S-FD/STPHAL
+std::norm -> S-FD/TPHORPL
+std::hecto -> X
+	 missing:hecto
+std::strpbrk -> X
+	 missing:strpbrk
+std::memory_order_release -> S-FD/PHOEURPL/0RD/RAOE/HRAOES
+std::indirectly_movable -> S-FD/EUPB/TKREBGT/HREU/PHAO*UF/-BL
+std::has_unique_object_representations -> X
+	 missing:representations
+std::async -> S-FD/A/S*EUPBG
+std::rethrow_exception -> X
+	 missing:rethrow
+std::fma -> X
+	 missing:fma
+std::is_placeholder -> S-FD/S/PHRAEUS/HO*ERLD
+std::floorl -> X
+	 missing:floorl
+std::equality_comparable_with -> S-FD/KWRAOELT/KPRAR/-BL/W
+std::vswscanf -> X
+	 missing:vswscanf
+std::wcsspn -> X
+	 missing:wcsspn
+std::random_access_iterator_tag -> S-FD/TKPRO*PL/KPES/EUT/RAEURT/TAG
+std::lcm -> X
+	 missing:lcm
+std::is_reference -> S-FD/S/RAOEFRPBS
+std::is_invocable_r -> X
+	 missing:invocable
+std::ratio_less_equal_v -> S-FD/RAOEFPB/AOU/HRES/SKWAL/SR*/SP-S
+std::default_sentinel -> S-FD/TKAOE/TPAULT/SEPBLT/TPHEL
+std::piecewise_constant_distribution -> X
+	 missing:piecewise
+std::is_object -> S-FD/S/O*B
+std::hexfloat -> X
+	 missing:hexfloat
+std::basic_string -> S-FD/PWAOEUFBG/STREUPBG
+std::wcsstr -> X
+	 missing:wcsstr
+std::riemann_zeta -> X
+	 missing:riemann
+std::ratio_not_equal_v -> S-FD/RAOEFPB/AOU/23409/SKWAL/SR*/SP-S
+std::jmp_buf -> X
+	 missing:jmp,buf
+std::is_invocable_v -> X
+	 missing:invocable
+std::cmp_equal -> X
+	 missing:cmp
+std::lexicographical_compare_three_way -> X
+	 missing:lexicographical
+std::print -> S-FD/PREUPBT
+std::is_nothrow_default_constructible -> S-FD/S/TPHO/THROU/TKAOE/TPAULT/STREUBL
+std::laguerre -> X
+	 missing:laguerre
+std::hazard_pointer -> S-FD/HAZ/SA*RD/POEURPBT
+std::complex -> S-FD/KPWHREBGS
+std::format_to -> S-FD/TPHORPLT/TPO
+std::atan2 -> X
+	 missing:atan2
+std::memset -> X
+	 missing:memset
+std::is_function_v -> S-FD/S/TPUPBGS/SR*/SP-S
+std::is_error_code_enum -> S-FD/S/RO*ER/KOED/AOE/TPHUPL
+std::basic_filebuf -> X
+	 missing:filebuf
+std::defaultfloat -> X
+	 missing:defaultfloat
+std::atof -> X
+	 missing:atof
+std::regex_traits -> S-FD/REPBLG/EBGS/TRAEUT/-S
+std::numpunct_byname -> X
+	 missing:numpunct,byname
+std::compare_three_way_result_t -> S-FD/KPAEUR/THRAOE/WAEU/RE/S*ULT/T*/SP-S
+std::atomic_flag_test_and_set_explicit -> S-FD/A/TOPL/EUBG/TPHRAG/T*ES/57BD/SET/EBGS/PHREU/SEUT
+std::clamp -> S-FD/KHRA*PL
+std::wformat_parse_context -> X
+	 missing:wformat
+std::ratio_multiply -> S-FD/RAOEFPB/AOU/PHRULT/PHRAOEU
+std::atoi -> X
+	 missing:atoi
+std::stacktrace_entry -> X
+	 missing:stacktrace
+std::hardware_destructive_interference_size -> S-FD/HARD/WA*EUR/STKROUBGT/EUF/SPWER/TPAOER/EPBS/SAOEUZ
+std::atol -> X
+	 missing:atol
+std::latch -> S-FD/HRAFP
+std::is_trivially_assignable_v -> X
+	 missing:trivially
+std::cyl_neumann -> X
+	 missing:cyl,neumann
+std::atomic_fetch_xor -> X
+	 missing:xor
+std::freopen -> X
+	 missing:freopen
+std::codecvt_byname -> X
+	 missing:codecvt,byname
+std::bool_constant -> S-FD/PWAOL/STAPBT
+std::unwrap_reference_t -> S-FD/UPB/WRAP/RAOEFRPBS/T*/SP-S
+std::is_nothrow_move_constructible -> S-FD/S/TPHO/THROU/PHAO*UF/STREUBL
+std::partial_sort -> S-FD/PAERBL/SO*RT
+std::stringstream -> X
+	 missing:stringstream
+std::sort -> S-FD/SO*RT
+std::atomic_store -> S-FD/A/TOPL/EUBG/STOR
+std::bad_alloc -> X
+	 missing:alloc
+std::valarray -> X
+	 missing:valarray
+std::to_array -> S-FD/TPO/A/RAEU
+std::iswdigit -> X
+	 missing:iswdigit
+std::is_member_function_pointer_v -> S-FD/S/PHEPL/TPUPBGS/POEURPBT/SR*/SP-S
+std::isgreaterequal -> X
+	 missing:isgreaterequal
+std::noboolalpha -> X
+	 missing:noboolalpha
+std::int16_t -> X
+	 missing:int16
+std::coroutine_handle -> X
+	 missing:coroutine
+std::linear_congruential_engine -> X
+	 missing:congruential
+std::is_trivial -> S-FD/S/TR*EUF/KWRAL
+std::strncpy -> X
+	 missing:strncpy
+std::wcspbrk -> X
+	 missing:wcspbrk
+std::timed_mutex -> X
+	 missing:mutex
+std::queue -> S-FD/KWAO*U
+std::FILE -> X
+	 missing:FILE
+std::uninitialized_value_construct -> X
+	 missing:uninitialized
+std::hash -> S-FD/HARB
+std::ftell -> X
+	 missing:ftell
+std::default_accessor -> X
+	 missing:accessor
+std::memory_order_seq_cst -> X
+	 missing:seq,cst
+std::uint64_t -> X
+	 missing:uint64
+std::strtoumax -> X
+	 missing:strtoumax
+std::for_each_n -> S-FD/230R/AOEFP/TPH*/SP-S
+std::thread -> S-FD/THRED
+std::is_trivially_constructible_v -> X
+	 missing:trivially
+std::int_fast64_t -> X
+	 missing:fast64
+std::nullopt -> X
+	 missing:nullopt
+std::indirect_unary_predicate -> X
+	 missing:unary
+std::zetta -> X
+	 missing:zetta
+std::rcu_synchronize -> X
+	 missing:rcu
+std::minmax -> X
+	 missing:minmax
+std::llrint -> X
+	 missing:llrint
+std::default_random_engine -> S-FD/TKAOE/TPAULT/TKPRO*PL/TPH-PBLG
+std::weak_ordering -> S-FD/WAEBG/O*R/TKER/-G
+std::atanhf -> X
+	 missing:atanhf
+std::get_new_handler -> S-FD/TKPWHET/TPHU/HAPBD/HRER
+std::as_writable_bytes -> S-FD/A/AZ/WREUBL/PWAO*EUTS
+std::cosf -> X
+	 missing:cosf
+std::strtold -> X
+	 missing:strtold
+std::bit_floor -> S-FD/PWEUT/TPHRAOR
+std::cosh -> X
+	 missing:cosh
+std::search_n -> S-FD/SEFRPB/TPH*/SP-S
+std::make_obj_using_allocator -> X
+	 missing:obj,allocator
+std::uint_least32_t -> X
+	 missing:uint,least32
+std::tuple_size -> S-FD/TAOUP/*L/SAOEUZ
+std::fprintf -> X
+	 missing:fprintf
+std::strict_weak_order -> S-FD/STREUBGT/WAEBG/0RD
+std::is_volatile_v -> S-FD/S/SRO*L/TAOEUL/SR*/SP-S
+std::call_once -> S-FD/KAUL/WUPBGS
+std::atanhl -> X
+	 missing:atanhl
+std::nexttowardf -> X
+	 missing:nexttowardf
+std::cosl -> X
+	 missing:cosl
+std::visit_format_arg -> X
+	 missing:arg
+std::uses_allocator_construction_args -> X
+	 missing:allocator,args
+std::once_flag -> S-FD/WUPBGS/TPHRAG
+std::expintf -> X
+	 missing:expintf
+std::strtoll -> X
+	 missing:strtoll
+std::is_swappable_with -> X
+	 missing:swappable
+std::geometric_distribution -> S-FD/SKWRAOE/PHAOERBG/STREUB/AOUGS
+std::ellint_3f -> X
+	 missing:ellint,3f
+std::atanf -> X
+	 missing:atanf
+std::iswprint -> X
+	 missing:iswprint
+std::wctrans -> X
+	 missing:wctrans
+std::vprint_unicode_buffered -> X
+	 missing:vprint,unicode
+std::signed_integral -> S-FD/SAOEUPBD/SPWE/TKPWRAL
+std::nexttowardl -> X
+	 missing:nexttowardl
+std::atanh -> X
+	 missing:atanh
+std::float_round_style -> S-FD/TPHRAOT/PROUPBD/STAOEUL
+std::expintl -> X
+	 missing:expintl
+std::ellint_3l -> X
+	 missing:ellint,3l
+std::atanl -> X
+	 missing:atanl
+std::hypotf -> X
+	 missing:hypotf
+std::back_inserter -> X
+	 missing:inserter
+std::type_index -> S-FD/TAOEUP/TKPEUPBGS
+std::remove_reference -> S-FD/RAOE/PHOF/RAOEFRPBS
+std::is_abstract -> S-FD/S/AB/STKRABGT
+std::dextents -> X
+	 missing:dextents
+std::istream_iterator -> X
+	 missing:istream
+std::bsearch -> X
+	 missing:bsearch
+std::log10 -> X
+	 missing:log10
+std::hypotl -> X
+	 missing:hypotl
+std::try_to_lock_t -> S-FD/TRAOEU/TPO/HROBG/T*/SP-S
+std::conditional_t -> S-FD/KOPB/TKEUGS/TPHAL/T*/SP-S
+std::atomic_init -> X
+	 missing:init
+std::cregex_token_iterator -> X
+	 missing:cregex
+std::destroy -> S-FD/STKPROEU
+std::double_t -> S-FD/TKWUBL/T*/SP-S
+std::wospanstream -> X
+	 missing:wospanstream
+std::time_t -> S-FD/TAOEUPL/T*/SP-S
+std::mbsinit -> X
+	 missing:mbsinit
+std::iterator -> S-FD/EUT/RAEURT
+std::allocate_shared -> S-FD/KHRA*EUT/SHAEUR/-D
+std::unique_ptr -> X
+	 missing:ptr
+std::is_const -> S-FD/S/KOS
+std::uses_allocator -> X
+	 missing:allocator
+std::regex_replace -> S-FD/REPBLG/EBGS/RAOE/PHRAEUS
+std::wcsncpy -> X
+	 missing:wcsncpy
+std::stable_partition -> S-FD/STAEUBL/PAR/TEUGS
+std::nothrow -> S-FD/TPHO/THROU
+std::min -> S-FD/PH*EUPB
+std::hazard_pointer_obj_base -> X
+	 missing:obj
+std::is_trivially_default_constructible_v -> X
+	 missing:trivially
+std::gcd -> X
+	 missing:gcd
+std::fpos_t -> X
+	 missing:fpos
+std::forward_like -> S-FD/TPWARD/PHRAOEUBG
+std::find_if_not -> S-FD/2350EU7BD/TP/23409
+std::isless -> X
+	 missing:isless
+std::runtime_format -> X
+	 missing:runtime
+std::map -> S-FD/PHAP
+std::decay_t -> S-FD/TKAOE/KAEU/T*/SP-S
+std::rank_v -> S-FD/RA*PBLG/SR*/SP-S
+std::countr_zero -> X
+	 missing:countr
+std::condition_variable_any -> S-FD/KAUPB/TKEUGS/SRAEUR/KWRABL/TKPHEU
+std::indirectly_unary_invocable -> X
+	 missing:unary,invocable
+std::cend -> X
+	 missing:cend
+std::common_with -> S-FD/KPHOP/W
+std::scoped_allocator_adaptor -> X
+	 missing:allocator
+std::istrstream -> X
+	 missing:istrstream
+std::is_unsigned_v -> S-FD/S/UPB/SAOEUPB/-D/SR*/SP-S
+std::is_enum -> S-FD/S/AOE/TPHUPL
+std::multiset -> X
+	 missing:multiset
+std::max -> S-FD/PHA*BGS
+std::remove_if -> S-FD/RAOE/PHOF/TP
+std::sregex_iterator -> X
+	 missing:sregex
+std::forward_list -> S-FD/TPWARD/HR*EUFS
+std::wcstold -> X
+	 missing:wcstold
+std::basic_common_reference -> S-FD/PWAOEUFBG/KPHOP/RAOEFRPBS
+std::regex_search -> S-FD/REPBLG/EBGS/SEFRPB
+std::moneypunct_byname -> X
+	 missing:moneypunct,byname
+std::make_pair -> S-FD/TPHAEUBG/PAEUR
+std::variant_size_v -> S-FD/SRAEUR/KWRAPBT/SAOEUZ/SR*/SP-S
+std::nouppercase -> X
+	 missing:nouppercase
+std::ignore -> S-FD/EUG/TPHOER
+std::rcu_default_domain -> X
+	 missing:rcu
+std::is_trivially_copy_constructible_v -> X
+	 missing:trivially
+std::dims -> X
+	 missing:dims
+std::cerr -> X
+	 missing:cerr
+std::btowc -> X
+	 missing:btowc
+std::make_unique -> S-FD/TPHAEUBG/KWRAOU/TPHAOEBG
+std::bad_function_call -> S-FD/PWATD/TPUPBGS/KAUL
+std::wcstoll -> X
+	 missing:wcstoll
+std::remquof -> X
+	 missing:remquof
+std::uninitialized_copy -> X
+	 missing:uninitialized
+std::scanf -> X
+	 missing:scanf
+std::is_compound -> S-FD/S/KPAOUPBD
+std::comp_ellint_1f -> X
+	 missing:ellint,1f
+std::lrintf -> X
+	 missing:lrintf
+std::is_trivially_copyable_v -> X
+	 missing:trivially,copyable
+std::shared_ptr -> X
+	 missing:ptr
+std::format_to_n -> S-FD/TPHORPLT/TPO/TPH*/SP-S
+std::wmemcmp -> X
+	 missing:wmemcmp
+std::remquol -> X
+	 missing:remquol
+std::tera -> X
+	 missing:tera
+std::is_union_v -> S-FD/S/TPHAOUPB/SR*/SP-S
+std::wint_t -> X
+	 missing:wint
+std::layout_stride -> S-FD/HRAEU/SKWROUT/STRAOEUD
+std::comp_ellint_1l -> X
+	 missing:ellint,1l
+std::vprint_nonunicode_buffered -> X
+	 missing:vprint,nonunicode
+std::lrintl -> X
+	 missing:lrintl
+std::indirectly_copyable -> X
+	 missing:copyable
+std::unreachable -> X
+	 missing:unreachable
+std::nextafterf -> X
+	 missing:nextafterf
+std::is_virtual_base_of_v -> S-FD/S/SR*EURPBLG/KWRAOUL/PWAEUS/*F/SR*/SP-S
+std::next_permutation -> S-FD/234EG9/PER/PHAOU/TAEUGS
+std::mbrlen -> X
+	 missing:mbrlen
+std::distance -> S-FD/STKA*PBS
+std::cauchy_distribution -> X
+	 missing:cauchy
+std::legendre -> X
+	 missing:legendre
+std::is_compound_v -> S-FD/S/KPAOUPBD/SR*/SP-S
+std::uninitialized_copy_n -> X
+	 missing:uninitialized
+std::spanbuf -> X
+	 missing:spanbuf
+std::pop_heap -> S-FD/POP/HAOEP
+std::atomic_fetch_min -> S-FD/A/TOPL/EUBG/TPEFP/PH*EUPB
+std::ronna -> X
+	 missing:ronna
+std::nextafterl -> X
+	 missing:nextafterl
+std::localtime -> X
+	 missing:localtime
+std::istream -> X
+	 missing:istream
+std::add_pointer_t -> S-FD/AD/POEURPBT/T*/SP-S
+std::isupper -> X
+	 missing:isupper
+std::set_new_handler -> S-FD/SET/TPHU/HAPBD/HRER
+std::binary_semaphore -> S-FD/PWAOEU/TPHAER/S*EPL/TPOR
+std::ratio_greater_equal -> S-FD/RAOEFPB/AOU/TKPWHRAERT/SKWAL
+std::lerp -> X
+	 missing:lerp
+std::isunordered -> X
+	 missing:isunordered
+std::is_gt -> X
+	 missing:gt
+std::is_nothrow_assignable_v -> S-FD/S/TPHO/THROU/AFPB/-BL/SR*/SP-S
+std::is_lvalue_reference_v -> X
+	 missing:lvalue
+std::is_signed -> S-FD/S/SAOEUPBD
+std::bidirectional_iterator -> X
+	 missing:bidirectional
+std::is_copy_constructible -> S-FD/S/KO*EP/STREUBL
+std::atomic_fetch_max -> S-FD/A/TOPL/EUBG/TPEFP/PHA*BGS
+std::mbstowcs -> X
+	 missing:mbstowcs
+std::is_scalar -> S-FD/S/SKAEUL/A*R
+std::equal_range -> S-FD/SKWAL/HRAEUPB/-PBLG
+std::atexit -> X
+	 missing:atexit
+std::rcu_barrier -> X
+	 missing:rcu
+std::noshowbase -> X
+	 missing:noshowbase
+std::memory_order_consume -> S-FD/PHOEURPL/0RD/KAOUPL
+std::left -> S-FD/HREFT
+std::is_move_assignable -> S-FD/S/PHAO*UF/AFPB/-BL
+std::bad_weak_ptr -> X
+	 missing:ptr
+std::is_permutation -> S-FD/S/PER/PHAOU/TAEUGS
+std::log2 -> X
+	 missing:log2
+std::uninitialized_move_n -> X
+	 missing:uninitialized
+std::riemann_zetaf -> X
+	 missing:riemann,zetaf
+std::log1p -> X
+	 missing:log1p
+std::greater_equal -> S-FD/TKPWHRAERT/SKWAL
+std::forward_iterator_tag -> S-FD/TPWARD/EUT/RAEURT/TAG
+std::acos -> X
+	 missing:acos
+std::vscanf -> X
+	 missing:vscanf
+std::stoul -> X
+	 missing:stoul
+std::strrchr -> X
+	 missing:strrchr
+std::regex_iterator -> S-FD/REPBLG/EBGS/EUT/RAEURT
+std::is_nothrow_constructible_v -> S-FD/S/TPHO/THROU/STREUBL/SR*/SP-S
+std::tuple -> S-FD/TAOUP/*L
+std::timespec -> X
+	 missing:timespec
+std::riemann_zetal -> X
+	 missing:riemann,zetal
+std::comp_ellint_1 -> X
+	 missing:ellint
+std::money_base -> S-FD/34U7B/PWAEUS
+std::incrementable_traits -> X
+	 missing:incrementable
+std::comp_ellint_2 -> X
+	 missing:ellint,2
+std::slice -> S-FD/SHRAOEUS
+std::round_toward_neg_infinity -> X
+	 missing:neg
+std::common_reference -> S-FD/KPHOP/RAOEFRPBS
+std::comp_ellint_3 -> X
+	 missing:ellint,3
+std::add_volatile -> S-FD/AD/SRO*L/TAOEUL
+std::uninitialized_fill_n -> X
+	 missing:uninitialized
+std::tie -> S-FD/TAOEU
+std::expected -> S-FD/KP-PTD
+std::compare_weak_order_fallback -> X
+	 missing:fallback
+std::barrier -> S-FD/PWR*ER
+std::printf -> X
+	 missing:printf
+std::overflow_error -> X
+	 missing:overflow
+std::minstd_rand0 -> X
+	 missing:minstd,rand0
+std::assoc_laguerref -> X
+	 missing:assoc,laguerref
+std::lexicographical_compare -> X
+	 missing:lexicographical
+std::round_toward_zero -> S-FD/PROUPBD/TWAORBD/SAO*E/ROE
+std::future -> S-FD/TPAOU/TAOUR
+std::atomic_notify_one -> S-FD/A/TOPL/EUBG/TPHOEUF/WUP
+std::csub_match -> X
+	 missing:csub
+std::type_identity_t -> S-FD/TAOEUP/KWRAOEUD/TEU/T*/SP-S
+std::compare_strong_order_fallback -> X
+	 missing:fallback
+std::exponential_distribution -> S-FD/SPEPBL/STREUB/AOUGS
+std::is_member_pointer -> S-FD/S/PHEPL/POEURPBT
+std::partial_sort_copy -> S-FD/PAERBL/SO*RT/KO*EP
+std::assoc_laguerrel -> X
+	 missing:assoc,laguerrel
+std::ratio_equal -> S-FD/RAOEFPB/AOU/SKWAL
+std::wformat_context -> X
+	 missing:wformat
+std::tan -> S-FD/TAPB
+std::chi_squared_distribution -> S-FD/KHAOE/SKWAEUR/-D/STREUB/AOUGS
+std::vformat -> X
+	 missing:vformat
+std::scalbln -> X
+	 missing:scalbln
+std::wcstoumax -> X
+	 missing:wcstoumax
+std::wcstoimax -> X
+	 missing:wcstoimax
+std::ungetc -> X
+	 missing:ungetc
+std::is_trivially_destructible -> X
+	 missing:trivially
+std::all_of -> S-FD/HRAUL/*F
+std::wctype_t -> X
+	 missing:wctype
+std::jthread -> X
+	 missing:jthread
+std::exa -> X
+	 missing:exa
+std::is_trivially_default_constructible -> X
+	 missing:trivially
+std::domain_error -> S-FD/TKPWHAEUPB/RO*ER
+std::random_device -> S-FD/TKPRO*PL/TKWAOEUS
+std::is_invocable_r_v -> X
+	 missing:invocable
+std::is_rvalue_reference -> X
+	 missing:rvalue
+std::make_integer_sequence -> S-FD/TPHAEUBG/SPWE/SKWRER/SKWEPBS
+std::rend -> S-FD/REPBD
+std::flat_multimap -> X
+	 missing:multimap
+std::stop_token -> S-FD/STOP/TO*EPB
+std::stod -> X
+	 missing:stod
+std::generic_category -> S-FD/SKWRE/TPHAEUR/EUBG/TKPWAT/TKPWOER
+std::atomic_fetch_add_explicit -> S-FD/A/TOPL/EUBG/TPEFP/AD/EBGS/PHREU/SEUT
+std::make_unsigned -> S-FD/TPHAEUBG/UPB/SAOEUPB/-D
+std::stof -> X
+	 missing:stof
+std::move_constructible -> S-FD/PHAO*UF/STREUBL
+std::indirectly_readable -> S-FD/EUPB/TKREBGT/HREU/RAOED/ABL
+std::is_null_pointer -> S-FD/S/TPHUL/POEURPBT
+std::is_member_function_pointer -> S-FD/S/PHEPL/TPUPBGS/POEURPBT
+std::qsort -> X
+	 missing:qsort
+std::isdigit -> X
+	 missing:isdigit
+std::text_encoding -> S-FD/T*EBGS/EPB/KOEGD
+std::stoi -> X
+	 missing:stoi
+std::is_bind_expression -> S-FD/S/PWAOEUPBD/KPR*EGS
+std::exp -> X
+	 missing:exp
+std::remove_const_t -> S-FD/RAOE/PHOF/KOS/T*/SP-S
+std::forward_iterator -> S-FD/TPWARD/EUT/RAEURT
+std::setiosflags -> X
+	 missing:setiosflags
+std::data -> S-FD/TKA/TA
+std::stol -> X
+	 missing:stol
+std::uint16_t -> X
+	 missing:uint16
+std::wcslen -> X
+	 missing:wcslen
+std::is_move_assignable_v -> S-FD/S/PHAO*UF/AFPB/-BL/SR*/SP-S
+std::wcsrchr -> X
+	 missing:wcsrchr
+std::powf -> X
+	 missing:powf
+std::logb -> X
+	 missing:logb
+std::int_fast16_t -> X
+	 missing:fast16
+std::hex -> S-FD/HEBGS
+std::uninitialized_default_construct -> X
+	 missing:uninitialized
+std::atomic_flag_notify_all -> S-FD/A/TOPL/EUBG/TPHRAG/TPHOEUF/HRAUL
+std::logf -> X
+	 missing:logf
+std::generate_canonical -> S-FD/SKWRAEUT/KA/TPHOPB/K-L
+std::add_cv -> X
+	 missing:cv
+std::powl -> X
+	 missing:powl
+std::mbrtoc16 -> X
+	 missing:mbrtoc16
+std::fscanf -> X
+	 missing:fscanf
+std::islessequal -> X
+	 missing:islessequal
+std::sqrt -> X
+	 missing:sqrt
+std::is_constant_evaluated -> S-FD/S/STAPBT/SRAELTD
+std::uint_least64_t -> X
+	 missing:uint,least64
+std::towctrans -> X
+	 missing:towctrans
+std::logl -> X
+	 missing:logl
+std::lock -> S-FD/HROBG
+std::istringstream -> X
+	 missing:istringstream
+std::bit_or -> S-FD/PWEUT/OR
+std::time -> S-FD/TAOEUPL
+std::clearerr -> X
+	 missing:clearerr
+std::output_iterator_tag -> S-FD/PAOUT/EUT/RAEURT/TAG
+std::round -> S-FD/PROUPBD
+std::bad_typeid -> X
+	 missing:typeid
+std::is_standard_layout -> S-FD/S/12-D/HRAEU/SKWROUT
+std::iswpunct -> X
+	 missing:iswpunct
+std::byte -> S-FD/PWAO*EUT
+std::streampos -> X
+	 missing:streampos
+std::counting_semaphore -> S-FD/KOUPBGT/S*EPL/TPOR
+std::is_array_v -> S-FD/S/A/RAEU/SR*/SP-S
+std::predicate -> S-FD/PRED/KAEUT
+std::c16rtomb -> X
+	 missing:c16rtomb
+std::coshf -> X
+	 missing:coshf
+std::unexpect_t -> X
+	 missing:unexpect
+std::make_wformat_args -> X
+	 missing:wformat,args
+std::is_swappable_v -> X
+	 missing:swappable
+std::common_reference_with -> S-FD/KPHOP/RAOEFRPBS/W
+std::isprint -> X
+	 missing:isprint
+std::is_member_pointer_v -> S-FD/S/PHEPL/POEURPBT/SR*/SP-S
+std::swscanf -> X
+	 missing:swscanf
+std::equivalence_relation -> S-FD/KWEUFL/EPBS/R*ELGS
+std::seed_seq -> X
+	 missing:seq
+std::is_pointer_interconvertible_with_class -> X
+	 missing:interconvertible
+std::saturate_cast -> S-FD/SAFP/RAEUT/KA*S
+std::nostopstate -> X
+	 missing:nostopstate
+std::logic_error -> S-FD/HROPBL/EUBG/RO*ER
+std::coshl -> X
+	 missing:coshl
+std::imaxdiv -> X
+	 missing:imaxdiv
+std::showpoint -> X
+	 missing:showpoint
+std::to_integer -> S-FD/TPO/SPWE/SKWRER
+std::hardware_constructive_interference_size -> S-FD/HARD/WA*EUR/SKRUBGT/EUF/SPWER/TPAOER/EPBS/SAOEUZ
+std::floating_point -> S-FD/TPHROEGT/TPOEUPBLT
+std::snprintf -> X
+	 missing:snprintf
+std::gslice_array -> X
+	 missing:gslice
+std::derived_from -> S-FD/TKRAO*EUFRD/TPWHR
+std::atomic_signal_fence -> S-FD/A/TOPL/EUBG/STPHAL/TPEPBS
+std::ostreambuf_iterator -> X
+	 missing:ostreambuf
+std::default_initializable -> X
+	 missing:initializable
+std::messages_byname -> X
+	 missing:byname
+std::make_shared_for_overwrite -> X
+	 missing:overwrite
+std::common_comparison_category_t -> S-FD/KPHOP/KPRAEUR/SO*PB/TKPWAT/TKPWOER/T*/SP-S
+std::sinhf -> X
+	 missing:sinhf
+std::dynamic_pointer_cast -> S-FD/TKPHAOEUBG/POEURPBT/KA*S
+std::front_insert_iterator -> S-FD/TPHROPBT/STPHERT/EUT/RAEURT
+std::regex_error -> S-FD/REPBLG/EBGS/RO*ER
+std::basic_regex -> S-FD/PWAOEUFBG/REPBLG/EBGS
+std::lgammaf -> X
+	 missing:lgammaf
+std::cmp_less -> X
+	 missing:cmp
+std::bitset -> X
+	 missing:bitset
+std::is_const_v -> S-FD/S/KOS/SR*/SP-S
+std::aligned_union_t -> S-FD/A/HRAOEUPBLD/TPHAOUPB/T*/SP-S
+std::atomic_flag_test_explicit -> S-FD/A/TOPL/EUBG/TPHRAG/T*ES/EBGS/PHREU/SEUT
+std::sinhl -> X
+	 missing:sinhl
+std::tolower -> X
+	 missing:tolower
+std::perror -> X
+	 missing:perror
+std::lgammal -> X
+	 missing:lgammal
+std::iswalpha -> X
+	 missing:iswalpha
+std::is_arithmetic_v -> S-FD/S/R*EUT/TEUBG/SR*/SP-S
+std::fread -> X
+	 missing:fread
+std::fputc -> X
+	 missing:fputc
+std::wfstream -> X
+	 missing:wfstream
+std::divides -> S-FD/TKWAOEUDZ
+std::adopt_lock_t -> S-FD/TKOPT/HROBG/T*/SP-S
+std::mbsrtowcs -> X
+	 missing:mbsrtowcs
+std::indirectly_readable_traits -> S-FD/EUPB/TKREBGT/HREU/RAOED/ABL/TRAEUT/-S
+std::exception -> S-FD/SKPEPGS
+std::quetta -> X
+	 missing:quetta
+std::iter_common_reference_t -> X
+	 missing:iter
+std::less_equal -> S-FD/HRES/SKWAL
+std::is_invocable -> X
+	 missing:invocable
+std::format_string -> S-FD/TPHORPLT/STREUPBG
+std::fdim -> X
+	 missing:fdim
+std::visit -> S-FD/SREU/S*EUT
+std::regex_match -> S-FD/REPBLG/EBGS/PHAFP
+std::none_of -> S-FD/TPHOPB/*F
+std::independent_bits_engine -> S-FD/PAEPBT/PWEUTS/TPH-PBLG
+std::centi -> X
+	 missing:centi
+std::string -> S-FD/STREUPBG
+std::shared_timed_mutex -> X
+	 missing:mutex
+std::negation -> S-FD/TPHE/TKPWAEUGS
+std::rename -> S-FD/RAOE/TPHAEUPL
+std::ldexpf -> X
+	 missing:ldexpf
+std::ostream_iterator -> X
+	 missing:ostream
+std::nounitbuf -> X
+	 missing:nounitbuf
+std::fputs -> X
+	 missing:fputs
+std::vsprintf -> X
+	 missing:vsprintf
+std::is_trivially_copy_assignable_v -> X
+	 missing:trivially
+std::resetiosflags -> X
+	 missing:resetiosflags
+std::ldexpl -> X
+	 missing:ldexpl
+std::adjacent_find -> S-FD/SKWRAEUFPBT/2350EU7BD
+std::wclog -> X
+	 missing:wclog
+std::popcount -> X
+	 missing:popcount
+std::iswgraph -> X
+	 missing:iswgraph
+std::strcspn -> X
+	 missing:strcspn
+std::variant_alternative_t -> S-FD/SRAEUR/KWRAPBT/TERPB/TEUF/T*/SP-S
+std::time_get_byname -> X
+	 missing:byname
+std::in_range -> S-FD/TPH/HRAEUPB/-PBLG
+std::error_condition -> S-FD/RO*ER/KAUPB/TKEUGS
+std::ios -> X
+	 missing:ios
+std::fixed -> S-FD/TP*EUGD
+std::deca -> S-FD/TKEBG/SKWRA
+std::sized_sentinel_for -> S-FD/SAOEUFD/SEPBLT/TPHEL/230R
+std::weibull_distribution -> X
+	 missing:weibull
+std::nothrow_t -> S-FD/TPHO/THROU/T*/SP-S
+std::lower_bound -> S-FD/HROE/*ER/PWOEUPBD
+std::terminate_handler -> S-FD/TERPL/TPHAEUT/HAPBD/HRER
+std::strchr -> X
+	 missing:strchr
+std::cin -> X
+	 missing:cin
+std::fseek -> X
+	 missing:fseek
+std::ratio_equal_v -> S-FD/RAOEFPB/AOU/SKWAL/SR*/SP-S
+std::deci -> X
+	 missing:deci
+std::is_nothrow_destructible -> S-FD/S/TPHO/THROU/TKRUBGT/-BL
+std::atomic_compare_exchange_strong -> S-FD/A/TOPL/EUBG/KPAEUR/KPAEUPBG/STROPBG
+std::strcpy -> X
+	 missing:strcpy
+std::num_get -> X
+	 missing:num
+std::modff -> X
+	 missing:modff
+std::expint -> X
+	 missing:expint
+std::common_type_t -> S-FD/KPHOP/TAOEUP/T*/SP-S
+std::discard_block_engine -> S-FD/TKEUS/KARD/PWHROBG/TPH-PBLG
+std::atto -> X
+	 missing:atto
+std::vprint_unicode -> X
+	 missing:vprint,unicode
+std::ratio_greater_equal_v -> S-FD/RAOEFPB/AOU/TKPWHRAERT/SKWAL/SR*/SP-S
+std::modfl -> X
+	 missing:modfl
+std::wsregex_token_iterator -> X
+	 missing:wsregex
+std::exchange -> S-FD/KPAEUPBG
+std::strncmp -> X
+	 missing:strncmp
+std::sorted_unique_t -> S-FD/SORT/-D/KWRAOU/TPHAOEBG/T*/SP-S
+std::rewind -> X
+	 missing:rewind
+std::is_copy_constructible_v -> S-FD/S/KO*EP/STREUBL/SR*/SP-S
+std::messages_base -> S-FD/PHEPBLGS/PWAEUS
+std::is_assignable_v -> S-FD/S/AFPB/-BL/SR*/SP-S
+std::basic_fstream -> X
+	 missing:fstream
+std::strncat -> X
+	 missing:strncat
+std::vsnprintf -> X
+	 missing:vsnprintf
+std::srand -> X
+	 missing:srand
+std::replace -> S-FD/RAOE/PHRAEUS
+std::uninitialized_value_construct_n -> X
+	 missing:uninitialized
+std::out_of_range -> S-FD/OULT/*F/HRAEUPB/-PBLG
+std::int_fast8_t -> X
+	 missing:fast8
+std::back_insert_iterator -> S-FD/PWABG/STPHERT/EUT/RAEURT
+std::sph_neumannf -> X
+	 missing:sph,neumannf
+std::mbtowc -> X
+	 missing:mbtowc
+std::atomic_flag_test -> S-FD/A/TOPL/EUBG/TPHRAG/T*ES
+std::sub_sat -> S-FD/S*UB/SAT
+std::gamma_distribution -> S-FD/TKPWAPL/PHA/STREUB/AOUGS
+std::in_place_t -> S-FD/TPH/TPHRAEUS/T*/SP-S
+std::find_end -> S-FD/2350EU7BD/EPBTD
+std::fgetpos -> X
+	 missing:fgetpos
+std::u32streampos -> X
+	 missing:u32streampos
+std::sph_neumannl -> X
+	 missing:sph,neumannl
+std::remove_all_extents -> X
+	 missing:extents
+std::permutable -> X
+	 missing:permutable
+std::exp2f -> X
+	 missing:exp2f
+std::add_lvalue_reference -> X
+	 missing:lvalue
+std::cregex_iterator -> X
+	 missing:cregex
+std::basic_stacktrace -> X
+	 missing:stacktrace
+std::minmax_element -> X
+	 missing:minmax
+std::wcscspn -> X
+	 missing:wcscspn
+std::unitbuf -> X
+	 missing:unitbuf
+std::negative_binomial_distribution -> S-FD/TKPWEG/TEUF/PW*EU/TPHOEPL/KWRAL/STREUB/AOUGS
+std::is_pod_v -> S-FD/S/POD/SR*/SP-S
+std::cref -> X
+	 missing:cref
+std::has_facet -> S-FD/SHAS/TPA/SET
+std::ldiv -> X
+	 missing:ldiv
+std::is_trivially_constructible -> X
+	 missing:trivially
+std::feraiseexcept -> X
+	 missing:feraiseexcept
+std::uniform_real_distribution -> S-FD/KWRAOUFRPL/RAEL/STREUB/AOUGS
+std::ranlux48_base -> X
+	 missing:ranlux48
+std::lldiv -> X
+	 missing:lldiv
+std::layout_left -> S-FD/HRAEU/SKWROUT/HREFT
+std::exp2l -> X
+	 missing:exp2l
+std::advance -> S-FD/SRAPBS
+std::cyl_bessel_if -> X
+	 missing:cyl,bessel
+std::bad_array_new_length -> S-FD/PWATD/A/RAEU/TPHU/HR*EPBG
+std::apply -> S-FD/A/PHRAOEU
+std::denorm_absent -> X
+	 missing:denorm
+std::strtoul -> X
+	 missing:strtoul
+std::ospanstream -> X
+	 missing:ospanstream
+std::uintptr_t -> X
+	 missing:uintptr
+std::stop_source -> S-FD/STOP/SOERS
+std::wstreampos -> X
+	 missing:wstreampos
+std::wispanstream -> X
+	 missing:wispanstream
+std::fsetpos -> X
+	 missing:fsetpos
+std::cyl_neumannf -> X
+	 missing:cyl,neumannf
+std::weak_ptr -> X
+	 missing:ptr
+std::cyl_bessel_il -> X
+	 missing:cyl,bessel,il
+std::div_t -> S-FD/TK*EUF/T*/SP-S
+std::filebuf -> X
+	 missing:filebuf
+std::towupper -> X
+	 missing:towupper
+std::is_default_constructible -> S-FD/S/TKAOE/TPAULT/STREUBL
+std::feof -> X
+	 missing:feof
+std::stable_sort -> S-FD/STAEUBL/SO*RT
+std::iswcntrl -> X
+	 missing:iswcntrl
+std::is_aggregate -> S-FD/S/TKPWRAT
+std::align_val_t -> S-FD/A/HRAOEUPB/SRAL/T*/SP-S
+std::common_type -> S-FD/KPHOP/TAOEUP
+std::sph_neumann -> X
+	 missing:sph,neumann
+std::partial_order -> S-FD/PAERBL/0RD
+std::is_union -> S-FD/S/TPHAOUPB
+std::in_place_type -> S-FD/TPH/TPHRAEUS/TAOEUP
+std::error_category -> S-FD/RO*ER/TKPWAT/TKPWOER
+std::cyl_neumannl -> X
+	 missing:cyl,neumannl
+std::index_sequence_for -> S-FD/TKPEUPBGS/SKWEPBS/230R
+std::iter_rvalue_reference_t -> X
+	 missing:iter,rvalue
+std::is_nothrow_invocable_r_v -> X
+	 missing:invocable
+std::is_debugger_present -> S-FD/S/TKE/PWURG/TPREPBT
+std::wostream -> X
+	 missing:wostream
+std::copy -> S-FD/KO*EP
+std::aligned_storage -> S-FD/A/HRAOEUPBLD/STO/RAPBLG
+std::wcstod -> X
+	 missing:wcstod
+std::ratio -> S-FD/RAOEFPB/AOU
+std::make_move_iterator -> S-FD/TPHAEUBG/PHAO*UF/EUT/RAEURT
+std::acosf -> X
+	 missing:acosf
+std::wcsncmp -> X
+	 missing:wcsncmp
+std::is_nothrow_copy_constructible -> S-FD/S/TPHO/THROU/KO*EP/STREUBL
+std::fegetround -> X
+	 missing:fegetround
+std::atomic_flag_clear_explicit -> S-FD/A/TOPL/EUBG/TPHRAG/TKHRAOER/EBGS/PHREU/SEUT
+std::wcstof -> X
+	 missing:wcstof
+std::acosh -> X
+	 missing:acosh
+std::invalid_argument -> S-FD/EUPB/SRAL/EUD/A*RG/*PLT
+std::iswalnum -> X
+	 missing:iswalnum
+std::is_nothrow_swappable -> X
+	 missing:swappable
+std::rotate_copy -> S-FD/ROE/TAEUT/KO*EP
+std::is_trivially_move_constructible -> X
+	 missing:trivially
+std::format_kind -> S-FD/TPHORPLT/KWAOEUPBD
+std::acosl -> X
+	 missing:acosl
+std::wcstok -> X
+	 missing:wcstok
+std::uint_least16_t -> X
+	 missing:uint,least16
+std::reduce -> S-FD/RAOE/TKAOUS
+std::is_within_lifetime -> S-FD/S/W*EUFPB/TPHRAOEUPL
+std::wcstol -> X
+	 missing:wcstol
+std::wcsncat -> X
+	 missing:wcsncat
+std::tuple_element_t -> S-FD/TAOUP/*L/HREPLT/T*/SP-S
+std::ceilf -> X
+	 missing:ceilf
+std::betaf -> X
+	 missing:betaf
+std::pow -> S-FD/POU
+std::is_class_v -> S-FD/S/TKHRAS/SR*/SP-S
+std::is_trivially_copy_assignable -> X
+	 missing:trivially
+std::fwide -> X
+	 missing:fwide
+std::rotate -> S-FD/ROE/TAEUT
+std::partition_point -> S-FD/PAR/TEUGS/TPOEUPBLT
+std::mt19937_64 -> X
+	 missing:mt19937
+std::match_results -> S-FD/PHAFP/REULGTS
+std::is_pod -> S-FD/S/POD
+std::basic_ospanstream -> X
+	 missing:ospanstream
+std::ceill -> X
+	 missing:ceill
+std::scalbn -> X
+	 missing:scalbn
+std::put_time -> S-FD/PURT/TAOEUPL
+std::ilogb -> X
+	 missing:ilogb
+std::betal -> X
+	 missing:betal
+std::is_layout_compatible -> S-FD/S/HRAEU/SKWROUT/KPABL
+std::intptr_t -> X
+	 missing:intptr
+std::wosyncstream -> X
+	 missing:wosyncstream
+std::ispunct -> X
+	 missing:ispunct
+std::arg -> X
+	 missing:arg
+std::is_polymorphic -> S-FD/S/POL/PHOR/TPEUBG
+std::bad_variant_access -> S-FD/PWATD/SRAEUR/KWRAPBT/KPES
+std::chars_format -> X
+	 missing:chars
+std::unordered_map -> X
+	 missing:unordered
+std::student_t_distribution -> S-FD/STAO*UPBT/T*/SP-S/STREUB/AOUGS
+std::is_fundamental_v -> S-FD/S/TPHRUL/SR*/SP-S
+std::enable_if_t -> S-FD/TPHAEUBL/TP/T*/SP-S
+std::uniform_random_bit_generator -> S-FD/KWRAOUFRPL/TKPRO*PL/PWEUT/SKWREPB/RAEU/TOR
+std::movable -> S-FD/PHAO*UF/-BL
+std::expm1f -> X
+	 missing:expm1f
+std::ranlux24 -> X
+	 missing:ranlux24
+std::iterator_traits -> S-FD/EUT/RAEURT/TRAEUT/-S
+std::rethrow_if_nested -> X
+	 missing:rethrow,nested
+std::iota -> S-FD/KWROE/TA
+std::isnan -> X
+	 missing:isnan
+std::inserter -> X
+	 missing:inserter
+std::in_place_type_t -> S-FD/TPH/TPHRAEUS/TAOEUP/T*/SP-S
+std::copysign -> X
+	 missing:copysign
+std::wcstoul -> X
+	 missing:wcstoul
+std::realloc -> X
+	 missing:realloc
+std::extreme_value_distribution -> S-FD/KPRAO*EPL/SRAO*UL/STREUB/AOUGS
+std::expm1l -> X
+	 missing:expm1l
+std::round_toward_infinity -> S-FD/PROUPBD/TWAORBD/TPEUPBT
+std::poisson_distribution -> S-FD/TWAS/O*PB/STREUB/AOUGS
+std::partition -> S-FD/PAR/TEUGS
+std::modulus -> S-FD/PHOD/HRUS
+std::is_scoped_enum -> S-FD/S/SKOEP/-D/AOE/TPHUPL
+std::vprint_nonunicode -> X
+	 missing:vprint,nonunicode
+std::unique_lock -> S-FD/KWRAOU/TPHAOEBG/HROBG
+std::streamoff -> X
+	 missing:streamoff
+std::flat_map -> S-FD/TPHRAT/PHAP
+std::comp_ellint_2f -> X
+	 missing:ellint,2f
+std::span -> S-FD/SPAPB
+std::logical_or -> S-FD/HROPBLG/KAL/OR
+std::compare_three_way -> S-FD/KPAEUR/THRAOE/WAEU
+std::abs -> S-FD/ABS
+std::imaxdiv_t -> X
+	 missing:imaxdiv
+std::cbrt -> X
+	 missing:cbrt
+std::defer_lock_t -> S-FD/TKAOEFR/HROBG/T*/SP-S
+std::copyable -> X
+	 missing:copyable
+std::any -> S-FD/TKPHEU
+std::iter_difference_t -> X
+	 missing:iter
+std::quecto -> X
+	 missing:quecto
+std::inclusive_scan -> S-FD/KHRUF/SKAPB
+std::atomic_fetch_or -> S-FD/A/TOPL/EUBG/TPEFP/OR
+std::comp_ellint_2l -> X
+	 missing:ellint,2l
+std::sub_match -> S-FD/S*UB/PHAFP
+std::not_equal_to -> S-FD/23409/SKWAL/TPO
+std::weak_order -> S-FD/WAEBG/0RD
+std::unsigned_integral -> S-FD/UPB/SAOEUPB/-D/SPWE/TKPWRAL
+std::logbf -> X
+	 missing:logbf
+std::add_rvalue_reference -> X
+	 missing:rvalue
+std::variant_size -> S-FD/SRAEUR/KWRAPBT/SAOEUZ
+std::out_ptr -> X
+	 missing:ptr
+std::layout_right_padded -> S-FD/HRAEU/SKWROUT/RAOEURT/PAD/-D
+std::frexpf -> X
+	 missing:frexpf
+std::feholdexcept -> X
+	 missing:feholdexcept
+std::is_default_constructible_v -> S-FD/S/TKAOE/TPAULT/STREUBL/SR*/SP-S
+std::is_aggregate_v -> S-FD/S/TKPWRAT/SR*/SP-S
+std::countr_one -> X
+	 missing:countr
+std::wcsxfrm -> X
+	 missing:wcsxfrm
+std::copy_constructible -> S-FD/KO*EP/STREUBL
+std::is_final -> S-FD/S/TPAOEU/TPHAL
+std::shared_future -> S-FD/SHAEUR/-D/TPAOU/TAOUR
+std::logbl -> X
+	 missing:logbl
+std::underflow_error -> X
+	 missing:underflow
+std::milli -> S-FD/PHEUL/HRAOE
+std::make_shared -> S-FD/TPHAEUBG/SHAEUR/-D
+std::frexpl -> X
+	 missing:frexpl
+std::search -> S-FD/SEFRPB
+std::vswprintf -> X
+	 missing:vswprintf
+std::type_info -> S-FD/TAOEUP/EUPB/TPO
+std::mask_array -> S-FD/PHAFBG/A/RAEU
+std::set_union -> S-FD/SET/TPHAOUPB
+std::piecewise_construct_t -> X
+	 missing:piecewise
+std::memmove -> X
+	 missing:memmove
+std::log2f -> X
+	 missing:log2f
+std::isalpha -> X
+	 missing:isalpha
+std::is_lt -> X
+	 missing:lt
+std::assoc_legendref -> X
+	 missing:assoc,legendref
+std::atomic_fetch_and -> S-FD/A/TOPL/EUBG/TPEFP/57BD
+std::ostringstream -> X
+	 missing:ostringstream
+std::less -> S-FD/HRES
+std::free -> S-FD/TPRAOE
+std::is_placeholder_v -> S-FD/S/PHRAEUS/HO*ERLD/SR*/SP-S
+std::tmpnam -> X
+	 missing:tmpnam
+std::log2l -> X
+	 missing:log2l
+std::iswlower -> X
+	 missing:iswlower
+std::flush_emit -> S-FD/TPHRAOURB/AOE/PHEUT
+std::assoc_legendrel -> X
+	 missing:assoc,legendrel
+std::cyl_bessel_i -> X
+	 missing:cyl,bessel
+std::is_polymorphic_v -> S-FD/S/POL/PHOR/TPEUBG/SR*/SP-S
+std::cyl_bessel_j -> X
+	 missing:cyl,bessel
+std::cyl_bessel_k -> X
+	 missing:cyl,bessel,k
+std::assoc_laguerre -> X
+	 missing:assoc,laguerre
+std::cv_status -> X
+	 missing:cv
+std::input_or_output_iterator -> S-FD/TPH*PT/OR/PAOUT/EUT/RAEURT
+std::vformat_to -> X
+	 missing:vformat
+std::is_heap_until -> S-FD/S/HAOEP/TPH-L
+std::forward -> S-FD/TPWARD
+std::find -> S-FD/2350EU7BD
+std::constructible_from -> S-FD/STREUBL/TPWHR
+std::bind -> S-FD/PWAOEUPBD
+std::strong_order -> S-FD/STROPBG/0RD
+std::mega -> S-FD/PHEG/SKWRA
+std::isfinite -> X
+	 missing:isfinite
+std::is_trivially_assignable -> X
+	 missing:trivially
+std::is_sorted -> S-FD/S/SORT/-D
+std::from_chars_result -> X
+	 missing:chars
+std::timespec_get -> X
+	 missing:timespec
+std::is_final_v -> S-FD/S/TPAOEU/TPHAL/SR*/SP-S
+std::is_constructible_v -> S-FD/S/STREUBL/SR*/SP-S
+std::cmp_not_equal -> X
+	 missing:cmp
+std::make_optional -> S-FD/TPHAEUBG/OPGS/KWRA*L
+std::is_trivial_v -> S-FD/S/TR*EUF/KWRAL/SR*/SP-S
+std::mutex -> X
+	 missing:mutex
+std::isgraph -> X
+	 missing:isgraph
+std::is_nothrow_convertible -> S-FD/S/TPHO/THROU/KWERBL
+std::try_lock -> S-FD/TRAOEU/HROBG
+std::fdimf -> X
+	 missing:fdimf
+std::codecvt -> X
+	 missing:codecvt
+std::type_identity -> S-FD/TAOEUP/KWRAOEUD/TEU
+std::swappable_with -> X
+	 missing:swappable
+std::add_pointer -> S-FD/AD/POEURPBT
+std::calloc -> X
+	 missing:calloc
+std::copy_if -> S-FD/KO*EP/TP
+std::is_nothrow_move_constructible_v -> S-FD/S/TPHO/THROU/PHAO*UF/STREUBL/SR*/SP-S
+std::fdiml -> X
+	 missing:fdiml
+std::fisher_f_distribution -> X
+	 missing:fisher
+std::noskipws -> X
+	 missing:noskipws
+std::includes -> S-FD/KHRUS
+std::swprintf -> X
+	 missing:swprintf
+std::subtract_with_carry_engine -> S-FD/STRABGT/W/KAEUR/KWREU/TPH-PBLG
+std::minstd_rand -> X
+	 missing:minstd,rand
+std::raise -> S-FD/RAEUZ
+std::uncaught_exceptions -> X
+	 missing:uncaught
+std::sph_legendref -> X
+	 missing:sph,legendref
+std::is_unsigned -> S-FD/S/UPB/SAOEUPB/-D
+std::wistringstream -> X
+	 missing:wistringstream
+std::nontype_t -> X
+	 missing:nontype
+std::indirect_strict_weak_order -> S-FD/EUPB/TKREBGT/STREUBGT/WAEBG/0RD
+std::suspend_always -> S-FD/SP*EPBD/5U8S
+std::is_bind_expression_v -> S-FD/S/PWAOEUPBD/KPR*EGS/SR*/SP-S
+std::clog -> S-FD/KHROG
+std::integral_constant -> S-FD/SPWE/TKPWRAL/STAPBT
+std::from_range_t -> S-FD/TPWHR/HRAEUPB/-PBLG/T*/SP-S
+std::is_virtual_base_of -> S-FD/S/SR*EURPBLG/KWRAOUL/PWAEUS/*F
+std::sph_legendrel -> X
+	 missing:sph,legendrel
+std::scientific -> S-FD/SKRAO*EUPB/TEUFBG
+std::remainderf -> X
+	 missing:remainderf
+std::nullopt_t -> X
+	 missing:nullopt
+std::hypot -> X
+	 missing:hypot
+std::destructible -> S-FD/TKRUBGT/-BL
+std::swappable -> X
+	 missing:swappable
+std::uniform_int_distribution -> S-FD/KWRAOUFRPL/SPW*/STREUB/AOUGS
+std::is_destructible -> S-FD/S/TKRUBGT/-BL
+std::smatch -> X
+	 missing:smatch
+std::remainderl -> X
+	 missing:remainderl
+std::wmemset -> X
+	 missing:wmemset
+std::time_put_byname -> X
+	 missing:byname
+std::make_heap -> S-FD/TPHAEUBG/HAOEP
+std::shift_right -> S-FD/STHEUFT/RAOEURT
+std::counted_iterator -> S-FD/KOUPBT/-D/EUT/RAEURT
+std::strxfrm -> X
+	 missing:strxfrm
+std::println -> X
+	 missing:println
+std::numeric_limits -> S-FD/TPHAOU/PHER/EUBG/HREUPLT/-S
+std::float_t -> S-FD/TPHRAOT/T*/SP-S
+std::cmp_less_equal -> X
+	 missing:cmp
+std::is_nothrow_copy_assignable -> S-FD/S/TPHO/THROU/KO*EP/AFPB/-BL
+std::swap -> S-FD/SWAUP
+std::strftime -> X
+	 missing:strftime
+std::ssub_match -> X
+	 missing:ssub
+std::make_const_iterator -> S-FD/TPHAEUBG/KOS/EUT/RAEURT
+std::difftime -> X
+	 missing:difftime
+std::atomic_compare_exchange_weak_explicit -> S-FD/A/TOPL/EUBG/KPAEUR/KPAEUPBG/WAEBG/EBGS/PHREU/SEUT
+std::is_member_object_pointer -> S-FD/S/PHEPL/O*B/POEURPBT
+std::out_ptr_t -> X
+	 missing:ptr
+std::make_from_tuple -> S-FD/TPHAEUBG/TPWHR/TAOUP/*L
+std::is_scalar_v -> S-FD/S/SKAEUL/A*R/SR*/SP-S
+std::is_class -> S-FD/S/TKHRAS
+std::char_traits -> S-FD/KHAR/TRAEUT/-S
+std::sph_bessel -> X
+	 missing:sph,bessel
+std::projected -> S-FD/PROE/SKWREBGD
+std::moneypunct -> X
+	 missing:moneypunct
+std::format_to_n_result -> S-FD/TPHORPLT/TPO/TPH*/SP-S/RE/S*ULT
+std::iswspace -> X
+	 missing:iswspace
+std::is_reference_v -> S-FD/S/RAOEFRPBS/SR*/SP-S
+std::asctime -> X
+	 missing:asctime
+std::bad_optional_access -> S-FD/PWATD/OPGS/KWRA*L/KPES
+std::variant -> S-FD/SRAEUR/KWRAPBT
+std::unordered_multiset -> X
+	 missing:unordered,multiset
+std::atomic_flag_wait -> S-FD/A/TOPL/EUBG/TPHRAG/WAEUT
+std::wformat_args -> X
+	 missing:wformat,args
+std::launch -> S-FD/HRAUFRPB
+std::ratio_greater_v -> S-FD/RAOEFPB/AOU/TKPWHRAERT/SR*/SP-S
+std::noop_coroutine_promise -> X
+	 missing:coroutine
+std::current_exception -> S-FD/KRURPBT/SKPEPGS
+std::uninitialized_construct_using_allocator -> X
+	 missing:uninitialized,allocator
+std::uint_fast32_t -> X
+	 missing:uint,fast32
+std::shared_mutex -> X
+	 missing:mutex
+std::bind_back -> S-FD/PWAOEUPBD/PWABG
+std::unique -> S-FD/KWRAOU/TPHAOEBG
+std::reverse_iterator -> S-FD/RAOE/SRERS/EUT/RAEURT
+std::is_implicit_lifetime -> S-FD/S/*EUPL/PHREUS/EUT/TPHRAOEUPL
+std::imag -> X
+	 missing:imag
+std::bit_width -> S-FD/PWEUT/W*EUT
+std::ws -> X
+	 missing:ws
+std::prev -> S-FD/PR*EF
+std::yotta -> X
+	 missing:yotta
+std::reference_constructs_from_temporary -> S-FD/RAOEFRPBS/KRUBGZ/TPWHR/TPRAER
+std::is_trivially_destructible_v -> X
+	 missing:trivially
+std::generator -> S-FD/SKWREPB/RAEU/TOR
+std::size_t -> S-FD/SAOEUZ/T*/SP-S
+std::memchr -> X
+	 missing:memchr
+std::atomic_thread_fence -> S-FD/A/TOPL/EUBG/THRED/TPEPBS
+std::alignment_of -> S-FD/A/SHRAOEUPLT/*F
+std::terminate -> S-FD/TERPL/TPHAEUT
+std::crbegin -> X
+	 missing:crbegin
+std::bad_exception -> S-FD/PWATD/SKPEPGS
+std::u16streampos -> X
+	 missing:u16streampos
+std::make_unsigned_t -> S-FD/TPHAEUBG/UPB/SAOEUPB/-D/T*/SP-S
+std::lognormal_distribution -> X
+	 missing:lognormal
+std::memcpy -> X
+	 missing:memcpy
+std::wsyncbuf -> X
+	 missing:wsyncbuf
+std::start_lifetime_as -> S-FD/START/TPHRAOEUPL/A/AZ
+std::sprintf -> X
+	 missing:sprintf
+std::vwprintf -> X
+	 missing:vwprintf
+std::iscntrl -> X
+	 missing:iscntrl
+std::bit_xor -> X
+	 missing:xor
+std::atomic_fetch_min_explicit -> S-FD/A/TOPL/EUBG/TPEFP/PH*EUPB/EBGS/PHREU/SEUT
+std::is_trivially_move_assignable_v -> X
+	 missing:trivially
+std::uint_least8_t -> X
+	 missing:uint,least8
+std::modf -> X
+	 missing:modf
+std::totally_ordered_with -> S-FD/THRAOELT/O*R/TKER/-D/W
+std::fwprintf -> X
+	 missing:fwprintf
+std::atomic_flag_clear -> S-FD/A/TOPL/EUBG/TPHRAG/TKHRAOER
+std::get_time -> S-FD/TKPWHET/TAOEUPL
+std::condition_variable -> S-FD/KAUPB/TKEUGS/SRAEUR/KWRABL
+std::compare_partial_order_fallback -> X
+	 missing:fallback
+std::trunc -> X
+	 missing:trunc
+std::future_status -> S-FD/TPAOU/TAOUR/STA/TUS
+std::sregex_token_iterator -> X
+	 missing:sregex
+std::is_object_v -> S-FD/S/O*B/SR*/SP-S
+std::atomic_fetch_max_explicit -> S-FD/A/TOPL/EUBG/TPEFP/PHA*BGS/EBGS/PHREU/SEUT
+std::sorted_equivalent_t -> S-FD/SORT/-D/SKWEUFLT/T*/SP-S
+std::coroutine_traits -> X
+	 missing:coroutine
+std::shift_left -> S-FD/STHEUFT/HREFT
+std::isalnum -> X
+	 missing:isalnum
+std::fmaf -> X
+	 missing:fmaf
+std::assignable_from -> S-FD/AFPB/-BL/TPWHR
+std::const_pointer_cast -> S-FD/KOS/POEURPBT/KA*S
+std::get_terminate -> S-FD/TKPWHET/TERPL/TPHAEUT
+std::format_context -> S-FD/TPHORPLT/KAUPB/TEGT
+std::cmatch -> X
+	 missing:cmatch
+std::sph_besself -> X
+	 missing:sph,besself
+std::is_same_v -> S-FD/S/SAOEUPL/SR*/SP-S
+std::destroying_delete_t -> S-FD/STKROEUPBG/TKHRAOET/T*/SP-S
+std::semiregular -> X
+	 missing:semiregular
+std::true_type -> S-FD/TRAOU/TAOEUP
+std::remainder -> S-FD/RAOE/PHAEUPBD/ER
+std::basic_ostream -> X
+	 missing:ostream
+std::allocation_result -> S-FD/KHRA*EUG/RE/S*ULT
+std::fmin -> X
+	 missing:fmin
+std::fmal -> X
+	 missing:fmal
+std::wstring_view -> X
+	 missing:wstring
+std::is_pointer_interconvertible_base_of -> X
+	 missing:interconvertible
+std::sph_bessell -> X
+	 missing:sph,bessell
+std::equal_to -> S-FD/SKWAL/TPO
+std::range_formatter -> X
+	 missing:formatter
+std::mbstate_t -> X
+	 missing:mbstate
+std::formatter -> X
+	 missing:formatter
+std::to_underlying -> S-FD/TPO/UPBD/HRAOEU/-G
+std::acoshf -> X
+	 missing:acoshf
+std::any_of -> S-FD/TKPHEU/*F
+std::wcsftime -> X
+	 missing:wcsftime
+std::remove_all_extents_t -> X
+	 missing:extents
+std::is_unbounded_array_v -> X
+	 missing:unbounded
+std::add_cv_t -> X
+	 missing:cv
+std::fmax -> X
+	 missing:fmax
+std::add_volatile_t -> S-FD/AD/SRO*L/TAOEUL/T*/SP-S
+std::acoshl -> X
+	 missing:acoshl
+std::rotl -> X
+	 missing:rotl
+std::aligned_union -> S-FD/A/HRAOEUPBLD/TPHAOUPB
+std::transform -> S-FD/TRAPBS/TPORPL
+std::default_searcher -> S-FD/TKAOE/TPAULT/SEFRPB/*ER
+std::is_empty_v -> S-FD/S/AO*EPLT/SR*/SP-S
+std::fegetexceptflag -> X
+	 missing:fegetexceptflag
+std::basic_istringstream -> X
+	 missing:istringstream
+std::underlying_type -> S-FD/UPBD/HRAOEU/-G/TAOEUP
+std::stack -> S-FD/STABG
+std::move_iterator -> S-FD/PHAO*UF/EUT/RAEURT
+std::rotr -> X
+	 missing:rotr
+std::add_sat -> S-FD/AD/SAT
+std::num_put -> X
+	 missing:num
+std::noop_coroutine -> X
+	 missing:coroutine
+std::basic_const_iterator -> S-FD/PWAOEUFBG/KOS/EUT/RAEURT
+std::setbase -> X
+	 missing:setbase
+std::merge -> S-FD/TPHERPBLG
+std::nostopstate_t -> X
+	 missing:nostopstate
+std::llround -> X
+	 missing:llround
+std::asinhf -> X
+	 missing:asinhf
+std::basic_syncbuf -> X
+	 missing:syncbuf
+std::floor -> S-FD/TPHRAOR
+std::wctype -> X
+	 missing:wctype
+std::wcout -> X
+	 missing:wcout
+std::remove_reference_t -> S-FD/RAOE/PHOF/RAOEFRPBS/T*/SP-S
+std::atomic_flag_wait_explicit -> S-FD/A/TOPL/EUBG/TPHRAG/WAEUT/EBGS/PHREU/SEUT
+std::strcmp -> X
+	 missing:strcmp
+std::rint -> X
+	 missing:rint
+std::localeconv -> X
+	 missing:localeconv
+std::femto -> X
+	 missing:femto
+std::atomic_notify_all -> S-FD/A/TOPL/EUBG/TPHOEUF/HRAUL
+std::asinhl -> X
+	 missing:asinhl
+std::wstring_convert -> X
+	 missing:wstring
+std::lrint -> X
+	 missing:lrint
+std::invoke_r -> S-FD/EUPB/SROEBG/R*/SP-S
+std::right -> S-FD/RAOEURT
+std::strcat -> X
+	 missing:strcat
+std::mismatch -> S-FD/PHEUZ/PHAFP
+std::spanstream -> X
+	 missing:spanstream
+std::size -> S-FD/SAOEUZ
+std::format -> S-FD/TPHORPLT
+std::to_chars -> X
+	 missing:chars
+std::setfill -> X
+	 missing:setfill
+std::sinf -> X
+	 missing:sinf
+std::make_const_sentinel -> S-FD/TPHAEUBG/KOS/SEPBLT/TPHEL
+std::disjunction_v -> S-FD/TKEUS/SKWR*UPBGS/SR*/SP-S
+std::sinh -> X
+	 missing:sinh
+std::atan -> X
+	 missing:atan
+std::islower -> X
+	 missing:islower
+std::countl_zero -> X
+	 missing:countl
+std::sinl -> X
+	 missing:sinl
+std::set_difference -> S-FD/SET/TKPWEUFRPBS
+std::noshowpoint -> X
+	 missing:noshowpoint
+std::polar -> S-FD/POE/HRAR
+std::mbrtoc8 -> X
+	 missing:mbrtoc8
+std::has_unique_object_representations_v -> X
+	 missing:representations
+std::const_iterator -> S-FD/KOS/EUT/RAEURT
+std::vwscanf -> X
+	 missing:vwscanf
+std::remquo -> X
+	 missing:remquo
+std::add_const -> S-FD/AD/KOS
+std::wsregex_iterator -> X
+	 missing:wsregex
+std::vfwprintf -> X
+	 missing:vfwprintf
+std::tgammaf -> X
+	 missing:tgammaf
+std::is_nothrow_copy_assignable_v -> S-FD/S/TPHO/THROU/KO*EP/AFPB/-BL/SR*/SP-S
+std::streambuf -> X
+	 missing:streambuf
+std::promise -> S-FD/PRO/PHEUS
+std::add_lvalue_reference_t -> X
+	 missing:lvalue
+std::exp2 -> X
+	 missing:exp2
+std::emit_on_flush -> S-FD/AOE/PHEUT/OPB/TPHRAOURB
+std::memory_order -> S-FD/PHOEURPL/0RD
+std::default_sentinel_t -> S-FD/TKAOE/TPAULT/SEPBLT/TPHEL/T*/SP-S
+std::is_error_condition_enum_v -> S-FD/S/RO*ER/KAUPB/TKEUGS/AOE/TPHUPL/SR*/SP-S
+std::basic_format_string -> S-FD/PWAOEUFBG/TPHORPLT/STREUPBG
+std::tgammal -> X
+	 missing:tgammal
+std::suspend_never -> S-FD/SP*EPBD/TPH*EF/ER
+std::binary_search -> S-FD/PWAOEU/TPHAER/SEFRPB
+std::longjmp -> X
+	 missing:longjmp
+std::atomic_exchange_explicit -> S-FD/A/TOPL/EUBG/KPAEUPBG/EBGS/PHREU/SEUT
+std::underlying_type_t -> S-FD/UPBD/HRAOEU/-G/TAOEUP/T*/SP-S
+std::quoted -> S-FD/KWOET/-D
+std::is_layout_compatible_v -> S-FD/S/HRAEU/SKWROUT/KPABL/SR*/SP-S
+std::is_integral_v -> S-FD/S/SPWE/TKPWRAL/SR*/SP-S
+std::hermite -> X
+	 missing:hermite
+std::getline -> X
+	 missing:getline
+std::basic_format_context -> S-FD/PWAOEUFBG/TPHORPLT/KAUPB/TEGT
+std::normal_distribution -> S-FD/TPHOR/PHAL/STREUB/AOUGS
+std::mblen -> X
+	 missing:mblen
+std::defer_lock -> S-FD/TKAOEFR/HROBG
+std::system_error -> S-FD/ST-FPL/RO*ER
+std::bad_expected_access -> S-FD/PWATD/KP-PTD/KPES
+std::ptrdiff_t -> X
+	 missing:ptrdiff
+std::pair -> S-FD/PAEUR
+std::cyl_bessel_jf -> X
+	 missing:cyl,bessel,jf
+std::transform_exclusive_scan -> S-FD/TRAPBS/TPORPL/SKHRAOUS/EUF/SKAPB
+std::same_as -> S-FD/SAOEUPL/A/AZ
+std::atomic_is_lock_free -> S-FD/A/TOPL/EUBG/S/HROBG/TPRAOE
+std::beta -> S-FD/PWAEU/TA
+std::convertible_to -> S-FD/KWERBL/TPO
+std::iswblank -> X
+	 missing:iswblank
+std::is_rvalue_reference_v -> X
+	 missing:rvalue
+std::wprintf -> X
+	 missing:wprintf
+std::remove_cv_t -> X
+	 missing:cv
+std::wregex -> X
+	 missing:wregex
+std::wistream -> X
+	 missing:wistream
+std::recursive_timed_mutex -> X
+	 missing:mutex
+std::fopen -> X
+	 missing:fopen
+std::ellint_1f -> X
+	 missing:ellint,1f
+std::cyl_bessel_jl -> X
+	 missing:cyl,bessel,jl
+std::feupdateenv -> X
+	 missing:feupdateenv
+std::atan2f -> X
+	 missing:atan2f
+std::reinterpret_pointer_cast -> S-FD/RAOEPB/TERP/POEURPBT/KA*S
+std::noshowpos -> X
+	 missing:noshowpos
+std::make_signed_t -> S-FD/TPHAEUBG/SAOEUPBD/T*/SP-S
+std::is_nothrow_destructible_v -> S-FD/S/TPHO/THROU/TKRUBGT/-BL/SR*/SP-S
+std::cout -> X
+	 missing:cout
+std::wformat_string -> X
+	 missing:wformat
+std::strspn -> X
+	 missing:strspn
+std::dynamic_extent -> S-FD/TKPHAOEUBG/EBGS/STEPBT
+std::extents -> X
+	 missing:extents
+std::ellint_1l -> X
+	 missing:ellint,1l
+std::strstr -> X
+	 missing:strstr
+std::memory_order_acq_rel -> X
+	 missing:acq,rel
+std::mbrtowc -> X
+	 missing:mbrtowc
+std::atan2l -> X
+	 missing:atan2l
+std::basic_ispanstream -> X
+	 missing:ispanstream
+std::rintf -> X
+	 missing:rintf
+std::countl_one -> X
+	 missing:countl
+std::laguerref -> X
+	 missing:laguerref
+std::try_to_lock -> S-FD/TRAOEU/TPO/HROBG
+std::system -> S-FD/ST-FPL
+std::sin -> S-FD/SEUPB
+std::yocto -> X
+	 missing:yocto
+std::runtime_error -> X
+	 missing:runtime
+std::basic_ifstream -> X
+	 missing:ifstream
+std::u16string_view -> X
+	 missing:u16string
+std::multiplies -> S-FD/PHULT/PHRAOEU/-S
+std::adjacent_difference -> S-FD/SKWRAEUFPBT/TKPWEUFRPBS
+std::uninitialized_fill -> X
+	 missing:uninitialized
+std::rintl -> X
+	 missing:rintl
+std::rcu_domain -> X
+	 missing:rcu
+std::packaged_task -> S-FD/TKABG/APBLGD/TAFPBG
+std::laguerrel -> X
+	 missing:laguerrel
+std::is_standard_layout_v -> S-FD/S/12-D/HRAEU/SKWROUT/SR*/SP-S
+std::float32_t -> X
+	 missing:float32
+std::cbegin -> X
+	 missing:cbegin
+std::set -> S-FD/SET
+std::in_place -> S-FD/TPH/TPHRAEUS
+std::uint_fast64_t -> X
+	 missing:uint,fast64
+std::u8streampos -> X
+	 missing:u8streampos
+std::three_way_comparable -> S-FD/THRAOE/WAEU/KPRAR/-BL
+std::replace_if -> S-FD/RAOE/PHRAEUS/TP
+std::ratio_divide -> S-FD/RAOEFPB/AOU/TKWAOEUD
+std::strerror -> X
+	 missing:strerror
+std::nearbyint -> X
+	 missing:nearbyint
+std::isspace -> X
+	 missing:isspace
+std::as_const -> S-FD/A/AZ/KOS
+std::inout_ptr -> X
+	 missing:inout,ptr
+std::remove_volatile -> S-FD/RAOE/PHOF/SRO*L/TAOEUL
+std::midpoint -> S-FD/PHEUD/POEUPBT
+std::getc -> X
+	 missing:getc
+std::bad_cast -> S-FD/PWATD/KA*S
+std::move_sentinel -> S-FD/PHAO*UF/SEPBLT/TPHEL
+std::unique_copy -> S-FD/KWRAOU/TPHAOEBG/KO*EP
+std::random_access_iterator -> S-FD/TKPRO*PL/KPES/EUT/RAEURT
+std::move_only_function -> S-FD/PHAO*UF/HOEPBL/TPUPBGS
+std::make_tuple -> S-FD/TPHAEUBG/TAOUP/*L
+std::make_format_args -> X
+	 missing:args
+std::is_nothrow_invocable_r -> X
+	 missing:invocable
+std::is_execution_policy -> S-FD/S/SKAOUGS/POEULS
+std::expf -> X
+	 missing:expf
+std::cbrtf -> X
+	 missing:cbrtf
+std::wbuffer_convert -> X
+	 missing:wbuffer
+std::submdspan -> X
+	 missing:submdspan
+std::is_nothrow_invocable_v -> X
+	 missing:invocable
+std::shuffle -> S-FD/SHUFL
+std::false_type -> S-FD/TPALS/TAOEUP
+std::atomic_fetch_sub -> S-FD/A/TOPL/EUBG/TPEFP/S*UB
+std::va_list -> X
+	 missing:va
+std::round_indeterminate -> X
+	 missing:indeterminate
+std::partial_sum -> S-FD/PAERBL/SUPL
+std::is_arithmetic -> S-FD/S/R*EUT/TEUBG
+std::int_least32_t -> X
+	 missing:least32
+std::inplace_merge -> X
+	 missing:inplace
+std::expl -> X
+	 missing:expl
+std::errc -> X
+	 missing:errc
+std::range_error -> S-FD/HRAEUPB/-PBLG/RO*ER
+std::get -> S-FD/TKPWHET
+std::assoc_legendre -> X
+	 missing:assoc,legendre
+std::cbrtl -> X
+	 missing:cbrtl
+std::vsscanf -> X
+	 missing:vsscanf
+std::multimap -> X
+	 missing:multimap
+std::lroundf -> X
+	 missing:lroundf
+std::getchar -> X
+	 missing:getchar
+std::erfc -> X
+	 missing:erfc
+std::destroy_n -> S-FD/STKPROEU/TPH*/SP-S
+std::basic_osyncstream -> X
+	 missing:osyncstream
+std::sorted_equivalent -> S-FD/SORT/-D/SKWEUFLT
+std::llroundf -> X
+	 missing:llroundf
+std::unwrap_ref_decay_t -> S-FD/UPB/WRAP/R*EF/TKAOE/KAEU/T*/SP-S
+std::is_volatile -> S-FD/S/SRO*L/TAOEUL
+std::round_to_nearest -> S-FD/PROUPBD/TPO/TPHAOER/EFT
+std::from_chars -> X
+	 missing:chars
+std::erff -> X
+	 missing:erff
+std::static_pointer_cast -> S-FD/STA/TEUBG/POEURPBT/KA*S
+std::c8rtomb -> X
+	 missing:c8rtomb
+std::lroundl -> X
+	 missing:lroundl
+std::comp_ellint_3f -> X
+	 missing:ellint,3f
+std::llroundl -> X
+	 missing:llroundl
+std::atomic_flag_test_and_set -> S-FD/A/TOPL/EUBG/TPHRAG/T*ES/57BD/SET
+std::erfl -> X
+	 missing:erfl
+std::erase_if -> S-FD/AOE/RAEUS/TP
+std::enable_if -> S-FD/TPHAEUBL/TP
+std::remove -> S-FD/RAOE/PHOF
+std::peta -> X
+	 missing:peta
+std::signbit -> X
+	 missing:signbit
+std::remove_cv -> X
+	 missing:cv
+std::ellint_1 -> X
+	 missing:ellint
+std::comp_ellint_3l -> X
+	 missing:ellint,3l
+std::ellint_2 -> X
+	 missing:ellint,2
+std::putwchar -> X
+	 missing:putwchar
+std::iostream_category -> X
+	 missing:iostream
+std::ellint_3 -> X
+	 missing:ellint,3
+std::contiguous_iterator -> S-FD/KAUPB/TEUG/KWRUS/EUT/RAEURT
+std::shuffle_order_engine -> S-FD/SHUFL/0RD/TPH-PBLG
+std::is_pointer_v -> S-FD/S/POEURPBT/SR*/SP-S
+std::internal -> S-FD/STPHEURPBL
+std::_Exit -> X
+	 missing:,Exit
+std::invoke_result_t -> S-FD/EUPB/SROEBG/RE/S*ULT/T*/SP-S
+std::showpos -> X
+	 missing:showpos
+std::to_wstring -> X
+	 missing:wstring
+std::mem_fn -> S-FD/PH*EPL/TP*PB
+std::ilogbf -> X
+	 missing:ilogbf
+std::fesetround -> X
+	 missing:fesetround
+std::bidirectional_iterator_tag -> X
+	 missing:bidirectional
+std::regular_invocable -> X
+	 missing:invocable
+std::lldiv_t -> X
+	 missing:lldiv
+std::alignment_of_v -> S-FD/A/SHRAOEUPLT/*F/SR*/SP-S
+std::boyer_moore_horspool_searcher -> X
+	 missing:boyer,moore,horspool
+std::slice_array -> S-FD/SHRAOEUS/A/RAEU
+std::const_sentinel -> S-FD/KOS/SEPBLT/TPHEL
+std::is_eq -> X
+	 missing:eq
+std::fmaxf -> X
+	 missing:fmaxf
+std::fclose -> X
+	 missing:fclose
+std::ldexp -> X
+	 missing:ldexp
+std::has_virtual_destructor -> S-FD/SHAS/SR*EURPBLG/KWRAOUL/TKE/STRUBGT/O*R
+std::make_reverse_iterator -> S-FD/TPHAEUBG/RAOE/SRERS/EUT/RAEURT
+std::ilogbl -> X
+	 missing:ilogbl
+std::function_ref -> S-FD/TPUPBGS/R*EF
+std::nexttoward -> X
+	 missing:nexttoward
+std::is_trivially_copy_constructible -> X
+	 missing:trivially
+std::equality_comparable -> S-FD/KWRAOELT/KPRAR/-BL
+std::fmaxl -> X
+	 missing:fmaxl
+std::ronto -> X
+	 missing:ronto
+std::is_error_condition_enum -> S-FD/S/RO*ER/KAUPB/TKEUGS/AOE/TPHUPL
+std::crend -> X
+	 missing:crend
+std::getenv -> X
+	 missing:getenv
+std::contiguous_iterator_tag -> S-FD/KAUPB/TEUG/KWRUS/EUT/RAEURT/TAG
+std::uninitialized_move -> X
+	 missing:uninitialized
+std::isgreater -> X
+	 missing:isgreater
+std::basic_stringstream -> X
+	 missing:stringstream
+std::setbuf -> X
+	 missing:setbuf
+std::is_null_pointer_v -> S-FD/S/TPHUL/POEURPBT/SR*/SP-S
+std::micro -> S-FD/PHAOEUBG/ROE
+std::is_empty -> S-FD/S/AO*EPLT
+std::atomic_compare_exchange_weak -> S-FD/A/TOPL/EUBG/KPAEUR/KPAEUPBG/WAEBG
+std::ifstream -> X
+	 missing:ifstream
+std::remove_extent -> S-FD/RAOE/PHOF/EBGS/STEPBT
+std::is_gteq -> X
+	 missing:gteq
+std::bit_not -> S-FD/PWEUT/23409
+std::partial_ordering -> S-FD/PAERBL/O*R/TKER/-G
+std::not_fn -> S-FD/23409/TP*PB
+std::is_corresponding_member -> S-FD/S/KO*ERG/PHEPL
+std::float128_t -> X
+	 missing:float128
+std::locale -> S-FD/HRO/KAEL
+std::ispanstream -> X
+	 missing:ispanstream
+std::time_base -> S-FD/TAOEUPL/PWAEUS
+std::system_category -> S-FD/ST-FPL/TKPWAT/TKPWOER
+std::scalbnf -> X
+	 missing:scalbnf
+std::uint_fast8_t -> X
+	 missing:uint,fast8
+std::wstreambuf -> X
+	 missing:wstreambuf
+std::money_get -> S-FD/34U7B/TKPWHET
+std::adopt_lock -> S-FD/TKOPT/HROBG
+std::allocate_shared_for_overwrite -> X
+	 missing:overwrite
+std::disable_sized_sentinel_for -> S-FD/STKAEUBL/SAOEUFD/SEPBLT/TPHEL/230R
+std::sqrtf -> X
+	 missing:sqrtf
+std::max_align_t -> S-FD/PHA*BGS/A/HRAOEUPB/T*/SP-S
+std::scalbnl -> X
+	 missing:scalbnl
+std::destroy_at -> S-FD/STKPROEU/A/AT
+std::from_range -> S-FD/TPWHR/HRAEUPB/-PBLG
+std::clock -> S-FD/KHROBG
+std::sqrtl -> X
+	 missing:sqrtl
+std::find_first_of -> S-FD/2350EU7BD/STPEURS/*F
+std::ctime -> X
+	 missing:ctime
+std::forward_as_tuple -> S-FD/TPWARD/A/AZ/TAOUP/*L
+std::boyer_moore_searcher -> X
+	 missing:boyer,moore
+std::flat_multiset -> X
+	 missing:multiset
+std::stringbuf -> X
+	 missing:stringbuf
+std::wspanbuf -> X
+	 missing:wspanbuf
+std::unexpect -> X
+	 missing:unexpect
+std::mdspan -> X
+	 missing:mdspan
+std::giga -> X
+	 missing:giga
+std::ratio_subtract -> S-FD/RAOEFPB/AOU/STRABGT
+std::nan -> S-FD/TPHAPB
+std::make_exception_ptr -> X
+	 missing:ptr
+std::logical_not -> S-FD/HROPBLG/KAL/23409
+std::formatted_size -> X
+	 missing:formatted
+std::erfcf -> X
+	 missing:erfcf
+std::is_trivially_move_constructible_v -> X
+	 missing:trivially
+std::end -> S-FD/EPBTD
+std::discrete_distribution -> S-FD/TK*EUS/KRAOET/STREUB/AOUGS
+std::erf -> X
+	 missing:erf
+std::is_lteq -> X
+	 missing:lteq
+std::indirectly_movable_storable -> X
+	 missing:storable
+std::basic_ofstream -> X
+	 missing:ofstream
+std::array -> S-FD/A/RAEU
+std::noemit_on_flush -> X
+	 missing:noemit
+std::erfcl -> X
+	 missing:erfcl
+std::atomic_wait -> S-FD/A/TOPL/EUBG/WAEUT
+std::ratio_less_v -> S-FD/RAOEFPB/AOU/HRES/SR*/SP-S
+std::nth_element -> S-FD/TPH*/*PBT/HREPLT
+std::fegetenv -> X
+	 missing:fegetenv
+std::uppercase -> S-FD/AOURP/KAEUS
+std::partition_copy -> S-FD/PAR/TEUGS/KO*EP
+std::move_backward -> S-FD/PHAO*UF/PWA*RD
+std::is_execution_policy_v -> S-FD/S/SKAOUGS/POEULS/SR*/SP-S
+std::add_const_t -> S-FD/AD/KOS/T*/SP-S
+std::osyncstream -> X
+	 missing:osyncstream
+std::variant_npos -> X
+	 missing:npos
+std::layout_right -> S-FD/HRAEU/SKWROUT/RAOEURT
+std::isinf -> X
+	 missing:isinf
+std::basic_ostringstream -> X
+	 missing:ostringstream
+std::pointer_traits -> S-FD/POEURPBT/TRAEUT/-S
+std::nextafter -> X
+	 missing:nextafter
+std::next -> S-FD/234EG9
+std::is_same -> S-FD/S/SAOEUPL
+std::is_constructible -> S-FD/S/STREUBL
+std::get_money -> S-FD/TKPWHET/34U7B
+std::islessgreater -> X
+	 missing:islessgreater
+std::remove_pointer_t -> S-FD/RAOE/PHOF/POEURPBT/T*/SP-S
+std::remove_cvref -> X
+	 missing:cvref
+std::mbrtoc32 -> X
+	 missing:mbrtoc32
+std::is_copy_assignable -> S-FD/S/KO*EP/AFPB/-BL
+std::strstream -> X
+	 missing:strstream
+std::unexpected -> S-FD/UPB/EBGT/PEBGT/-D
+std::indirect_equivalence_relation -> S-FD/EUPB/TKREBGT/KWEUFL/EPBS/R*ELGS
+std::collate -> S-FD/KOEL/HRAEUT
+std::is_unbounded_array -> X
+	 missing:unbounded
+std::gmtime -> X
+	 missing:gmtime
+std::fstream -> X
+	 missing:fstream
+std::fesetenv -> X
+	 missing:fesetenv
+std::remove_cvref_t -> X
+	 missing:cvref
+std::is_neq -> X
+	 missing:neq
+std::inplace_vector -> X
+	 missing:inplace
+std::at_quick_exit -> S-FD/A/AT/KWEUPL/KPEUT
+std::asinf -> X
+	 missing:asinf
+std::push_heap -> S-FD/PURB/HAOEP
+std::fill_n -> S-FD/TPEUL/TPH*/SP-S
+std::asinh -> X
+	 missing:asinh
+std::tm -> X
+	 missing:tm
+std::regular -> S-FD/REG
+std::wcrtomb -> X
+	 missing:wcrtomb
+std::wstringstream -> X
+	 missing:wstringstream
+std::is_array -> S-FD/S/A/RAEU
+std::fputwc -> X
+	 missing:fputwc
+std::asinl -> X
+	 missing:asinl
+std::nontype -> X
+	 missing:nontype
+std::aligned_alloc -> X
+	 missing:alloc
+std::wcschr -> X
+	 missing:wcschr
+std::memcmp -> X
+	 missing:memcmp
+std::compare_three_way_result -> S-FD/KPAEUR/THRAOE/WAEU/RE/S*ULT
+std::aligned_storage_t -> S-FD/A/HRAOEUPBLD/STO/RAPBLG/T*/SP-S
+std::wcsub_match -> X
+	 missing:wcsub
+std::is_floating_point_v -> S-FD/S/TPHROEGT/TPOEUPBLT/SR*/SP-S
+std::basic_format_args -> X
+	 missing:args
+std::bind_front -> S-FD/PWAOEUPBD/TPHROPBT
+std::wcscpy -> X
+	 missing:wcscpy
+std::numpunct -> X
+	 missing:numpunct
+std::isblank -> X
+	 missing:isblank
+std::wostringstream -> X
+	 missing:wostringstream
+std::vfwscanf -> X
+	 missing:vfwscanf
+std::hermitef -> X
+	 missing:hermitef
+std::is_bounded_array -> X
+	 missing:bounded
+std::index_sequence -> S-FD/TKPEUPBGS/SKWEPBS
+std::pico -> X
+	 missing:pico
+std::wifstream -> X
+	 missing:wifstream
+std::quick_exit -> S-FD/KWEUPL/KPEUT
+std::list -> S-FD/HR*EUFS
+std::void_t -> S-FD/SROEUD/T*/SP-S
+std::unwrap_ref_decay -> S-FD/UPB/WRAP/R*EF/TKAOE/KAEU
+std::string_view -> S-FD/STREUPBG/SRAOU
+std::ostrstream -> X
+	 missing:ostrstream
+std::make_index_sequence -> S-FD/TPHAEUBG/TKPEUPBGS/SKWEPBS
+std::hermitel -> X
+	 missing:hermitel
+std::time_get -> S-FD/TAOEUPL/TKPWHET
+std::fputws -> X
+	 missing:fputws
+std::submdspan_mapping_result -> X
+	 missing:submdspan
+std::setw -> X
+	 missing:setw
+std::ranlux24_base -> X
+	 missing:ranlux24
+std::atoll -> S-FD/A/TOEL
+std::iswxdigit -> X
+	 missing:iswxdigit
+std::atomic_fetch_and_explicit -> S-FD/A/TOPL/EUBG/TPEFP/57BD/EBGS/PHREU/SEUT
+std::is_scoped_enum_v -> S-FD/S/SKOEP/-D/AOE/TPHUPL/SR*/SP-S
+std::is_integral -> S-FD/S/SPWE/TKPWRAL
+std::imaxabs -> X
+	 missing:imaxabs
+std::basic_spanbuf -> X
+	 missing:spanbuf
+std::is_member_object_pointer_v -> S-FD/S/PHEPL/O*B/POEURPBT/SR*/SP-S
+std::float64_t -> X
+	 missing:float64
+std::boolalpha -> X
+	 missing:boolalpha
+std::basic_istream -> X
+	 missing:istream
+std::ctype -> X
+	 missing:ctype
+std::uint_fast16_t -> X
+	 missing:uint,fast16
+std::towlower -> X
+	 missing:towlower
+std::putwc -> X
+	 missing:putwc
+std::is_bounded_array_v -> X
+	 missing:bounded
+std::empty -> S-FD/AO*EPLT
+std::remove_extent_t -> S-FD/RAOE/PHOF/EBGS/STEPBT/T*/SP-S
+std::is_nothrow_assignable -> S-FD/S/TPHO/THROU/AFPB/-BL
+std::atomic_load -> S-FD/A/TOPL/EUBG/HRAOD
+std::unwrap_reference -> S-FD/UPB/WRAP/RAOEFRPBS
+std::submdspan_extents -> X
+	 missing:submdspan,extents
+std::is_sorted_until -> S-FD/S/SORT/-D/TPH-L
+std::endian -> X
+	 missing:endian
+std::mt19937 -> X
+	 missing:mt19937
+std::io_errc -> X
+	 missing:io,errc
+std::variant_alternative -> S-FD/SRAEUR/KWRAPBT/TERPB/TEUF
+std::streamsize -> X
+	 missing:streamsize
+std::reverse_copy -> S-FD/RAOE/SRERS/KO*EP
+std::fpos -> X
+	 missing:fpos
+std::sortable -> X
+	 missing:sortable
+std::formattable -> X
+	 missing:formattable
+std::u16string -> X
+	 missing:u16string
+std::rcu_obj_base -> X
+	 missing:rcu,obj
+std::iostream -> X
+	 missing:iostream
+std::allocator -> X
+	 missing:allocator
+std::uint8_t -> X
+	 missing:uint8
+std::is_abstract_v -> S-FD/S/AB/STKRABGT/SR*/SP-S
+std::nested_exception -> X
+	 missing:nested
+std::is_swappable -> X
+	 missing:swappable
+std::is_enum_v -> S-FD/S/AOE/TPHUPL/SR*/SP-S
+std::memory_order_acquire -> S-FD/PHOEURPL/0RD/A/TKWAOEUR
+std::lround -> X
+	 missing:lround
+std::int_least64_t -> X
+	 missing:least64
+std::copysignf -> X
+	 missing:copysignf
+std::atomic_store_explicit -> S-FD/A/TOPL/EUBG/STOR/EBGS/PHREU/SEUT
+std::zepto -> X
+	 missing:zepto
+std::three_way_comparable_with -> S-FD/THRAOE/WAEU/KPRAR/-BL/W
+std::put_money -> S-FD/PURT/34U7B
+std::wcstombs -> X
+	 missing:wcstombs
+std::ofstream -> X
+	 missing:ofstream
+std::wcregex_iterator -> X
+	 missing:wcregex
+std::remove_copy -> S-FD/RAOE/PHOF/KO*EP
+std::front_inserter -> X
+	 missing:inserter
+std::ferror -> X
+	 missing:ferror
+std::assume_aligned -> S-FD/SA/SAOUPL/A/HRAOEUPBLD
+std::basic_string_view -> S-FD/PWAOEUFBG/STREUPBG/SRAOU
+std::atomic_exchange -> S-FD/A/TOPL/EUBG/KPAEUPBG
+std::relation -> S-FD/R*ELGS
+std::copysignl -> X
+	 missing:copysignl
+std::indirectly_swappable -> X
+	 missing:swappable
+std::getwchar -> X
+	 missing:getwchar
+std::strong_ordering -> S-FD/STROPBG/O*R/TKER/-G
+std::source_location -> S-FD/SOERS/HRO/KAEUGS
+std::putchar -> X
+	 missing:putchar
+std::incrementable -> X
+	 missing:incrementable
+std::generate -> S-FD/SKWRAEUT
+std::to_string -> S-FD/TPO/STREUPBG
+std::ratio_greater -> S-FD/RAOEFPB/AOU/TKPWHRAERT
+std::scalblnf -> X
+	 missing:scalblnf
+std::output_iterator -> S-FD/PAOUT/EUT/RAEURT
+std::wctrans_t -> X
+	 missing:wctrans
+std::strlen -> X
+	 missing:strlen
+std::make_signed -> S-FD/TPHAEUBG/SAOEUPBD
+std::isnormal -> X
+	 missing:isnormal
+std::scalblnl -> X
+	 missing:scalblnl
+std::is_nothrow_move_assignable_v -> S-FD/S/TPHO/THROU/PHAO*UF/AFPB/-BL/SR*/SP-S
+std::erase -> S-FD/AOE/RAEUS
+std::oct -> X
+	 missing:oct
+std::fabs -> X
+	 missing:fabs
+std::indirect_binary_predicate -> S-FD/EUPB/TKREBGT/PWAOEU/TPHAER/PRED/KAEUT
+std::is_swappable_with_v -> X
+	 missing:swappable
+std::stoull -> X
+	 missing:stoull
+std::ctype_base -> X
+	 missing:ctype
+std::wstring -> X
+	 missing:wstring
+std::ios_base -> X
+	 missing:ios
+std::int32_t -> X
+	 missing:int32
+std::decay -> S-FD/TKAOE/KAEU
+std::tuple_element -> S-FD/TAOUP/*L/HREPLT
+std::initializer_list -> X
+	 missing:initializer
+std::indirectly_comparable -> S-FD/EUPB/TKREBGT/HREU/KPRAR/-BL
+std::mersenne_twister_engine -> X
+	 missing:mersenne
+std::basic_iostream -> X
+	 missing:iostream
+std::basic_spanstream -> X
+	 missing:spanstream
+std::common_iterator -> S-FD/KPHOP/EUT/RAEURT
+std::cos -> X
+	 missing:cos
+std::allocator_traits -> X
+	 missing:allocator
+std::tanhf -> X
+	 missing:tanhf
+std::regex -> S-FD/REPBLG/EBGS
+std::copy_n -> S-FD/KO*EP/TPH*/SP-S
+std::tmpfile -> X
+	 missing:tmpfile
+std::vector -> S-FD/SROERBGT
+std::use_facet -> S-FD/KWRAOUZ/TPA/SET
+std::iswctype -> X
+	 missing:iswctype
+std::is_base_of -> S-FD/S/PWAEUS/*F
+std::tanhl -> X
+	 missing:tanhl
+std::sorted_unique -> S-FD/SORT/-D/KWRAOU/TPHAOEBG
+std::prev_permutation -> S-FD/PR*EF/PER/PHAOU/TAEUGS
+std::bit_ceil -> X
+	 missing:ceil
+std::fmodf -> X
+	 missing:fmodf
+std::wstringbuf -> X
+	 missing:wstringbuf
+std::invoke_result -> S-FD/EUPB/SROEBG/RE/S*ULT
+std::begin -> S-FD/STKPW*EUPB
+std::byteswap -> X
+	 missing:byteswap
+std::format_args -> X
+	 missing:args
+std::basic_format_parse_context -> S-FD/PWAOEUFBG/TPHORPLT/PA*RS/KAUPB/TEGT
+std::is_pointer_interconvertible_base_of_v -> X
+	 missing:interconvertible
+std::fmodl -> X
+	 missing:fmodl
+std::fminf -> X
+	 missing:fminf
+std::endl -> X
+	 missing:endl
+std::vprintf -> X
+	 missing:vprintf
+std::sph_legendre -> X
+	 missing:sph,legendre
+std::is_trivially_move_assignable -> X
+	 missing:trivially
+std::fpclassify -> X
+	 missing:fpclassify
+std::extent_v -> S-FD/EBGS/STEPBT/SR*/SP-S
+std::optional -> S-FD/OPGS/KWRA*L
+std::is_partitioned -> S-FD/S/PAR/TEUGS/-D
+std::wios -> X
+	 missing:wios
+std::stop_callback -> S-FD/STOP/KHRA*BG
+std::remove_const -> S-FD/RAOE/PHOF/KOS
+std::fminl -> X
+	 missing:fminl
+std::ends -> S-FD/EPBDZ
+std::tanf -> X
+	 missing:tanf
+std::isxdigit -> X
+	 missing:isxdigit
+std::denorm_present -> X
+	 missing:denorm
+std::wcin -> X
+	 missing:wcin
+std::unreachable_sentinel_t -> X
+	 missing:unreachable
+std::tanh -> X
+	 missing:tanh
+std::make_any -> S-FD/TPHAEUBG/TKPHEU
+std::minus -> S-FD/3450*EU7BS
+std::wiostream -> X
+	 missing:wiostream
+std::is_nothrow_swappable_v -> X
+	 missing:swappable
+std::tanl -> X
+	 missing:tanl
+std::remove_copy_if -> S-FD/RAOE/PHOF/KO*EP/TP
+std::invoke -> S-FD/EUPB/SROEBG
+std::inner_product -> S-FD/EURPB/PROUBLGT
+std::setvbuf -> X
+	 missing:setvbuf
+std::iter_value_t -> X
+	 missing:iter
+std::bfloat16_t -> X
+	 missing:bfloat16
+std::is_void -> S-FD/S/SROEUD
+std::legendref -> X
+	 missing:legendref
+std::intmax_t -> X
+	 missing:intmax
+std::wofstream -> X
+	 missing:wofstream
+std::indirect_result_t -> S-FD/EUPB/TKREBGT/RE/S*ULT/T*/SP-S
+std::in_place_index_t -> S-FD/TPH/TPHRAEUS/TKPEUPBGS/T*/SP-S
+std::bad_any_cast -> S-FD/PWATD/TKPHEU/KA*S
+std::labs -> S-FD/HRABS
+std::cyl_bessel_kf -> X
+	 missing:cyl,bessel,kf
+std::legendrel -> X
+	 missing:legendrel
+std::is_signed_v -> S-FD/S/SAOEUPBD/SR*/SP-S
+std::conj -> S-FD/KO*PBLG
+std::llabs -> X
+	 missing:llabs
+std::feclearexcept -> X
+	 missing:feclearexcept
+std::uses_allocator_v -> X
+	 missing:allocator
+std::is_convertible -> S-FD/S/KWERBL
+std::basic_ios -> X
+	 missing:ios
+std::replace_copy -> S-FD/RAOE/PHRAEUS/KO*EP
+std::error_code -> S-FD/RO*ER/KOED
+std::knuth_b -> X
+	 missing:knuth
+std::is_nothrow_swappable_with -> X
+	 missing:swappable
+std::denorm_indeterminate -> X
+	 missing:denorm,indeterminate
+std::ellint_2f -> X
+	 missing:ellint,2f
+std::cyl_bessel_kl -> X
+	 missing:cyl,bessel,kl
+std::ctype_byname -> X
+	 missing:ctype,byname
+std::clock_t -> S-FD/KHROBG/T*/SP-S
+std::remove_volatile_t -> S-FD/RAOE/PHOF/SRO*L/TAOEUL/T*/SP-S
+std::bit_and -> S-FD/PWEUT/57BD
+std::istreambuf_iterator -> X
+	 missing:istreambuf
+std::ellint_2l -> X
+	 missing:ellint,2l
+std::layout_left_padded -> S-FD/HRAEU/SKWROUT/HREFT/PAD/-D
+std::common_reference_t -> S-FD/KPHOP/RAOEFRPBS/T*/SP-S
+std::bernoulli_distribution -> X
+	 missing:bernoulli
+std::sig_atomic_t -> X
+	 missing:sig
+std::c32rtomb -> X
+	 missing:c32rtomb
+std::format_parse_context -> S-FD/TPHORPLT/PA*RS/KAUPB/TEGT
+std::piecewise_construct -> X
+	 missing:piecewise
+std::atomic_flag_notify_one -> S-FD/A/TOPL/EUBG/TPHRAG/TPHOEUF/WUP
+std::max_element -> S-FD/PHA*BGS/HREPLT
+std::vfscanf -> X
+	 missing:vfscanf
+std::strtoull -> X
+	 missing:strtoull
+std::mul_sat -> X
+	 missing:mul
+std::future_errc -> X
+	 missing:errc
+std::toupper -> X
+	 missing:toupper
+std::roundf -> X
+	 missing:roundf
+std::log1pf -> X
+	 missing:log1pf
+std::has_single_bit -> S-FD/SHAS/SEUPBLG/PWEUT
+std::make_error_condition -> S-FD/TPHAEUBG/RO*ER/KAUPB/TKEUGS
+std::monostate -> X
+	 missing:monostate
+std::is_move_constructible -> S-FD/S/PHAO*UF/STREUBL
+std::cmp_greater -> X
+	 missing:cmp
+std::roundl -> X
+	 missing:roundl
+std::log1pl -> X
+	 missing:log1pl
+std::is_nothrow_constructible -> S-FD/S/TPHO/THROU/STREUBL
+std::dec -> S-FD/TK*EBG
+std::logical_and -> S-FD/HROPBLG/KAL/57BD
+std::is_nothrow_invocable -> X
+	 missing:invocable
+std::is_nothrow_default_constructible_v -> S-FD/S/TPHO/THROU/TKAOE/TPAULT/STREUBL/SR*/SP-S
+std::enable_shared_from_this -> S-FD/TPHAEUBL/SHAEUR/-D/TPWHR/TH
+std::unordered_set -> X
+	 missing:unordered
+std::rand -> X
+	 missing:rand
+std::holds_alternative -> S-FD/HOELTDZ/TERPB/TEUF
+std::is_function -> S-FD/S/TPUPBGS
+std::get_deleter -> X
+	 missing:deleter
+std::generate_n -> S-FD/SKWRAEUT/TPH*/SP-S
+std::nanf -> X
+	 missing:nanf
+std::log10f -> X
+	 missing:log10f
+std::is_convertible_v -> S-FD/S/KWERBL/SR*/SP-S
+std::set_terminate -> S-FD/SET/TERPL/TPHAEUT
+std::breakpoint_if_debugging -> X
+	 missing:breakpoint,debugging
+std::find_if -> S-FD/2350EU7BD/TP
+std::allocator_arg_t -> X
+	 missing:allocator,arg
+std::allocator_arg -> X
+	 missing:allocator,arg
+std::rank -> S-FD/RA*PBLG
+std::is_move_constructible_v -> S-FD/S/PHAO*UF/STREUBL/SR*/SP-S
+std::ceil -> X
+	 missing:ceil
+std::nanl -> X
+	 missing:nanl
+std::log10l -> X
+	 missing:log10l
+std::ldiv_t -> X
+	 missing:ldiv
+std::flat_set -> S-FD/TPHRAT/SET
+std::replace_copy_if -> S-FD/RAOE/PHRAEUS/KO*EP/TP
+std::ranlux48 -> X
+	 missing:ranlux48
+std::nano -> S-FD/TPHA/TPHOE
+std::fexcept_t -> X
+	 missing:fexcept
+std::float16_t -> X
+	 missing:float16
+std::fabsf -> X
+	 missing:fabsf
+std::in_place_index -> S-FD/TPH/TPHRAEUS/TKPEUPBGS
+std::div -> S-FD/TK*EUF
+std::atomic_fetch_or_explicit -> S-FD/A/TOPL/EUBG/TPEFP/OR/EBGS/PHREU/SEUT
+std::is_void_v -> S-FD/S/SROEUD/SR*/SP-S
+std::inout_ptr_t -> X
+	 missing:inout,ptr
+std::min_element -> S-FD/PH*EUPB/HREPLT
+std::tuple_size_v -> S-FD/TAOUP/*L/SAOEUZ/SR*/SP-S
+std::exit -> S-FD/KPEUT
+std::sscanf -> X
+	 missing:sscanf
+std::length_error -> S-FD/HR*EPBG/RO*ER
+std::wfilebuf -> X
+	 missing:wfilebuf
+std::fabsl -> X
+	 missing:fabsl
+std::set_intersection -> S-FD/SET/SPWR*EBGS
+std::ssize -> X
+	 missing:ssize
+std::wmemchr -> X
+	 missing:wmemchr
+std::integral -> S-FD/SPWE/TKPWRAL
+std::conjunction_v -> S-FD/KAUPB/SKWRUPBG/SHUPB/SR*/SP-S
+std::indirectly_copyable_storable -> X
+	 missing:copyable,storable
+std::fesetexceptflag -> X
+	 missing:fesetexceptflag
+std::exclusive_scan -> S-FD/SKHRAOUS/EUF/SKAPB
+std::wmemcpy -> X
+	 missing:wmemcpy
+std::int8_t -> X
+	 missing:int8
+std::align -> S-FD/A/HRAOEUPB
+std::int_least16_t -> X
+	 missing:least16
+std::regex_token_iterator -> S-FD/REPBLG/EBGS/TO*EPB/EUT/RAEURT
+std::equal -> S-FD/SKWAL
+std::rbegin -> X
+	 missing:rbegin
+std::indirectly_writable -> S-FD/EUPB/TKREBGT/HREU/WREUBL
+std::format_error -> S-FD/TPHORPLT/RO*ER
+std::atomic -> S-FD/A/TOPL/EUBG
+std::make_error_code -> S-FD/TPHAEUBG/RO*ER/KOED
+std::uintmax_t -> X
+	 missing:uintmax
+std::notify_all_at_thread_exit -> S-FD/TPHOEUF/HRAUL/A/AT/THRED/KPEUT
+std::destroying_delete -> S-FD/STKROEUPBG/TKHRAOET
+std::range_format -> S-FD/HRAEUPB/-PBLG/TPHORPLT
+std::memory_order_relaxed -> S-FD/PHOEURPL/0RD/RAOE/HRABGS/-D
+std::is_nothrow_move_assignable -> S-FD/S/TPHO/THROU/PHAO*UF/AFPB/-BL
+std::count -> S-FD/KAOUPBT
+std::atomic_fetch_add -> S-FD/A/TOPL/EUBG/TPEFP/AD
+std::new_handler -> S-FD/TPHU/HAPBD/HRER
+std::atomic_load_explicit -> S-FD/A/TOPL/EUBG/HRAOD/EBGS/PHREU/SEUT
+std::codecvt_base -> X
+	 missing:codecvt
+std::ostream -> X
+	 missing:ostream
+std::llrintf -> X
+	 missing:llrintf
+std::gslice -> X
+	 missing:gslice
+std::get_if -> S-FD/TKPWHET/TP
+std::wcstoull -> X
+	 missing:wcstoull
+std::stold -> X
+	 missing:stold
+std::deque -> X
+	 missing:deque
+std::strstreambuf -> X
+	 missing:strstreambuf
+std::mergeable -> X
+	 missing:mergeable
+std::wcregex_token_iterator -> X
+	 missing:wcregex
+std::money_put -> S-FD/34U7B/PURT
+std::atomic_fetch_sub_explicit -> S-FD/A/TOPL/EUBG/TPEFP/S*UB/EBGS/PHREU/SEUT
+std::wcmatch -> X
+	 missing:wcmatch
+std::u32string_view -> X
+	 missing:u32string
+std::llrintl -> X
+	 missing:llrintl
+std::tuple_cat -> S-FD/TAOUP/*L/KAT
+std::construct_at -> S-FD/KRUBGT/A/AT
+std::ungetwc -> X
+	 missing:ungetwc
+std::strtod -> X
+	 missing:strtod
+std::stoll -> X
+	 missing:stoll
+std::strtof -> X
+	 missing:strtof
+std::copy_backward -> S-FD/KO*EP/PWA*RD
+std::to_address -> S-FD/TPO/A/TKRES
+std::sentinel_for -> S-FD/SEPBLT/TPHEL/230R
+std::is_nothrow_convertible_v -> S-FD/S/TPHO/THROU/KWERBL/SR*/SP-S
+std::reverse -> S-FD/RAOE/SRERS
+std::this_thread::get_id -> S-FD/TH/THRED/TKPWHET/EUD
+std::this_thread::sleep_for -> S-FD/TH/THRED/SKHRAOEP/230R
+std::this_thread::sleep_until -> S-FD/TH/THRED/SKHRAOEP/TPH-L
+std::this_thread::yield -> S-FD/TH/THRED/KPWRAOELD
+std::views::adjacent -> S-FD/SRAOU/-S/SKWRAEUFPBT
+std::views::adjacent_transform -> S-FD/SRAOU/-S/SKWRAEUFPBT/TRAPBS/TPORPL
+std::views::all -> S-FD/SRAOU/-S/HRAUL
+std::views::all_t -> S-FD/SRAOU/-S/HRAUL/T*/SP-S
+std::views::as_const -> S-FD/SRAOU/-S/A/AZ/KOS
+std::views::as_rvalue -> X
+	 missing:rvalue
+std::views::cartesian_product -> X
+	 missing:cartesian
+std::views::chunk -> S-FD/SRAOU/-S/KH*UFPBG
+std::views::chunk_by -> S-FD/SRAOU/-S/KH*UFPBG/PWEU
+std::views::common -> S-FD/SRAOU/-S/KPHOP
+std::views::concat -> X
+	 missing:concat
+std::views::counted -> S-FD/SRAOU/-S/KOUPBT/-D
+std::views::drop -> S-FD/SRAOU/-S/TKRO*P
+std::views::drop_while -> S-FD/SRAOU/-S/TKRO*P/WHAOEUL
+std::views::elements -> S-FD/SRAOU/-S/HREPLTS
+std::views::empty -> S-FD/SRAOU/-S/AO*EPLT
+std::views::enumerate -> S-FD/SRAOU/-S/AOE/TPHAOUPL/RAEUT
+std::views::filter -> S-FD/SRAOU/-S/TPEURLT
+std::views::iota -> S-FD/SRAOU/-S/KWROE/TA
+std::views::istream -> X
+	 missing:istream
+std::views::join -> S-FD/SRAOU/-S/SKWROEUPB
+std::views::join_with -> S-FD/SRAOU/-S/SKWROEUPB/W
+std::views::keys -> S-FD/SRAOU/-S/KAOES
+std::views::lazy_split -> S-FD/SRAOU/-S/HRAEU/S*EU/SPHREUT
+std::views::pairwise -> X
+	 missing:pairwise
+std::views::pairwise_transform -> X
+	 missing:pairwise
+std::views::repeat -> S-FD/SRAOU/-S/PRAOET
+std::views::reverse -> S-FD/SRAOU/-S/RAOE/SRERS
+std::views::single -> S-FD/SRAOU/-S/SEUPBLG
+std::views::slide -> S-FD/SRAOU/-S/SHRAO*EUD
+std::views::split -> S-FD/SRAOU/-S/SPHREUT
+std::views::stride -> S-FD/SRAOU/-S/STRAOEUD
+std::views::take -> S-FD/SRAOU/-S/TKAEUBG
+std::views::take_while -> S-FD/SRAOU/-S/TKAEUBG/WHAOEUL
+std::views::transform -> S-FD/SRAOU/-S/TRAPBS/TPORPL
+std::views::values -> S-FD/SRAOU/-S/SRAOUPLS
+std::views::zip -> S-FD/SRAOU/-S/STKPW*EUP
+std::views::zip_transform -> S-FD/SRAOU/-S/STKPW*EUP/TRAPBS/TPORPL
+uninitialized -> 25
+trivially -> 18
+ellint -> 18
+invocable -> 12
+cyl -> 12
+ -> 11
+allocator -> 11
+iter -> 11
+swappable -> 11
+placeholders -> 10
+ptr -> 10
+bessel -> 10
+sph -> 9
+unordered -> 8
+rvalue -> 8
+byname -> 8
+uint -> 8
+hermitian -> 6
+inv -> 6
+istream -> 6
+minmax -> 6
+rcu -> 6
+mutex -> 6
+copyable -> 6
+cmp -> 6
+args -> 6
+assoc -> 6
+tzdb -> 5
+2 -> 5
+multimap -> 5
+multiset -> 5
+wstring -> 5
+arg -> 5
+chars -> 5
+coroutine -> 5
+wformat -> 5
+cv -> 5
+ceil -> 4
+sys -> 4
+sqrt3 -> 4
+stacktrace -> 4
+subrange -> 4
+unary -> 4
+ctype -> 4
+piecewise -> 4
+denorm -> 4
+lvalue -> 4
+vprint -> 4
+extents -> 4
+gps -> 3
+utc -> 3
+seq -> 3
+givens -> 3
+accessor -> 3
+k -> 3
+3 -> 3
+u16string -> 3
+u32string -> 3
+u8string -> 3
+bidirectional -> 3
+inplace -> 3
+lexicographical -> 3
+unreachable -> 3
+overwrite -> 3
+nested -> 3
+xor -> 3
+incrementable -> 3
+formatter -> 3
+riemann -> 3
+codecvt -> 3
+obj -> 3
+inserter -> 3
+legendre -> 3
+fallback -> 3
+interconvertible -> 3
+ostream -> 3
+ios -> 3
+legendref -> 3
+legendrel -> 3
+submdspan -> 3
+errc -> 3
+iostream -> 3
+unseq -> 2
+unsequenced -> 2
+weakly -> 2
+transposed -> 2
+2k -> 2
+egamma -> 2
+sqrtpi -> 2
+ln10 -> 2
+ln2 -> 2
+log10e -> 2
+log2e -> 2
+sqrt2 -> 2
+cmatch -> 2
+deque -> 2
+smatch -> 2
+wcmatch -> 2
+wsmatch -> 2
+cartesian -> 2
+cbegin -> 2
+cend -> 2
+concat -> 2
+crbegin -> 2
+crend -> 2
+rbegin -> 2
+ssize -> 2
+wistream -> 2
+fast32 -> 2
+syncbuf -> 2
+breakpoint -> 2
+least8 -> 2
+streambuf -> 2
+stringbuf -> 2
+representations -> 2
+rethrow -> 2
+laguerre -> 2
+filebuf -> 2
+numpunct -> 2
+neumann -> 2
+stringstream -> 2
+alloc -> 2
+fast64 -> 2
+nullopt -> 2
+least32 -> 2
+3f -> 2
+wctrans -> 2
+unicode -> 2
+3l -> 2
+cregex -> 2
+fpos -> 2
+runtime -> 2
+countr -> 2
+sregex -> 2
+moneypunct -> 2
+1f -> 2
+1l -> 2
+nonunicode -> 2
+spanbuf -> 2
+timespec -> 2
+minstd -> 2
+laguerref -> 2
+laguerrel -> 2
+vformat -> 2
+wctype -> 2
+fast16 -> 2
+least64 -> 2
+istringstream -> 2
+unexpect -> 2
+nostopstate -> 2
+imaxdiv -> 2
+gslice -> 2
+num -> 2
+wsregex -> 2
+fstream -> 2
+fast8 -> 2
+neumannf -> 2
+neumannl -> 2
+ldiv -> 2
+ranlux48 -> 2
+lldiv -> 2
+ospanstream -> 2
+least16 -> 2
+mt19937 -> 2
+ranlux24 -> 2
+2f -> 2
+2l -> 2
+ostringstream -> 2
+rand -> 2
+nontype -> 2
+unbounded -> 2
+spanstream -> 2
+countl -> 2
+ispanstream -> 2
+ifstream -> 2
+inout -> 2
+indeterminate -> 2
+osyncstream -> 2
+boyer -> 2
+moore -> 2
+storable -> 2
+ofstream -> 2
+cvref -> 2
+bounded -> 2
+wcregex -> 2
+pairwise -> 2
+hh -> 1
+mm -> 1
+ss -> 1
+pm -> 1
+make12 -> 1
+make24 -> 1
+microseconds -> 1
+reload -> 1
+sequenced -> 1
+fifo -> 1
+permissions -> 1
+perms -> 1
+resize -> 1
+u8path -> 1
+dotc -> 1
+blas -> 1
+transpose -> 1
+frob -> 1
+inf -> 1
+idx -> 1
+4 -> 1
+6 -> 1
+7 -> 1
+8 -> 1
+9 -> 1
+N -> 1
+unsynchronized -> 1
+cdata -> 1
+ECMAScript -> 1
+egrep -> 1
+backref -> 1
+badbrace -> 1
+badrepeat -> 1
+brack -> 1
+sed -> 1
+icase -> 1
+bol -> 1
+eol -> 1
+eow -> 1
+multiline -> 1
+nosubs -> 1
+strided -> 1
+strtok -> 1
+strtol -> 1
+wscanf -> 1
+int64 -> 1
+fgetc -> 1
+malloc -> 1
+wctob -> 1
+nullptr -> 1
+uint32 -> 1
+skipws -> 1
+tgamma -> 1
+fwscanf -> 1
+declval -> 1
+fgets -> 1
+fetestexcept -> 1
+noexcept -> 1
+fwrite -> 1
+putc -> 1
+wmemmove -> 1
+lconv -> 1
+strcoll -> 1
+proj -> 1
+lgamma -> 1
+strtoimax -> 1
+wctomb -> 1
+wcerr -> 1
+truncf -> 1
+asin -> 1
+wcscmp -> 1
+truncl -> 1
+mktime -> 1
+fgetwc -> 1
+showbase -> 1
+wcscat -> 1
+vfprintf -> 1
+addressof -> 1
+setprecision -> 1
+fgetws -> 1
+wspanstream -> 1
+nearbyintf -> 1
+fflush -> 1
+fenv -> 1
+fmod -> 1
+setlocale -> 1
+nearbyintl -> 1
+getwc -> 1
+wcscoll -> 1
+wcsrtombs -> 1
+iswupper -> 1
+expm1 -> 1
+wssub -> 1
+frexp -> 1
+floorf -> 1
+nonlocking -> 1
+hecto -> 1
+strpbrk -> 1
+fma -> 1
+floorl -> 1
+vswscanf -> 1
+wcsspn -> 1
+lcm -> 1
+hexfloat -> 1
+wcsstr -> 1
+jmp -> 1
+buf -> 1
+atan2 -> 1
+memset -> 1
+defaultfloat -> 1
+atof -> 1
+atoi -> 1
+atol -> 1
+freopen -> 1
+valarray -> 1
+iswdigit -> 1
+isgreaterequal -> 1
+noboolalpha -> 1
+int16 -> 1
+congruential -> 1
+strncpy -> 1
+wcspbrk -> 1
+FILE -> 1
+ftell -> 1
+cst -> 1
+uint64 -> 1
+strtoumax -> 1
+zetta -> 1
+llrint -> 1
+atanhf -> 1
+cosf -> 1
+strtold -> 1
+cosh -> 1
+fprintf -> 1
+atanhl -> 1
+nexttowardf -> 1
+cosl -> 1
+expintf -> 1
+strtoll -> 1
+atanf -> 1
+iswprint -> 1
+nexttowardl -> 1
+atanh -> 1
+expintl -> 1
+atanl -> 1
+hypotf -> 1
+dextents -> 1
+bsearch -> 1
+log10 -> 1
+hypotl -> 1
+init -> 1
+wospanstream -> 1
+mbsinit -> 1
+wcsncpy -> 1
+gcd -> 1
+isless -> 1
+istrstream -> 1
+wcstold -> 1
+nouppercase -> 1
+dims -> 1
+cerr -> 1
+btowc -> 1
+wcstoll -> 1
+remquof -> 1
+scanf -> 1
+lrintf -> 1
+wmemcmp -> 1
+remquol -> 1
+tera -> 1
+wint -> 1
+lrintl -> 1
+nextafterf -> 1
+mbrlen -> 1
+cauchy -> 1
+ronna -> 1
+nextafterl -> 1
+localtime -> 1
+isupper -> 1
+lerp -> 1
+isunordered -> 1
+gt -> 1
+mbstowcs -> 1
+atexit -> 1
+noshowbase -> 1
+log2 -> 1
+zetaf -> 1
+log1p -> 1
+acos -> 1
+vscanf -> 1
+stoul -> 1
+strrchr -> 1
+zetal -> 1
+neg -> 1
+printf -> 1
+overflow -> 1
+rand0 -> 1
+csub -> 1
+scalbln -> 1
+wcstoumax -> 1
+wcstoimax -> 1
+ungetc -> 1
+jthread -> 1
+exa -> 1
+stod -> 1
+stof -> 1
+qsort -> 1
+isdigit -> 1
+stoi -> 1
+exp -> 1
+setiosflags -> 1
+stol -> 1
+uint16 -> 1
+wcslen -> 1
+wcsrchr -> 1
+powf -> 1
+logb -> 1
+logf -> 1
+powl -> 1
+mbrtoc16 -> 1
+fscanf -> 1
+islessequal -> 1
+sqrt -> 1
+towctrans -> 1
+logl -> 1
+clearerr -> 1
+typeid -> 1
+iswpunct -> 1
+streampos -> 1
+c16rtomb -> 1
+coshf -> 1
+isprint -> 1
+swscanf -> 1
+coshl -> 1
+showpoint -> 1
+snprintf -> 1
+ostreambuf -> 1
+initializable -> 1
+sinhf -> 1
+lgammaf -> 1
+bitset -> 1
+sinhl -> 1
+tolower -> 1
+perror -> 1
+lgammal -> 1
+iswalpha -> 1
+fread -> 1
+fputc -> 1
+wfstream -> 1
+mbsrtowcs -> 1
+quetta -> 1
+fdim -> 1
+centi -> 1
+ldexpf -> 1
+nounitbuf -> 1
+fputs -> 1
+vsprintf -> 1
+resetiosflags -> 1
+ldexpl -> 1
+wclog -> 1
+popcount -> 1
+iswgraph -> 1
+strcspn -> 1
+weibull -> 1
+strchr -> 1
+cin -> 1
+fseek -> 1
+deci -> 1
+strcpy -> 1
+modff -> 1
+expint -> 1
+atto -> 1
+modfl -> 1
+strncmp -> 1
+rewind -> 1
+strncat -> 1
+vsnprintf -> 1
+srand -> 1
+mbtowc -> 1
+fgetpos -> 1
+u32streampos -> 1
+permutable -> 1
+exp2f -> 1
+wcscspn -> 1
+unitbuf -> 1
+cref -> 1
+feraiseexcept -> 1
+exp2l -> 1
+strtoul -> 1
+uintptr -> 1
+wstreampos -> 1
+wispanstream -> 1
+fsetpos -> 1
+il -> 1
+towupper -> 1
+feof -> 1
+iswcntrl -> 1
+wostream -> 1
+wcstod -> 1
+acosf -> 1
+wcsncmp -> 1
+fegetround -> 1
+wcstof -> 1
+acosh -> 1
+iswalnum -> 1
+acosl -> 1
+wcstok -> 1
+wcstol -> 1
+wcsncat -> 1
+ceilf -> 1
+betaf -> 1
+fwide -> 1
+ceill -> 1
+scalbn -> 1
+ilogb -> 1
+betal -> 1
+intptr -> 1
+wosyncstream -> 1
+ispunct -> 1
+expm1f -> 1
+isnan -> 1
+copysign -> 1
+wcstoul -> 1
+realloc -> 1
+expm1l -> 1
+streamoff -> 1
+cbrt -> 1
+quecto -> 1
+logbf -> 1
+frexpf -> 1
+feholdexcept -> 1
+wcsxfrm -> 1
+logbl -> 1
+underflow -> 1
+frexpl -> 1
+vswprintf -> 1
+memmove -> 1
+log2f -> 1
+isalpha -> 1
+lt -> 1
+tmpnam -> 1
+log2l -> 1
+iswlower -> 1
+isfinite -> 1
+isgraph -> 1
+fdimf -> 1
+calloc -> 1
+fdiml -> 1
+fisher -> 1
+noskipws -> 1
+swprintf -> 1
+uncaught -> 1
+wistringstream -> 1
+remainderf -> 1
+hypot -> 1
+remainderl -> 1
+wmemset -> 1
+strxfrm -> 1
+println -> 1
+strftime -> 1
+ssub -> 1
+difftime -> 1
+iswspace -> 1
+asctime -> 1
+imag -> 1
+ws -> 1
+yotta -> 1
+memchr -> 1
+u16streampos -> 1
+lognormal -> 1
+memcpy -> 1
+wsyncbuf -> 1
+sprintf -> 1
+vwprintf -> 1
+iscntrl -> 1
+modf -> 1
+fwprintf -> 1
+trunc -> 1
+isalnum -> 1
+fmaf -> 1
+besself -> 1
+semiregular -> 1
+fmin -> 1
+fmal -> 1
+bessell -> 1
+mbstate -> 1
+acoshf -> 1
+wcsftime -> 1
+fmax -> 1
+acoshl -> 1
+rotl -> 1
+fegetexceptflag -> 1
+rotr -> 1
+setbase -> 1
+llround -> 1
+asinhf -> 1
+wcout -> 1
+strcmp -> 1
+rint -> 1
+localeconv -> 1
+femto -> 1
+asinhl -> 1
+lrint -> 1
+strcat -> 1
+setfill -> 1
+sinf -> 1
+sinh -> 1
+atan -> 1
+islower -> 1
+sinl -> 1
+noshowpoint -> 1
+mbrtoc8 -> 1
+vwscanf -> 1
+remquo -> 1
+vfwprintf -> 1
+tgammaf -> 1
+exp2 -> 1
+tgammal -> 1
+longjmp -> 1
+hermite -> 1
+getline -> 1
+mblen -> 1
+ptrdiff -> 1
+jf -> 1
+iswblank -> 1
+wprintf -> 1
+wregex -> 1
+fopen -> 1
+jl -> 1
+feupdateenv -> 1
+atan2f -> 1
+noshowpos -> 1
+cout -> 1
+strspn -> 1
+strstr -> 1
+acq -> 1
+rel -> 1
+mbrtowc -> 1
+atan2l -> 1
+rintf -> 1
+yocto -> 1
+rintl -> 1
+float32 -> 1
+u8streampos -> 1
+strerror -> 1
+nearbyint -> 1
+isspace -> 1
+getc -> 1
+expf -> 1
+cbrtf -> 1
+wbuffer -> 1
+va -> 1
+expl -> 1
+cbrtl -> 1
+vsscanf -> 1
+lroundf -> 1
+getchar -> 1
+erfc -> 1
+llroundf -> 1
+erff -> 1
+c8rtomb -> 1
+lroundl -> 1
+llroundl -> 1
+erfl -> 1
+peta -> 1
+signbit -> 1
+putwchar -> 1
+Exit -> 1
+showpos -> 1
+ilogbf -> 1
+fesetround -> 1
+horspool -> 1
+eq -> 1
+fmaxf -> 1
+fclose -> 1
+ldexp -> 1
+ilogbl -> 1
+nexttoward -> 1
+fmaxl -> 1
+ronto -> 1
+getenv -> 1
+isgreater -> 1
+setbuf -> 1
+gteq -> 1
+float128 -> 1
+scalbnf -> 1
+wstreambuf -> 1
+sqrtf -> 1
+scalbnl -> 1
+sqrtl -> 1
+ctime -> 1
+wspanbuf -> 1
+mdspan -> 1
+giga -> 1
+formatted -> 1
+erfcf -> 1
+erf -> 1
+lteq -> 1
+noemit -> 1
+erfcl -> 1
+fegetenv -> 1
+npos -> 1
+isinf -> 1
+nextafter -> 1
+islessgreater -> 1
+mbrtoc32 -> 1
+strstream -> 1
+gmtime -> 1
+fesetenv -> 1
+neq -> 1
+asinf -> 1
+asinh -> 1
+tm -> 1
+wcrtomb -> 1
+wstringstream -> 1
+fputwc -> 1
+asinl -> 1
+wcschr -> 1
+memcmp -> 1
+wcsub -> 1
+wcscpy -> 1
+isblank -> 1
+wostringstream -> 1
+vfwscanf -> 1
+hermitef -> 1
+pico -> 1
+wifstream -> 1
+ostrstream -> 1
+hermitel -> 1
+fputws -> 1
+setw -> 1
+iswxdigit -> 1
+imaxabs -> 1
+float64 -> 1
+boolalpha -> 1
+towlower -> 1
+putwc -> 1
+endian -> 1
+io -> 1
+streamsize -> 1
+sortable -> 1
+formattable -> 1
+uint8 -> 1
+lround -> 1
+copysignf -> 1
+zepto -> 1
+wcstombs -> 1
+ferror -> 1
+copysignl -> 1
+getwchar -> 1
+putchar -> 1
+scalblnf -> 1
+strlen -> 1
+isnormal -> 1
+scalblnl -> 1
+oct -> 1
+fabs -> 1
+stoull -> 1
+int32 -> 1
+initializer -> 1
+mersenne -> 1
+cos -> 1
+tanhf -> 1
+tmpfile -> 1
+iswctype -> 1
+tanhl -> 1
+fmodf -> 1
+wstringbuf -> 1
+byteswap -> 1
+fmodl -> 1
+fminf -> 1
+endl -> 1
+vprintf -> 1
+fpclassify -> 1
+wios -> 1
+fminl -> 1
+tanf -> 1
+isxdigit -> 1
+wcin -> 1
+tanh -> 1
+wiostream -> 1
+tanl -> 1
+setvbuf -> 1
+bfloat16 -> 1
+intmax -> 1
+wofstream -> 1
+kf -> 1
+llabs -> 1
+feclearexcept -> 1
+knuth -> 1
+kl -> 1
+istreambuf -> 1
+bernoulli -> 1
+sig -> 1
+c32rtomb -> 1
+vfscanf -> 1
+strtoull -> 1
+mul -> 1
+toupper -> 1
+roundf -> 1
+log1pf -> 1
+monostate -> 1
+roundl -> 1
+log1pl -> 1
+deleter -> 1
+nanf -> 1
+log10f -> 1
+debugging -> 1
+nanl -> 1
+log10l -> 1
+fexcept -> 1
+float16 -> 1
+fabsf -> 1
+sscanf -> 1
+wfilebuf -> 1
+fabsl -> 1
+wmemchr -> 1
+fesetexceptflag -> 1
+wmemcpy -> 1
+int8 -> 1
+uintmax -> 1
+llrintf -> 1
+wcstoull -> 1
+stold -> 1
+strstreambuf -> 1
+mergeable -> 1
+llrintl -> 1
+ungetwc -> 1
+strtod -> 1
+stoll -> 1
+strtof -> 1
+0.5245098039215687 : 52.450980392156865

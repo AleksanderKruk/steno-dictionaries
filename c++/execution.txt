@@ -1,0 +1,8 @@
+std::execution::par
+std::execution::par_unseq
+std::execution::parallel_policy
+std::execution::parallel_unsequenced_policy
+std::execution::seq
+std::execution::sequenced_policy
+std::execution::unseq
+std::execution::unsequenced_policy
