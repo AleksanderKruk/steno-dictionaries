@@ -9,7 +9,7 @@ import more_itertools
 from collections import Counter
 from typing import Iterable
 
-def load_existing_translations(paths: Iterable[pathlib.Path]):
+def load_existing_translations(*paths: Iterable[pathlib.Path]) -> dict[str, str]:
     translation_to_word = {}
     for path in paths:
         with path.open(encoding="utf-8") as dictionary_file:
@@ -19,16 +19,15 @@ def load_existing_translations(paths: Iterable[pathlib.Path]):
 
 
 if __name__ == "__main__":
-    translation_to_word = load_existing_translations(pathlib.Path("./main.json"), 
-                                                     pathlib.Path("./cpp.json"))
+    translation_to_word: dict = load_existing_translations(pathlib.Path("./main.json"), 
+                                                           pathlib.Path("./cpp.json"))
     translation_to_word.pop("", None)
-    word_to_translations = dict.fromkeys(translation_to_word.values(), None)
-    for t, w in translation_to_word.items():
-        translations = word_to_translations[w]
-        if (translations is None):
-            word_to_translations[w] = [t]
-        else:
-            word_to_translations[w].append(t)
+    word_to_translations: dict[str, list[str]] = dict.fromkeys(translation_to_word.values())
+    for word in word_to_translations:
+        word_to_translations[word] = []
+    for translation, word in translation_to_word.items():
+        translations = word_to_translations[word]
+        word_to_translations[word].append(translation)
 
     total_counter = Counter()
 
@@ -47,11 +46,14 @@ if __name__ == "__main__":
                     translatable += 1
                 else:
                     untranslatable += 1
-                for w in words: 
-                    all_words.add(w)
+                for word in words: 
+                    all_words.add(word)
     total_counter.pop("", None)
-    v = translatable/(untranslatable+translatable)
-    print("symbole: ", v*100, "%")
+    untranslatable_words = {w for w in all_words if w not in word_to_translations}
+    symbol_percentage = (translatable/(untranslatable+translatable)) * 100
+    word_percentage = (len(untranslatable_words)/len(all_words) )*100
+    print(f"symbole: {symbol_percentage}%")
+    print(f"słowa: {word_percentage}%")
 
     # with open("./c++.json", "w") as cpp:
     #     cpp.write("{\n")
