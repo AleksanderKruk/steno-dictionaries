@@ -1,13 +1,7 @@
 {
-    "": "False",
-    "": "None",
-    "": "True",
-    "": "finally",
-    "": "continue",
-    "": "lambda",
-    "": "def",
-    "": "nonlocal",
-    "": "del",
-    "": "async",
-    "" : "elif"
+    "TPALS": "False",
+    "TPHOPB": "None",
+    "TPHAUPB/HROEL": "nonlocal",
+    "TKEL": "del",
+    "ELS/TP" : "elif"
 }
