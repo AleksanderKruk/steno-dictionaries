@@ -1,26 +1,3 @@
-function identity(x) {
-    return x
-}
-
-
-function max(elements, returned, key, max_e, max_v, value_v) {
-    max_v = -1
-    value_v = -1
-    max_e = ""
-    key = (length(key) != 0)? key : "identity"
-    for (e in elements) {
-        value_v = @key(e)
-        if (max_v < value_v) {
-            max_v = value_v
-            max_e = e
-        }
-    }
-    returned[0] = max_e
-    returned[1] = max_v
-}
-
-
-
 function max_length(elements, returned, max_e, max_v, value_v) {
     max_v = -1
     value_v = -2
