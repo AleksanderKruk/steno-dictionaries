@@ -26,7 +26,6 @@ if __name__ == "__main__":
     for word in word_to_translations:
         word_to_translations[word] = []
     for translation, word in translation_to_word.items():
-        translations = word_to_translations[word]
         word_to_translations[word].append(translation)
 
     total_counter = Counter()
