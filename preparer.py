@@ -12,7 +12,7 @@ if __name__ == "__main__":
     translation_to_word = None
     with pathlib.Path("./main.json").open(encoding="utf-8") as dictionary_file:
         translation_to_word: dict = json.load(dictionary_file)
-    with pathlib.Path("./c++.json").open(encoding="utf-8") as dictionary_file:
+    with pathlib.Path("./cpp.json").open(encoding="utf-8") as dictionary_file:
         translation_to_word |= json.load(dictionary_file)
     translation_to_word.pop("", None)
     word_to_translations = dict.fromkeys(translation_to_word.values(), None)
@@ -46,8 +46,8 @@ if __name__ == "__main__":
     total_counter.pop("", None)
     for e, c in total_counter.most_common():
         if c > 2: print(f"{e} -> {c}")
-
-    print(v:=(translatable/(untranslatable+translatable)), ":", v*100)
+    v=(translatable/(untranslatable+translatable))
+    print("symbole", ":", v*100)
 
     # with open("./c++.json", "w") as cpp:
     #     cpp.write("{\n")
