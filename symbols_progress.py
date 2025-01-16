@@ -16,6 +16,14 @@ def load_existing_translations(*paths: Iterable[pathlib.Path]) -> dict[str, str]
             translation_to_word |= json.load(dictionary_file)
     return translation_to_word
 
+def map_word_to_translation(translation_to_word):
+    word_to_translations = dict.fromkeys(translation_to_word.values(), None)
+    for word in word_to_translations:
+        word_to_translations[word] = []
+    for translation, word in translation_to_word.items():
+        word_to_translations[word].append(translation)
+    return word_to_translations
+
 
 
 if __name__ == "__main__":
@@ -23,10 +31,7 @@ if __name__ == "__main__":
                                                            pathlib.Path("./cpp.json"))
     translation_to_word.pop("", None)
     word_to_translations: dict[str, list[str]] = dict.fromkeys(translation_to_word.values())
-    for word in word_to_translations:
-        word_to_translations[word] = []
-    for translation, word in translation_to_word.items():
-        word_to_translations[word].append(translation)
+    word_to_translations = map_word_to_translation(translation_to_word)
 
     total_counter = Counter()
 
@@ -34,7 +39,7 @@ if __name__ == "__main__":
     untranslatable = 0
     symbols = set()
     all_words = set()
-    for filepath in glob.glob("./c++/*txt"):
+    for filepath in glob.glob("./c++/namespaces/*.txt"):
         with open(filepath, encoding="utf-8") as fh:
             for line in fh:
                 line = line.strip()
@@ -50,7 +55,7 @@ if __name__ == "__main__":
     total_counter.pop("", None)
     untranslatable_words = {w for w in all_words if w not in word_to_translations}
     symbol_percentage = (translatable/(untranslatable+translatable)) * 100
-    word_percentage = (len(untranslatable_words)/len(all_words) )*100
+    word_percentage = 100 - (len(untranslatable_words)/len(all_words) )*100
     print(f"symbole: {symbol_percentage}%")
     print(f"słowa: {word_percentage}%")
 
