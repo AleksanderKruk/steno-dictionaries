@@ -89,6 +89,7 @@
 "RAOEPL/A*PB": "riemann",
 "KOED/STP-T": "codecvt",
 "OB": "obj",
+"*EBG": "eq",
 "EUPB/SERT/*ER": "inserter",
 "HREGD/R*E": "legendre",
 "TPAL/PWABG": "fallback",
