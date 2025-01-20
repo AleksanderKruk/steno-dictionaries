@@ -23,37 +23,22 @@ if __name__ == "__main__":
         else:
             word_to_translations[w].append(t)
 
-    total_counter = Counter()
-
-    translatable = 0
-    untranslatable = 0
     symbols = set()
-    for filepath in glob.glob("./c++/*txt"):
-        with open(filepath, encoding="utf-8") as fh:
-            for line in fh:
-                line = line.strip()
-                symbols.add(line)
-                words = re.split(r"::|\_", line)
-                total_counter.update(w for w in words if w not in word_to_translations)
-                if all(w in word_to_translations for w in words):
-                    translatable+=1
-                    print(line + " -> " + "/".join(word_to_translations[w][0] for w in words))
-                else:
-                    untranslatable+=1
-                    print(line + " -> " "X")
-                    print("\t missing:" + ",".join(w for w in words if w not in word_to_translations))
-                    # w for w in words if w not in word_to_translations
-    total_counter.pop("", None)
-    for e, c in total_counter.most_common():
-        if c > 2: print(f"{e} -> {c}")
-    v=(translatable/(untranslatable+translatable))
-    print("symbole", ":", v*100)
-
-    # with open("./c++.json", "w") as cpp:
-    #     cpp.write("{\n")
-    #     length = len(total_counter.most_common())
-    #     for i, (e, c) in enumerate(total_counter.most_common()):
-    #         cpp.write(f'"": "{e}"{"," if i != length-1 else ""}\n')
-    #     cpp.write("}\n")
-
+    with open("./c++/cppsymbols.json", "w") as writefh, \
+         open("./c++/symbols/cppsymbols.txt", encoding="utf-8") as fh:
+        writefh.write("{\n")
+        for line in fh:
+            symbol = line.strip()
+            symbols.add(symbol)
+            words = re.split(r"::|\_", symbol)
+            if all(w in word_to_translations for w in words):
+                all_translations = [
+                    word_to_translations[w]
+                    for w in words
+                    ]
+                for chord_product in itertools.product(*all_translations):
+                    chords = "/".join(chord_product)
+                    writefh.write(f'"{chords}": "{symbol}",\n')
+        writefh.seek(writefh.tell()-3)
+        writefh.write("\n}")
 
