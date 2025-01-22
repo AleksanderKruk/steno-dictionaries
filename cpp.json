@@ -211,7 +211,7 @@
 "H*/H*": "hh",
 "PH*/PH*": "mm",
 "S*/S*": "ss",
-"P*/M*": "pm",
+"P*/PH*": "pm",
 "PHAEUBG/12": "make12",
 "PHAEUBG/24": "make24",
 "PHAOEURBG/SEBGD/-S": "microseconds",
