@@ -32,11 +32,11 @@ def load_keywords(path: pathlib.Path):
 
 if __name__ == "__main__":
     argparser = argparse.ArgumentParser()
-    argparser.add_argument("--existing-translations", nargs="*")
+    argparser.add_argument("--existing-translations", nargs="*", type=pathlib.Path)
     argparser.add_argument("--keyword-path", type=pathlib.Path)
     argparser.add_argument("--translation-path", type=pathlib.Path)
     args = argparser.parse_args(sys.argv[1:])
-    translation_to_word: dict = load_existing_translations(*list(pathlib.Path(p) for p in args.existing_translations))
+    translation_to_word: dict = load_existing_translations(args.existing_translations)
     translation_to_word.pop("", None)
     word_to_translations = map_word_to_translation(translation_to_word)
 
@@ -53,7 +53,7 @@ if __name__ == "__main__":
                 fh.write(f'"": "{missing_keyword}",\n')
             fh.seek(fh.tell()-3)
             fh.write("\n}")
-            
 
-        
+
+
 
