@@ -63,7 +63,7 @@ if __name__ == "__main__":
     parser.add_argument("--output-file", type=pathlib.Path)
     arguments = parser.parse_args(sys.argv[1:])
     existing_translations: list[pathlib.Path] = arguments.existing_translations
-    symbols: list[pathlib.Path] = arguments.symbol_files
+    symbol_files: list[pathlib.Path] = arguments.symbol_files
     output_file: pathlib.Path = arguments.output_file
 
     translation_to_word = load_existing_translations(*existing_translations)
@@ -80,7 +80,7 @@ if __name__ == "__main__":
     try:
         symbol_file_handles = [
             symbol_file.open(encoding="utf-8")
-            for symbol_file in symbols
+            for symbol_file in symbol_files
             ]
         all_lines_stripped = (line.strip()
                             for symbol_file_handle in symbol_file_handles
