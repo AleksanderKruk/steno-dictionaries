@@ -53,7 +53,3 @@ if __name__ == "__main__":
                 fh.write(f'"": "{missing_keyword}",\n')
             fh.seek(fh.tell()-3)
             fh.write("\n}")
-            
-
-        
-
