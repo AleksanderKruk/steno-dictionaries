@@ -22,6 +22,8 @@ def chord_translation(symbol_sequence: Iterable, word_to_translations: dict):
             seps, words = words_and_seps[::2], words_and_seps[1::2]
         else:
             words, seps = words_and_seps[::2], words_and_seps[1::2]
+        while ("" in words):
+            words.remove("")
         if all(w in word_to_translations for w in words):
             all_translations = [
                 word_to_translations[w]
