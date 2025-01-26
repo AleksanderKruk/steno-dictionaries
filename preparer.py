@@ -22,8 +22,6 @@ def chord_translation(symbol_sequence: Iterable, word_to_translations: dict):
             seps, words = words_and_seps[::2], words_and_seps[1::2]
         else:
             words, seps = words_and_seps[::2], words_and_seps[1::2]
-        while ("" in words):
-            words.remove("")
         if all(w in word_to_translations for w in words):
             all_translations = [
                 word_to_translations[w]
@@ -33,11 +31,14 @@ def chord_translation(symbol_sequence: Iterable, word_to_translations: dict):
                 translation = words[0]
                 chords = chord_product[0]
                 for word, sep, chord in zip(words[1:], seps, chord_product[1:]):
+                    # if ("std::placeholders::" in symbol):
+                    #     print(word, sep, chord, translation)
                     translation += sep + word
-                    chords += "/" + chord
-                    if chords not in intermediate:
-                        yield chords, translation
-                        intermediate.add(chords)
+                    if word != "":
+                        chords += "/" + chord
+                        if chords not in intermediate:
+                            yield chords, translation
+                            intermediate.add(chords)
     return symbols, intermediate
 
 
@@ -71,6 +72,7 @@ if __name__ == "__main__":
     translation_to_word = load_existing_translations(*existing_translations)
     translation_to_word.pop("", None)
     word_to_translations = map_word_to_translation(translation_to_word)
+    word_to_translations[""] = [""]
 
     symbols = set()
     intermediate = set()
@@ -102,4 +104,4 @@ if __name__ == "__main__":
         for symbol_file_handle in symbol_file_handles:
             if not symbol_file_handle.closed:
                 symbol_file_handle.close()
-
+        input()

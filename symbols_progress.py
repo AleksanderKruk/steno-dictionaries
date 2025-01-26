@@ -32,7 +32,7 @@ if __name__ == "__main__":
     translation_to_word.pop("", None)
     word_to_translations: dict[str, list[str]] = dict.fromkeys(translation_to_word.values())
     word_to_translations = map_word_to_translation(translation_to_word)
-    word_to_translations[""] = ""
+    # word_to_translations[""] = ""
 
     total_counter = Counter()
 
@@ -61,8 +61,8 @@ if __name__ == "__main__":
     untranslatable_words = {w for w in all_words if w not in word_to_translations}
     symbol_percentage = (translatable/(untranslatable+translatable)) * 100
     word_percentage = 100 - (len(untranslatable_words)/len(all_words) )*100
-    print(f"symbole: {symbol_percentage}% {len(untranslatable_words)} {len(all_words)}")
-    print(f"słowa: {word_percentage}% {translatable} {untranslatable}")
+    print(f"symbole: {symbol_percentage}%")
+    print(f"słowa: {word_percentage}%")
 
     # with open("./c++.json", "w") as cpp:
     #     cpp.write("{\n")
