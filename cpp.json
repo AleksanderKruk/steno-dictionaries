@@ -765,7 +765,7 @@
 "TPH*EBG": "neq",
 "AS/EUFPB": "asinf",
 "A/SEUPB/H*": "asinh",
-"tm": "tm",
+"T*/PH*": "tm",
 "W*/KR*/R*/TO/PH*B": "wcrtomb",
 "W*/STREUPBG/STRAOEPL": "wstringstream",
 "TP*/PUT/W*/KR*": "fputwc",
