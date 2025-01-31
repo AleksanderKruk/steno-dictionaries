@@ -31,8 +31,6 @@ def chord_translation(symbol_sequence: Iterable, word_to_translations: dict):
                 translation = words[0]
                 chords = chord_product[0]
                 for word, sep, chord in zip(words[1:], seps, chord_product[1:]):
-                    # if ("std::placeholders::" in symbol):
-                    #     print(word, sep, chord, translation)
                     translation += sep + word
                     if word != "":
                         chords += "/" + chord
