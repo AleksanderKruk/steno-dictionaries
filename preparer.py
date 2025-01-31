@@ -11,6 +11,35 @@ from collections import Counter
 import os
 import string
 import argparse
+import enum
+
+class TranslationType(enum.Enum):
+    SUFFIX = enum.auto()
+    PREFIX = enum.auto()
+    INFIX = enum.auto()
+    NORMAL = enum.auto()
+
+def translation_type(translation: str):
+    if (is_prefix := translation.startswith(r"{^")) and translation.endswith(r"^}"):
+        return TranslationType.INFIX
+    elif is_prefix:
+        return TranslationType.PREFIX
+    elif translation.startswith(r"{") and translation.endswith(r"^}"):
+        return TranslationType.SUFFIX
+    return TranslationType.NORMAL
+
+
+def is_suffix(prefixes, suffixes):
+    return r"^}" in translation
+
+
+def is_suffix(prefixes, suffixes):
+    return r"^}" in translation
+
+
+def is_chordable(prefixes, suffixes):
+    pass
+
 
 def chord_translation(symbol_sequence: Iterable, word_to_translations: dict):
     symbols = set()
