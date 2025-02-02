@@ -1,3 +1,4 @@
+import pathlib
 import sys
 import operator
 
@@ -14,10 +15,12 @@ if __name__ == "__main__":
     parser.add_argument("--query", type=str)
     parser.add_argument("--starting-rule", type=operator.methodcaller)
     parser.add_argument("--files", nargs='+')
+    parser.add_argument("--output", type=pathlib.Path, default=None, required=False)
     arguments = parser.parse_args(sys.argv[1:])
     query = arguments.query
     starting_rule = arguments.starting_rule
     files = arguments.files
+    output_path = arguments.output
 
     for dictionary_path in files:
         input_stream = FileStream(dictionary_path, encoding='utf-8')
@@ -29,9 +32,12 @@ if __name__ == "__main__":
         xpath_query = XPath.XPath(parser, query)
         tree = starting_rule(parser)
         result = xpath_query.evaluate(tree)
+
+        if output_path is not None:
+            output = output_path.open("w", encoding="utf-8")
+        else:
+            output = sys.stdout
+
         for r in result:
-            print(r.getText())
-
-
-
-
+            output.write(r.getText() + "\n")
+        output.close()
