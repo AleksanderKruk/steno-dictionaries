@@ -1,5 +1,5 @@
 grammar StenoOutlines;
-outline: '/'? chord ('/' chord)*;
+outline: SLASH? chord (SLASH chord)*;
 chord: unnumberedChord
     | numberedChord;
 
@@ -61,8 +61,6 @@ R: 'R';
 A: 'A';
 O: 'O';
 STAR: '*';
-DASH: '-';
-HASH: '#';
 E: 'E';
 U: 'U';
 F: 'F';
@@ -81,3 +79,6 @@ NUM_6: '6';
 NUM_7: '7';
 NUM_8: '8';
 NUM_9: '9';
+DASH: '-';
+HASH: '#';
+SLASH: '/';
