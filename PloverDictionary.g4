@@ -5,10 +5,8 @@ dictionary: LEFT_CURLY (record COMMA)* record? RIGHT_CURLY EOF;
 record: QUOTE outline QUOTE COLON QUOTE translation? QUOTE;
 translation: (command | string)+;
 
-command: combo
-        | suffix
-        | prefix
-        | infix
+command: nothing
+        | combo
         | retroInsertSpace
         | retroDeleteSpace
         | retroCapFirstWord
@@ -32,10 +30,10 @@ command: combo
         | ploverCommand
         | glue
         | punctuation
-        | pgh
-        | en
-        | lminuscommand
-        | lpluscommand
+        | infix
+        | suffix
+        | prefix
+        | other
         ;
 
 combo: LEFT_CURLY '#' key+ RIGHT_CURLY;
@@ -154,21 +152,21 @@ normalKey: '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
         ;
 
 modifierKey:
-        'S''h''i''f''t''_''L' '(' key+ ')'
-        | 'S''h''i''f''t''_''R' '(' key+ ')'
-        | 's''h''i''f''t' '(' key+ ')'
-        | 'C''o''n''t''r''o''l''_''L' '(' key+ ')'
-        | 'C''o''n''t''r''o''l''_''R' '(' key+ ')'
-        | 'c''o''n''t''r''o''l' '(' key+ ')'
-        | 'A''l''t''_''L' '(' key+ ')'
-        | 'A''l''t''_''R' '(' key+ ')'
-        | 'a''l''t' '(' key+ ')'
-        | 'S''u''p''e''r''_''L' '(' key+ ')'
-        | 'S''u''p''e''r''_''R' '(' key+ ')'
-        | 's''u''p''e''r' '(' key+ ')'
-        | 'w''i''n''d''o''w''s' '(' key+ ')'
-        | 'c''o''m''m''a''n''d' '(' key+ ')'
-        | 'o''p''t''i''o''n' '(' key+ ')'
+        'S''h''i''f''t''_''L' '(' key* ')'
+        | 'S''h''i''f''t''_''R' '(' key* ')'
+        | 's''h''i''f''t' '(' key* ')'
+        | 'C''o''n''t''r''o''l''_''L' '(' key* ')'
+        | 'C''o''n''t''r''o''l''_''R' '(' key* ')'
+        | 'c''o''n''t''r''o''l' '(' key* ')'
+        | 'A''l''t''_''L' '(' key* ')'
+        | 'A''l''t''_''R' '(' key* ')'
+        | 'a''l''t' '(' key* ')'
+        | 'S''u''p''e''r''_''L' '(' key* ')'
+        | 'S''u''p''e''r''_''R' '(' key* ')'
+        | 's''u''p''e''r' '(' key* ')'
+        | 'w''i''n''d''o''w''s' '(' key* ')'
+        | 'c''o''m''m''a''n''d' '(' key* ')'
+        | 'o''p''t''i''o''n' '(' key* ')'
         | 'B''a''c''k''S''p''a''c''e'
         ;
 
@@ -264,10 +262,7 @@ meta: LEFT_CURLY  COLON string (COLON string)? RIGHT_CURLY ;
 
 macro: '=' string (COLON string)?;
 
-pgh: LEFT_CURLY 'p''g''h' RIGHT_CURLY;
-en: LEFT_CURLY 'n' RIGHT_CURLY;
-lpluscommand: LEFT_CURLY 'l' '+' RIGHT_CURLY;
-lminuscommand: LEFT_CURLY 'l' '-' RIGHT_CURLY;
+other: LEFT_CURLY string RIGHT_CURLY;
 
 outline: '/'? chord ('/' chord)*;
 chord: unnumberedChord
