@@ -1,11 +1,13 @@
 grammar PloverDictionaryModalParser;
 
 options {
-        tokenVocab = PloverDictionaryModalLexer
-};
+        tokenVocab = PloverDictionaryModalLexer;
+}
 
-dictionary: LEFT_CURLY (record COMMA)* record? RIGHT_CURLY EOF;
-record: QUOTE outline QUOTE COLON QUOTE translation? QUOTE;
+dictionary: LCURLY_JSON (record COMMA_JSON)* record? RCURLY_JSON EOF;
+record: ENTER_OUTLINE outline EXIT_OUTLINE 
+        COLON_JSON 
+        ENTER_TRANSLATION translation? EXIT_TRANSLATION;
 translation: (command | string)+;
 
 command: combo
@@ -41,138 +43,27 @@ command: combo
         | lpluscommand
         ;
 
-combo: LEFT_CURLY '#' key+ RIGHT_CURLY;
-key: normalKey
-     | modifierKey;
-
-normalKey: '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
-        | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j'
-        | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'r' | 's' | 't' | 'u'
-        | 'v' | 'w' | 'x' | 'y' | 'z'
-        | 'a''a''c''u''t''e'
-        | 'a''c''i''r''c''u''m''f''l''e''x'
-        | 'a''c''u''t''e'
-        | 'a''d''i''a''e''r''e''s''i''s'
-        | 'a''e'
-        | 'a''g''r''a''v''e'
-        | 'a''m''p''e''r''s''a''n''d'
-        | 'a''p''o''s''t''r''o''p''h''e'
-        | 'a''r''i''n''g'
-        | 'a''s''c''i''i''c''i''r''c''u''m'
-        | 'a''s''c''i''i''t''i''l''d''e'
-        | 'a''s''t''e''r''i''s''k'
-        | 'a''t'
-        | 'a''t''i''l''d''e'
-        | 'b''a''c''k''s''l''a''s''h'
-        | 'b''a''r'
-        | 'b''r''a''c''e''l''e''f''t'
-        | 'b''r''a''c''e''r''i''g''h''t'
-        | 'b''r''a''c''k''e''t''l''e''f''t'
-        | 'b''r''a''c''k''e''t''r''i''g''h''t'
-        | 'b''r''o''k''e''n''b''a''r'
-        | 'c''c''e''d''i''l''l''a'
-        | 'c''e''d''i''l''l''a'
-        | 'c''e''n''t'
-        | 'c''l''e''a''r'
-        | 'c''o''l''o''n'
-        | 'c''o''m''m''a'
-        | 'c''o''p''y''r''i''g''h''t'
-        | 'c''u''r''r''e''n''c''y'
-        | 'd''e''g''r''e''e'
-        | 'd''i''a''e''r''e''s''i''s'
-        | 'd''i''v''i''s''i''o''n'
-        | 'd''o''l''l''a''r'
-        | 'e''a''c''u''t''e'
-        | 'e''c''i''r''c''u''m''f''l''e''x'
-        | 'e''d''i''a''e''r''e''s''i''s'
-        | 'e''g''r''a''v''e'
-        | 'e''q''u''a''l'
-        | 'e''t''h'
-        | 'e''x''c''l''a''m'
-        | 'e''x''c''l''a''m''d''o''w''n'
-        | 'g''r''a''v''e'
-        | 'g''r''e''a''t''e''r'
-        | 'g''u''i''l''l''e''m''o''t''l''e''f''t'
-        | 'g''u''i''l''l''e''m''o''t''r''i''g''h''t'
-        | 'h''y''p''h''e''n'
-        | 'i''a''c''u''t''e'
-        | 'i''c''i''r''c''u''m''f''l''e''x'
-        | 'i''d''i''a''e''r''e''s''i''s'
-        | 'i''g''r''a''v''e'
-        | 'l''e''s''s'
-        | 'm''a''c''r''o''n'
-        | 'm''a''s''c''u''l''i''n''e'
-        | 'm''i''n''u''s'
-        | 'm''u'
-        | 'm''u''l''t''i''p''l''y'
-        | 'n''o''b''r''e''a''k''s''p''a''c''e'
-        | 'n''o''t''s''i''g''n'
-        | 'n''t''i''l''d''e'
-        | 'n''u''m''b''e''r''s''i''g''n'
-        | 'o''a''c''u''t''e'
-        | 'o''c''i''r''c''u''m''f''l''e''x'
-        | 'o''d''i''a''e''r''e''s''i''s'
-        | 'o''g''r''a''v''e'
-        | 'o''n''e''h''a''l''f'
-        | 'o''n''e''q''u''a''r''t''e''r'
-        | 'o''n''e''s''u''p''e''r''i''o''r'
-        | 'o''o''b''l''i''q''u''e'
-        | 'o''r''d''f''e''m''i''n''i''n''e'
-        | 'o''s''l''a''s''h'
-        | 'o''t''i''l''d''e'
-        | 'p''a''r''a''g''r''a''p''h'
-        | 'p''a''r''e''n''l''e''f''t'
-        | 'p''a''r''e''n''r''i''g''h''t'
-        | 'p''e''r''c''e''n''t'
-        | 'p''e''r''i''o''d'
-        | 'p''e''r''i''o''d''c''e''n''t''e''r''e''d'
-        | 'p''l''u''s'
-        | 'p''l''u''s''m''i''n''u''s'
-        | 'q''u''e''s''t''i''o''n'
-        | 'q''u''e''s''t''i''o''n''d''o''w''n'
-        | 'q''u''o''t''e''d''b''l'
-        | 'q''u''o''t''e''l''e''f''t'
-        | 'q''u''o''t''e''r''i''g''h''t'
-        | 'r''e''g''i''s''t''e''r''e''d'
-        | 'r''e''t''u''r''n'
-        | 's''e''c''t''i''o''n'
-        | 's''e''m''i''c''o''l''o''n'
-        | 's''l''a''s''h'
-        | 's''p''a''c''e'
-        | 's''s''h''a''r''p'
-        | 's''t''e''r''l''i''n''g'
-        | 't''a''b'
-        | 't''h''o''r''n'
-        | 't''h''r''e''e''q''u''a''r''t''e''r''s'
-        | 't''h''r''e''e''s''u''p''e''r''i''o''r'
-        | 't''w''o''s''u''p''e''r''i''o''r'
-        | 'u''a''c''u''t''e'
-        | 'u''c''i''r''c''u''m''f''l''e''x'
-        | 'u''d''i''a''e''r''e''s''i''s'
-        | 'u''g''r''a''v''e'
-        | 'u''n''d''e''r''s''c''o''r''e'
-        | 'y''a''c''u''t''e'
-        | 'y''d''i''a''e''r''e''s''i''s'
-        | 'y''e''n'
-        ;
+combo: ENTER_COMBO key+ EXIT_COMBO;
+key: modifierKey
+     | ~EXIT_COMBO;
 
 modifierKey:
-        'S''h''i''f''t''_''L' '(' key+ ')'
-        | 'S''h''i''f''t''_''R' '(' key+ ')'
-        | 's''h''i''f''t' '(' key+ ')'
-        | 'C''o''n''t''r''o''l''_''L' '(' key+ ')'
-        | 'C''o''n''t''r''o''l''_''R' '(' key+ ')'
-        | 'c''o''n''t''r''o''l' '(' key+ ')'
-        | 'A''l''t''_''L' '(' key+ ')'
-        | 'A''l''t''_''R' '(' key+ ')'
-        | 'a''l''t' '(' key+ ')'
-        | 'S''u''p''e''r''_''L' '(' key+ ')'
-        | 'S''u''p''e''r''_''R' '(' key+ ')'
-        | 's''u''p''e''r' '(' key+ ')'
-        | 'w''i''n''d''o''w''s' '(' key+ ')'
-        | 'c''o''m''m''a''n''d' '(' key+ ')'
-        | 'o''p''t''i''o''n' '(' key+ ')'
-        | 'B''a''c''k''S''p''a''c''e'
+          COMBO_SHIFT_L COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_SHIFT_R COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_SHIFT COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_CONTROL_L COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_CONTROL_R COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_CONTROL COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_ALT_L COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_ALT_R COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_ALT COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_SUPER_L COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_SUPER_R COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_SUPER COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_WINDOWS COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_COMMAND COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_OPTION COMBO_LPAREN key+ COMBO_RPAREN
+        | COMBO_BACKSPACE
         ;
 
 suffix: LEFT_CURLY '^' string? RIGHT_CURLY
