@@ -3,6 +3,6 @@ options {
     tokenVocab = test;
 }
 
-program: (STRING | OPEN .*? CLOSE)* EOF;
+dictionary: OPEN_STENO STENO_STRING EXIT_STENO OPEN_TRANSLATION TRANSLATION_STRING EXIT_TRANSLATION;
 
 

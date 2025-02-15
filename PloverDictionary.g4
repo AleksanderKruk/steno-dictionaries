@@ -5,10 +5,8 @@ dictionary: LEFT_CURLY (record COMMA)* record? RIGHT_CURLY EOF;
 record: QUOTE outline QUOTE COLON QUOTE translation? QUOTE;
 translation: (command | string)+;
 
-command: combo
-        | suffix
-        | prefix
-        | infix
+command: nothing
+        | combo
         | retroInsertSpace
         | retroDeleteSpace
         | retroCapFirstWord
@@ -32,10 +30,10 @@ command: combo
         | ploverCommand
         | glue
         | punctuation
-        | pgh
-        | en
-        | lminuscommand
-        | lpluscommand
+        | infix
+        | suffix
+        | prefix
+        | other
         ;
 
 combo: LEFT_CURLY '#' key+ RIGHT_CURLY;
@@ -154,28 +152,28 @@ normalKey: '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
         ;
 
 modifierKey:
-        'S''h''i''f''t''_''L' '(' key+ ')'
-        | 'S''h''i''f''t''_''R' '(' key+ ')'
-        | 's''h''i''f''t' '(' key+ ')'
-        | 'C''o''n''t''r''o''l''_''L' '(' key+ ')'
-        | 'C''o''n''t''r''o''l''_''R' '(' key+ ')'
-        | 'c''o''n''t''r''o''l' '(' key+ ')'
-        | 'A''l''t''_''L' '(' key+ ')'
-        | 'A''l''t''_''R' '(' key+ ')'
-        | 'a''l''t' '(' key+ ')'
-        | 'S''u''p''e''r''_''L' '(' key+ ')'
-        | 'S''u''p''e''r''_''R' '(' key+ ')'
-        | 's''u''p''e''r' '(' key+ ')'
-        | 'w''i''n''d''o''w''s' '(' key+ ')'
-        | 'c''o''m''m''a''n''d' '(' key+ ')'
-        | 'o''p''t''i''o''n' '(' key+ ')'
+        'S''h''i''f''t''_''L' '(' key* ')'
+        | 'S''h''i''f''t''_''R' '(' key* ')'
+        | 's''h''i''f''t' '(' key* ')'
+        | 'C''o''n''t''r''o''l''_''L' '(' key* ')'
+        | 'C''o''n''t''r''o''l''_''R' '(' key* ')'
+        | 'c''o''n''t''r''o''l' '(' key* ')'
+        | 'A''l''t''_''L' '(' key* ')'
+        | 'A''l''t''_''R' '(' key* ')'
+        | 'a''l''t' '(' key* ')'
+        | 'S''u''p''e''r''_''L' '(' key* ')'
+        | 'S''u''p''e''r''_''R' '(' key* ')'
+        | 's''u''p''e''r' '(' key* ')'
+        | 'w''i''n''d''o''w''s' '(' key* ')'
+        | 'c''o''m''m''a''n''d' '(' key* ')'
+        | 'o''p''t''i''o''n' '(' key* ')'
         | 'B''a''c''k''S''p''a''c''e'
         ;
 
 suffix: LEFT_CURLY '^' string? RIGHT_CURLY
         | LEFT_CURLY '^' RIGHT_CURLY string?
-        | LEFT_CURLY ':attach' RIGHT_CURLY string?
-        | LEFT_CURLY ':attach:^' string? RIGHT_CURLY
+        | LEFT_CURLY ':''a''t''t''a''c''h' RIGHT_CURLY string?
+        | LEFT_CURLY ':''a''t''t''a''c''h'':''^' string? RIGHT_CURLY
         ;
 
 prefix: LEFT_CURLY  string? '^' RIGHT_CURLY
@@ -186,88 +184,85 @@ prefix: LEFT_CURLY  string? '^' RIGHT_CURLY
 
 infix: LEFT_CURLY '^' string? '^' RIGHT_CURLY
         | LEFT_CURLY '^' RIGHT_CURLY string? LEFT_CURLY '^' RIGHT_CURLY
-        | LEFT_CURLY ':attach:' string? RIGHT_CURLY
+        | LEFT_CURLY ':''a''t''t''a''c''h'':' string? RIGHT_CURLY
 ;
 
 glue: LEFT_CURLY AMPERSAND string RIGHT_CURLY
-    | LEFT_CURLY ':glue:' string? RIGHT_CURLY ;
+    | LEFT_CURLY ':''g''l''u''e'':' string? RIGHT_CURLY ;
 
 retroInsertSpace: LEFT_CURLY '*' '?' RIGHT_CURLY;
 retroDeleteSpace: LEFT_CURLY '*' '!' RIGHT_CURLY;
 
-setSpace: LEFT_CURLY 'mode:set_space:' string? RIGHT_CURLY ;
-resetSpace: LEFT_CURLY 'mode:reset_space:' RIGHT_CURLY;
+setSpace: LEFT_CURLY 'm''o''d''e'':''s''e''t''_''s''p''a''c''e'':' string? RIGHT_CURLY ;
+resetSpace: LEFT_CURLY 'm''o''d''e'':''r''e''s''e''t''_''s''p''a''c''e'':' RIGHT_CURLY;
 capFirstWord: LEFT_CURLY '-|' RIGHT_CURLY
-            | LEFT_CURLY ':case:cap_first_word' RIGHT_CURLY;
+            | LEFT_CURLY ':''c''a''s''e'':''c''a''p''_''f''i''r''s''t''_''w''o''r''d' RIGHT_CURLY;
 retroCapFirstWord: LEFT_CURLY '*-|' RIGHT_CURLY
-            |       LEFT_CURLY ':retro_case:cap_first_word' RIGHT_CURLY;
+            |       LEFT_CURLY ':''r''e''t''r''o''_''c''a''s''e'':''c''a''p''_''f''i''r''s''t''_''w''o''r''d' RIGHT_CURLY;
 lowerFirstChar: LEFT_CURLY '>' RIGHT_CURLY
-            |   LEFT_CURLY ':case:lower_first_char' RIGHT_CURLY;
+            |   LEFT_CURLY ':''c''a''s''e'':''l''o''w''e''r''_''f''i''r''s''t''_''c''h''a''r' RIGHT_CURLY;
 retroLowerFirstChar: LEFT_CURLY '*>' RIGHT_CURLY
-                |   LEFT_CURLY ':retro_case:lower_first_char' RIGHT_CURLY;
+                |   LEFT_CURLY ':''r''e''t''r''o''_''c''a''s''e'':''l''o''w''e''r''_''f''i''r''s''t''_''c''h''a''r' RIGHT_CURLY;
 upperFirstWord: LEFT_CURLY '<' RIGHT_CURLY
-            |   LEFT_CURLY ':case:upper_first_word' RIGHT_CURLY;
+            |   LEFT_CURLY ':''c''a''s''e'':''u''p''p''e''r''_''f''i''r''s''t''_''w''o''r''d' RIGHT_CURLY;
 retroUpperFirstWord: LEFT_CURLY '*<' RIGHT_CURLY
-                |   LEFT_CURLY ':retro_case:upper_first_word' RIGHT_CURLY;
+                |   LEFT_CURLY ':''r''e''t''r''o''_''c''a''s''e'':''u''p''p''e''r''_''f''i''r''s''t''_''w''o''r''d' RIGHT_CURLY;
 carryingCapitalization: LEFT_CURLY '~|' string? RIGHT_CURLY
                       | LEFT_CURLY '^~|' string? RIGHT_CURLY
                       | LEFT_CURLY '~|' string? '^' RIGHT_CURLY
                       | LEFT_CURLY '^~|' string? '^' RIGHT_CURLY;
 
-casingModes: LEFT_CURLY 'mode:caps' RIGHT_CURLY
-            | LEFT_CURLY 'mode:title' RIGHT_CURLY
-            | LEFT_CURLY 'mode:lower' RIGHT_CURLY
-            | LEFT_CURLY 'mode:camel' RIGHT_CURLY
-            | LEFT_CURLY 'mode:snake' RIGHT_CURLY
-            | LEFT_CURLY 'mode:reset_case' RIGHT_CURLY;
+casingModes:  LEFT_CURLY 'm''o''d''e'':''c''a''p''s' RIGHT_CURLY
+            | LEFT_CURLY 'm''o''d''e'':''t''i''t''l''e' RIGHT_CURLY
+            | LEFT_CURLY 'm''o''d''e'':''l''o''w''e''r' RIGHT_CURLY
+            | LEFT_CURLY 'm''o''d''e'':''c''a''m''e''l' RIGHT_CURLY
+            | LEFT_CURLY 'm''o''d''e'':''s''n''a''k''e' RIGHT_CURLY
+            | LEFT_CURLY 'm''o''d''e'':''r''e''s''e''t''_''c''a''s''e' RIGHT_CURLY;
 
 // Can strings be part of punctuation?
 punctuation: LEFT_CURLY '.' RIGHT_CURLY
-| LEFT_CURLY ':stop:.' RIGHT_CURLY
+| LEFT_CURLY ':''s''t''o''p'':''.' RIGHT_CURLY
 | LEFT_CURLY COMMA string? RIGHT_CURLY
-| LEFT_CURLY ':comma:' COMMA RIGHT_CURLY
+| LEFT_CURLY ':''c''o''m''m''a'':' COMMA RIGHT_CURLY
 | LEFT_CURLY '?' string? RIGHT_CURLY
-| LEFT_CURLY ':stop:?' RIGHT_CURLY
+| LEFT_CURLY ':''s''t''o''p'':''?' RIGHT_CURLY
 | LEFT_CURLY '!' string? RIGHT_CURLY
-| LEFT_CURLY ':stop:!' RIGHT_CURLY
+| LEFT_CURLY ':''s''t''o''p'':''!' RIGHT_CURLY
 | LEFT_CURLY ':' string? RIGHT_CURLY
 | LEFT_CURLY '`' string? RIGHT_CURLY
-| LEFT_CURLY ':comma::' RIGHT_CURLY
+| LEFT_CURLY ':''c''o''m''m''a'':'':' RIGHT_CURLY
 | LEFT_CURLY ';' string? RIGHT_CURLY
-| LEFT_CURLY ':comma:;' RIGHT_CURLY;
+| LEFT_CURLY ':''c''o''m''m''a'':'';' RIGHT_CURLY;
 
-undo: '=undo';
+undo: '=''u''n''d''o';
 
-repeatLastStroke: LEFT_CURLY '*+' RIGHT_CURLY
-                | '=repeat_last_stroke';
+repeatLastStroke: LEFT_CURLY '*''+' RIGHT_CURLY
+                | '=''r''e''p''e''a''t''_''l''a''s''t''_''s''t''r''o''k''e';
 
 retroToggleAsterisk: LEFT_CURLY '*' RIGHT_CURLY
-                | '=retro_toggle_asterisk'
-                | '=retrospective_toggle_asterisk';
+                | '=''r''e''t''r''o''_''t''o''g''g''l''e''_''a''s''t''e''r''i''s''k'
+                | '=''r''e''t''r''o''s''p''e''c''t''i''v''e''_''t''o''g''g''l''e''_''a''s''t''e''r''i''s''k';
 
 cancelFormatting: LEFT_CURLY RIGHT_CURLY ;
 
 nothing: LEFT_CURLY '#'RIGHT_CURLY ;
 
 endWord: LEFT_CURLY '$'RIGHT_CURLY
-        | LEFT_CURLY ':word_end' RIGHT_CURLY;
+        | LEFT_CURLY ':''w''o''r''d''_''e''n''d' RIGHT_CURLY;
 
 currency: LEFT_CURLY  '*' '(' string? 'c' string? ')' RIGHT_CURLY
-          | LEFT_CURLY ':retro_currency:' string? 'c' string? RIGHT_CURLY ;
+          | LEFT_CURLY ':''r''e''t''r''o''_''c''u''r''r''e''n''c''y'':' string? 'c' string? RIGHT_CURLY ;
 
 lookahead: LEFT_CURLY  '=' string '/' string '/' string RIGHT_CURLY
-         | LEFT_CURLY ':if_next_matches:' string '/' string '/' string RIGHT_CURLY ;
+         | LEFT_CURLY ':''i''f''_''n''e''x''t''_''m''a''t''c''h''e''s'':' string '/' string '/' string RIGHT_CURLY ;
 
-ploverCommand: LEFT_CURLY 'plover:' string (COLON string)? RIGHT_CURLY ;
+ploverCommand: LEFT_CURLY 'p''l''o''v''e''r'':' string (COLON string)? RIGHT_CURLY ;
 
 meta: LEFT_CURLY  COLON string (COLON string)? RIGHT_CURLY ;
 
 macro: '=' string (COLON string)?;
 
-pgh: LEFT_CURLY 'p''g''h' RIGHT_CURLY;
-en: LEFT_CURLY 'n' RIGHT_CURLY;
-lpluscommand: LEFT_CURLY 'l' '+' RIGHT_CURLY;
-lminuscommand: LEFT_CURLY 'l' '-' RIGHT_CURLY;
+other: LEFT_CURLY string RIGHT_CURLY;
 
 outline: '/'? chord ('/' chord)*;
 chord: unnumberedChord
