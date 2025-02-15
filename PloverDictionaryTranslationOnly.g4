@@ -39,7 +39,7 @@ command: nothing
 combo: LEFT_CURLY HASH key+ RIGHT_CURLY;
 nothing: LEFT_CURLY HASH RIGHT_CURLY ;
 
-key: string ('(' key* ')');
+key: string (L_PARENTHESIS key* R_PARENTHESIS);
 
 suffix: LEFT_CURLY ATTACH_CHAR string? RIGHT_CURLY
         | LEFT_CURLY ATTACH_CHAR RIGHT_CURLY string?
@@ -72,10 +72,10 @@ lowerFirstChar: LEFT_CURLY LOWER_FIRST_CHAR RIGHT_CURLY;
 retroLowerFirstChar: LEFT_CURLY RETRO_LOWER_FIRST_CHAR RIGHT_CURLY;
 upperFirstWord: LEFT_CURLY UPPER_FIRST_WORD RIGHT_CURLY;
 retroUpperFirstWord: LEFT_CURLY RETRO_UPPER_FIRST_WORD RIGHT_CURLY;
-carryingCapitalization: LEFT_CURLY '~|' string? RIGHT_CURLY
-                      | LEFT_CURLY ATTACH_CHAR '~|' string? RIGHT_CURLY
-                      | LEFT_CURLY '~|' string? ATTACH_CHAR RIGHT_CURLY
-                      | LEFT_CURLY ATTACH_CHAR '~|' string? ATTACH_CHAR RIGHT_CURLY;
+carryingCapitalization: LEFT_CURLY CARRY_CAPITALIZATION string? RIGHT_CURLY
+                      | LEFT_CURLY ATTACH_CHAR CARRY_CAPITALIZATION string? RIGHT_CURLY
+                      | LEFT_CURLY CARRY_CAPITALIZATION string? ATTACH_CHAR RIGHT_CURLY
+                      | LEFT_CURLY ATTACH_CHAR CARRY_CAPITALIZATION string? ATTACH_CHAR RIGHT_CURLY;
 
 casingModes:  LEFT_CURLY CAPS RIGHT_CURLY
             | LEFT_CURLY TITLE RIGHT_CURLY
@@ -85,29 +85,28 @@ casingModes:  LEFT_CURLY CAPS RIGHT_CURLY
             | LEFT_CURLY RESET_CASE RIGHT_CURLY;
 // Can strings be part of punctuation?
 punctuation: LEFT_CURLY DOT RIGHT_CURLY
-| LEFT_CURLY COMMA string? RIGHT_CURLY
-| LEFT_CURLY QUESTION_MARK string? RIGHT_CURLY
-| LEFT_CURLY EXCLAMATION_MARK string? RIGHT_CURLY
-| LEFT_CURLY COLON string? RIGHT_CURLY
-| LEFT_CURLY '`' string? RIGHT_CURLY
-| LEFT_CURLY ';' string? RIGHT_CURLY
-| LEFT_CURLY COLON 'stop' COLON string? RIGHT_CURLY
-| LEFT_CURLY COLON 'comma' COLON string? RIGHT_CURLY;
+           | LEFT_CURLY COMMA string? RIGHT_CURLY
+           | LEFT_CURLY QUESTION_MARK string? RIGHT_CURLY
+           | LEFT_CURLY EXCLAMATION_MARK string? RIGHT_CURLY
+           | LEFT_CURLY COLON string? RIGHT_CURLY
+           | LEFT_CURLY ACCENT string? RIGHT_CURLY
+           | LEFT_CURLY SEMICOLON string? RIGHT_CURLY
+           | LEFT_CURLY COLON STOP COLON string? RIGHT_CURLY
+           | LEFT_CURLY COLON COMMA_WORD COLON string? RIGHT_CURLY;
 
-undo: '=undo';
+undo: UNDO;
 
-repeatLastStroke: LEFT_CURLY '*+' RIGHT_CURLY
-                | '=repeat_last_stroke';
-
-retroToggleAsterisk: LEFT_CURLY '*' RIGHT_CURLY
-                | '=retro_toggle_asterisk'
-                | '=retrospective_toggle_asterisk';
+repeatLastStroke: LEFT_CURLY REPEAT_LAST_STROKE_OPERATOR RIGHT_CURLY
+                | REPEAT_LAST_STROKE;
+retroToggleAsterisk: LEFT_CURLY STAR RIGHT_CURLY
+                | RETROSPECTIVE_TOGGLE_ASTERISK
+                | RETRO_TOGGLE_ASTERISK;
 
 cancelFormatting: LEFT_CURLY RIGHT_CURLY ;
 
 
 endWord: LEFT_CURLY DOLLAR RIGHT_CURLY
-        | LEFT_CURLY COLON 'word_end' RIGHT_CURLY;
+        | LEFT_CURLY COLON WORD_END RIGHT_CURLY;
 
 currency: LEFT_CURLY STAR L_PARENTHESIS string? C string? R_PARENTHESIS RIGHT_CURLY
           | LEFT_CURLY RETRO_CURRENCY string? C string? RIGHT_CURLY ;
@@ -124,19 +123,12 @@ macro: EQUAL string (COLON string)?;
 other: LEFT_CURLY string RIGHT_CURLY;
 
 
+WORD_END: 'word_end';
 
 WS: [ \n\r]+;
-RETRO_CURRENCY: ':retro_currency:' ;
+RETRO_CURRENCY: ':retro_currency:';
 IF_NEXT_MATCHES: ':if_next_matches:';
 PLOVER: 'plover:';
-EQUAL: '=';
-SLASH: '/';
-STAR: '*';
-C: 'c';
-DOLLAR: '$';
-L_PARENTHESIS: '(';
-R_PARENTHESIS: ')';
-
 CAPS:'mode:caps' ;
 TITLE:'mode:title' ;
 LOWER:'mode:lower' ;
@@ -152,8 +144,23 @@ LOWER_FIRST_CHAR: ':case:lower_first_char' | '>';
 RETRO_LOWER_FIRST_CHAR: ':retro_case:lower_first_char' | '*>';
 UPPER_FIRST_WORD: ':case:upper_first_char' | '<';
 RETRO_UPPER_FIRST_WORD: ':retro_case:upper_first_char' | '*<';
+REPEAT_LAST_STROKE: '=repeat_last_stroke';
+REPEAT_LAST_STROKE_OPERATOR: '*+';
+RETROSPECTIVE_TOGGLE_ASTERISK: '=retrospective_toggle_asterisk';
+RETRO_TOGGLE_ASTERISK: '=retro_toggle_asterisk';
+UNDO: '=undo';
+ATTACH_WORD: 'attach';
+STOP: 'stop';
+GLUE: 'glue';
+COMMA_WORD: 'comma';
 
-
+EQUAL: '=';
+SLASH: '/';
+STAR: '*';
+C: 'c';
+DOLLAR: '$';
+L_PARENTHESIS: '(';
+R_PARENTHESIS: ')';
 ATTACH_CHAR: '^';
 BACKSLASH: '\\';
 LEFT_CURLY: '{' ;
@@ -163,9 +170,8 @@ DOT: '.';
 COMMA: ',';
 QUOTE: '"';
 HASH: '#';
-
-ATTACH_WORD: 'attach';
-GLUE: 'glue';
+ACCENT: '`';
+SEMICOLON: ';';
 AMPERSAND: '&';
 QUESTION_MARK: '?';
 EXCLAMATION_MARK: '!';
