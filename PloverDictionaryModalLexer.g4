@@ -14,41 +14,63 @@ IGNORED: ~'"'+ -> channel(HIDDEN);
 
 mode outlines;
 EXIT_OUTLINE: '"' -> popMode;
-S: 'S';
-T: 'T';
-P: 'P';
-H: 'H';
-K: 'K';
-W: 'W';
-R: 'R';
-A: 'A';
-O: 'O';
-STAR_KEY: '*';
-E: 'E';
-U: 'U';
-F: 'F';
-L: 'L';
-D: 'D';
-B: 'B';
-G: 'G';
-Z: 'Z';
-NUM_0: '0';
-NUM_1: '1';
-NUM_2: '2';
-NUM_3: '3';
-NUM_4: '4';
-NUM_5: '5';
-NUM_6: '6';
-NUM_7: '7';
-NUM_8: '8';
-NUM_9: '9';
-DASH: '-';
-HASH_KEY: '#';
-CHORD_SEPARATOR: '/';
+STN_S: 'S';
+STN_T: 'T';
+STN_P: 'P';
+STN_H: 'H';
+STN_K: 'K';
+STN_W: 'W';
+STN_R: 'R';
+STN_A: 'A';
+STN_O: 'O';
+STN_STAR: '*';
+STN_E: 'E';
+STN_U: 'U';
+STN_F: 'F';
+STN_L: 'L';
+STN_D: 'D';
+STN_B: 'B';
+STN_G: 'G';
+STN_Z: 'Z';
+STN_NUM_0: '0';
+STN_NUM_1: '1';
+STN_NUM_2: '2';
+STN_NUM_3: '3';
+STN_NUM_4: '4';
+STN_NUM_5: '5';
+STN_NUM_6: '6';
+STN_NUM_7: '7';
+STN_NUM_8: '8';
+STN_NUM_9: '9';
+STN_DASH: '-';
+STN_HASH: '#';
+STN_SLASH: '/';
+
+
 
 mode translation;
 EXIT_TRANSLATION: '"' -> popMode;
 ENTER_COMBO: '{#' -> pushMode(combo);
+ENTER_TRANSLATION_COMMAND: '{' -> pushMode(translation_command);
+
+TRANSLATION_STRING: TR_ANYCHAR+;
+TRANSLATION_ESCAPED_LCURLY: '\\\\{';
+TRANSLATION_ESCAPED_RCURLY: '\\\\}';
+TRANSLATION_ESCAPED_BACKSLASH: '\\\\';
+TRANSLATION_ESCAPED_QUOTE: '\\"';
+fragment TR_ANYCHAR: TRANSLATION_ESCAPED_LCURLY | TRANSLATION_ESCAPED_RCURLY
+                | ESCAPED_QUOTE | NEWLINE | TAB | ESCAPED_BACKSLASH 
+                | ~["\\{}];
+
+
+mode translation_command;
+EXIT_TRANSLATION_COMMAND: '}' -> popMode;
+WS: [ \t\n\r]+;
+WORD: ANYCHAR+;
+fragment ANYCHAR: ESCAPED_LCURLY | ESCAPED_RCURLY
+                | ESCAPED_QUOTE | NEWLINE | TAB | ESCAPED_BACKSLASH | ESCAPED_COLON 
+                | ~["\\{}:];
+
 
 ESCAPED_LCURLY: '\\\\{';
 ESCAPED_RCURLY: '\\\\}';
@@ -58,7 +80,6 @@ NEWLINE: '\\n';
 TAB: '\\t';
 ESCAPED_COLON: '\\:';
 WORD_END: 'word_end';
-WS: [ \n\r]+;
 RETRO_CURRENCY: ':retro_currency:';
 IF_NEXT_MATCHES: ':if_next_matches:';
 PLOVER: 'plover:';
@@ -112,10 +133,8 @@ SEMICOLON: ';';
 AMPERSAND: '&';
 QUESTION_MARK: '?';
 EXCLAMATION_MARK: '!';
-WORD: ANYCHAR+;
-fragment ANYCHAR: ESCAPED_LCURLY | ESCAPED_RCURLY
-                | ESCAPED_QUOTE | NEWLINE | TAB | ESCAPED_BACKSLASH | ESCAPED_COLON 
-                | ~["\\{}:];
+
+
 
 mode combo;
 EXIT_COMBO: '}' -> popMode;
