@@ -5,8 +5,8 @@ options {
 }
 
 dictionary: LCURLY_JSON (record COMMA_JSON)* record? RCURLY_JSON EOF;
-record: ENTER_OUTLINE outline EXIT_OUTLINE 
-        COLON_JSON 
+record: ENTER_OUTLINE outline EXIT_OUTLINE
+        COLON_JSON
         ENTER_TRANSLATION translation? EXIT_TRANSLATION;
 translation: (command | string)+;
 

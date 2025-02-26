@@ -59,7 +59,7 @@ TRANSLATION_ESCAPED_RCURLY: '\\\\}';
 TRANSLATION_ESCAPED_BACKSLASH: '\\\\';
 TRANSLATION_ESCAPED_QUOTE: '\\"';
 fragment TR_ANYCHAR: TRANSLATION_ESCAPED_LCURLY | TRANSLATION_ESCAPED_RCURLY
-                | ESCAPED_QUOTE | NEWLINE | TAB | ESCAPED_BACKSLASH 
+                | ESCAPED_QUOTE | NEWLINE | TAB | ESCAPED_BACKSLASH
                 | ~["\\{}];
 
 
@@ -68,7 +68,7 @@ EXIT_TRANSLATION_COMMAND: '}' -> popMode;
 WS: [ \t\n\r]+;
 WORD: ANYCHAR+;
 fragment ANYCHAR: ESCAPED_LCURLY | ESCAPED_RCURLY
-                | ESCAPED_QUOTE | NEWLINE | TAB | ESCAPED_BACKSLASH | ESCAPED_COLON 
+                | ESCAPED_QUOTE | NEWLINE | TAB | ESCAPED_BACKSLASH | ESCAPED_COLON
                 | ~["\\{}:];
 
 
@@ -92,17 +92,17 @@ RESET_CASE:'mode:reset_case' ;
 CARRY_CAPITALIZATION: '~|';
 SET_SPACE: 'mode:set_space:';
 RESET_SPACE: 'mode:reset_space:' ;
-CAP_FIRST_WORD: ':case:cap_first_word' 
+CAP_FIRST_WORD: ':case:cap_first_word'
         | '-|';
-RETRO_CAP_FIRST_WORD: ':retro_case:cap_first_word' 
+RETRO_CAP_FIRST_WORD: ':retro_case:cap_first_word'
         | '*-|';
-LOWER_FIRST_CHAR: ':case:lower_first_char' 
+LOWER_FIRST_CHAR: ':case:lower_first_char'
         | '>';
-RETRO_LOWER_FIRST_CHAR: ':retro_case:lower_first_char' 
+RETRO_LOWER_FIRST_CHAR: ':retro_case:lower_first_char'
         | '*>';
-UPPER_FIRST_WORD: ':case:upper_first_char' 
+UPPER_FIRST_WORD: ':case:upper_first_char'
         | '<';
-RETRO_UPPER_FIRST_WORD: ':retro_case:upper_first_char' 
+RETRO_UPPER_FIRST_WORD: ':retro_case:upper_first_char'
         | '*<';
 REPEAT_LAST_STROKE: '=repeat_last_stroke';
 REPEAT_LAST_STROKE_OPERATOR: '*+';
@@ -123,7 +123,6 @@ R_PARENTHESIS: ')';
 ATTACH_CHAR: '^';
 BACKSLASH: '\\';
 LEFT_CURLY: '{' ;
-RIGHT_CURLY: '}' ;
 COLON: ':';
 DOT: '.';
 COMMA: ',';
@@ -138,7 +137,7 @@ EXCLAMATION_MARK: '!';
 
 mode combo;
 EXIT_COMBO: '}' -> popMode;
-COMO_WS: [ \t]+ -> channel(HIDDEN); 
+COMBO_WS: [ \t]+ -> channel(HIDDEN);
 COMBO_LPAREN: '(';
 COMBO_RPAREN: ')';
 COMBO_NUM_0: '0';
